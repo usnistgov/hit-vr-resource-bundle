@@ -1,0 +1,26 @@
+MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20101102133312-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||AL|NE|US||EN^English^ISO639||PSDI_v1.0^PHIN VS
+SFT|Level Seven Healthcare Software, Inc.^L^^^^&2.16.840.1.113883.19.4.6&ISO^XX^^^1234|1.2|An EHealthReporting System|56734||20080817
+EVN| |20101102133312|
+PID|1||111111111^^^^SS||Smith^Madeline^NMI||19350312|F|||5590 Lockwood Drive^^Canton^NC^20621^US||||||||||||||||||201011021400-0500|Y
+PV1||N
+OBX|1|CE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
+OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
+OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|2 hours||||||F
+OBX|4|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|5|ST|69453-9^Cause of Death^LN|2|Deep Vein Thrombosis||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|Aproximately 8 days||||||F
+OBX|7|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|8|ST|69453-9^Cause of Death^LN|3|Lupus||||||F
+OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
+OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
+OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
+OBX|12|TS|31211-6^Date of Death^LN||201011021400-0500||||||F
+OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^Ashville^NC^12345^US||||||F
+OBX|14|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
+OBX|15|CE|69443-0^ Did Tobacco Use Contribute to Death^LN||373067005^No^SCT||||||F
+OBX|16|CE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
+OBX|17|CE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
+OBX|18|DTM|LOINCtbd^Date/time pronouced dead^LN||201011021400-0400||||||F
+OBX|19|FT|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
+OBX|20|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^Canton^NC^20621^US||||||F
+PDA||^^^^^H-ER/OP^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^DHHS&&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y

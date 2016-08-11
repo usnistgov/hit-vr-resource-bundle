@@ -1,0 +1,23 @@
+MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|200301221912-0400|ADT^A04^ADT_A01|1223334499|P|2.6|||NE|NE|US|||EN^English^ISO639|PSDI_V1.0^PHIN VS SFT|PSDI_v1.0^PHIN VS
+SFT|Level Seven Healthcare Software, Inc.^L^^^^&2.16.840.1.113883.19.4.6&ISO^XX^^^1234|1.2|An EHealthReporting System|56734||20080817
+EVN| |200301222191200|
+PID|1||888227777^^^^SS||Wright^Vivienne||1984|F|||101 Liberty Lane^^Concord^NH^^US||||||||||||||||||200301222100-0500|Y
+PV1||N
+OBX|1|CE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
+OBX|2|ST|69453-9^Cause of Death^LN|1|Cardiopulmonary arrest||||||F
+OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|4 hours||||||F
+OBX|4|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|5|ST|69453-9^Cause of Death^LN|2|Eclampsia||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|3 months||||||F
+OBX|7|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|8|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
+OBX|9|TS|31211-6^Date of Death^LN|2|200301222100-0500||||||F
+OBX|10|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
+OBX|11|CE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
+OBX|12|CE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
+OBX|13|DTM|LOINCtbd^Date/time pronouced dead^LN||200301222100-0400||||||F
+OBX|14|FT|69438-0^Referral Note^LN|2|Autopsy requested by pronouncing doctor ||||||F
+OBX|15|XAD|69435-6^Street address where death occurred if not facility^LN||101 Liberty Lane^^Concord^NH^^US||||||F
+OBX|16|CE|69441-4^Timing of Recent Pregnancy Related to Death^LN||PHC1261^Pregnant at the time of death^CDCPHINVS||||||F
+OBX|17|NM|39016-1^Age at death^LN||||||||X
+PDA||^^^^^H-ER/OP^^^Concord Regional Hospital||200301231200|12124343^Freeman^Robert^^^DR^^^DHHS^^^^NPI^DHHS|Y|200301230800^200301231000|12124343^Freeman^Robert^^^DR^^^DHHS^^^^NPI^DHHS|Y

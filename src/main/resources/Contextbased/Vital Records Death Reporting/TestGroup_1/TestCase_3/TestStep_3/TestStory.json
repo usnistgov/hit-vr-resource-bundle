@@ -1,0 +1,9 @@
+{
+  "teststorydesc" : "<p style=\"margin: 0in 0in 10pt;\"><font face=\"Verdana\">Several days after transmission of updated information, it was discovered that a more complete medical record exists for </font><font face=\"Verdana\"><font face=\"Verdana\">Vivienne </font>\r\n under a different SSN. It becomes necessary to send a retraction of the\r\n previous report. The cancellation record for Vivienne Wright is \r\ntransmitted via an ADT^A11 message from the EHR to the jurisdictional \r\nvital records office.</font></p><p class=\"MsoNormal\"><font face=\"Georgia\"><br></font></p>",
+  "comments" : "No Comments",
+  "preCondition" : "A04-Report message is sent before the A11-Cancel message.",
+  "postCondition" : "No PostCondition",
+  "testObjectives" : "<span style=\"font-weight: bold;\"><span style=\"font-family: Arial;\"><font size=\"1\">This test case examines the ability of an EHR to create an\r\nADT A11 message for cancellation of relevant clinical information to the Electronic\r\nDeath Registration System (EDRS). </font></span></span>",
+  "evaluationCriteria" : "No evaluation criteria",
+  "notes" : "No Note"
+}
