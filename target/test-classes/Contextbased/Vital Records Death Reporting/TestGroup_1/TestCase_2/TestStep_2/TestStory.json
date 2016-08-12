@@ -1,9 +1,0 @@
-{
-  "teststorydesc" : "<p class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">After Javiers\r\n death was reported to the jurisdictional vital records office via an \r\nA04 message from the EHR, an update is made to correct the decedent's \r\nstreet address in his hospital medical record from 143 Taylor Street to \r\n14355 Taylor Street. The updated record  is transmitted via an ADT^A08 \r\nmessage from the EHR to the jurisdictional vital records office.</font></p><p class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\"><br></font></p><span style=\"color: black; mso-themecolor: text1;\"><p class=\"MsoNormal\"><br></p></span><p class=\"MsoNormal\"><br></p>\r\n\r\n",
-  "comments" : "No Comments",
-  "preCondition" : "A04-Report message is sent before the A08-Revise message.",
-  "postCondition" : "No PostCondition",
-  "testObjectives" : "<p class=\"MsoNormal\"><span style=\"font-weight: bold;\"><span style=\"font-family: Arial;\"><font size=\"1\">This test case examines the ability of an EHR to create an\r\nADT A08 message for revising of relevant clinical information to the Electronic\r\nDeath Registration System (EDRS). <br></font></span></span></p><span style=\"font-weight: bold;\"><span style=\"font-family: Arial;\">\r\n\r\n</span></span><span style=\"font-weight: bold;\"><span style=\"font-family: Arial;\"><font size=\"1\">Support for revised </font></span></span><font size=\"1\"><span style=\"font-weight: bold;\"><span style=\"font-family: Arial;\"><font face=\"Times New Roman\">decedent's \r\nstreet address</font>.</span></span></font>",
-  "evaluationCriteria" : "No evaluation criteria",
-  "notes" : "No Note"
-}

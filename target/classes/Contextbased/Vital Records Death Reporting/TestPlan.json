@@ -1,8 +1,0 @@
-{
-  "name" : "Vital Records Death Reporting",
-  "description" : "No Description",
-  "type" : "DataInstance",
-  "transport" : false,
-  "position" : 0,
-  "domain" : ""
-}
