@@ -1,2 +1,790 @@
 <?xml version="1.0"?>
-<ConformanceContext UUID="9e625475-ecac-4ed0-84d6-33041eb8478d"><MetaData Name="Vital Records Death Reporting" OrgName="NIST" Version="No Version Info" Date="2016/08/10 11:24:34" Status="Draft" /><Predicates><Datatype><ByID ID="HD_AA"><Predicate ID="CP_2[1]_-12" Target="2[1]" TrueUsage="O" FalseUsage="R"><Description>If HD.1(Namespace ID) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_3[1]_-13" Target="3[1]" TrueUsage="R" FalseUsage="X"><Description>If HD.2(Universal ID) is valued</Description><Condition><Presence Path="2[1]" /></Condition></Predicate></ByID><ByID ID="XAD_BP"><Predicate ID="CP_3[1]_-17" Target="3[1]" TrueUsage="O" FalseUsage="R"><Description>If XAD.6(Country) is valued</Description><Condition><Presence Path="6[1]" /></Condition></Predicate><Predicate ID="CP_4[1]_-18" Target="4[1]" TrueUsage="O" FalseUsage="R"><Description>If XAD.6(Country) is valued</Description><Condition><Presence Path="6[1]" /></Condition></Predicate><Predicate ID="CP_6[1]_-19" Target="6[1]" TrueUsage="O" FalseUsage="R"><Description>If XAD.4(State or Province) is valued</Description><Condition><Presence Path="4[1]" /></Condition></Predicate></ByID><ByID ID="XCN_VR"><Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X"><Description>If XCN.1(ID Number) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X"><Description>If XCN.1(ID Number) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate></ByID><ByID ID="EI_VR"><Predicate ID="CP_2[1]_-9" Target="2[1]" TrueUsage="O" FalseUsage="R"><Description>If EI.3(Universal ID) is valued</Description><Condition><Presence Path="3[1]" /></Condition></Predicate><Predicate ID="CP_3[1]_-10" Target="3[1]" TrueUsage="O" FalseUsage="R"><Description>If EI.2(Namespace ID) is valued</Description><Condition><Presence Path="2[1]" /></Condition></Predicate><Predicate ID="CP_4[1]_-11" Target="4[1]" TrueUsage="R" FalseUsage="X"><Description>If EI.3(Universal ID) is valued</Description><Condition><Presence Path="3[1]" /></Condition></Predicate></ByID><ByID ID="XCN_PS"><Predicate ID="CP_9[1]_-20" Target="9[1]" TrueUsage="R" FalseUsage="X"><Description>If XCN.1(ID Number) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_13[1]_-22" Target="13[1]" TrueUsage="R" FalseUsage="X"><Description>If XCN.1(ID Number) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate></ByID><ByID ID="HD_VR"><Predicate ID="CP_1[1]_-14" Target="1[1]" TrueUsage="O" FalseUsage="R"><Description>If HD.2(Universal ID) is valued</Description><Condition><Presence Path="2[1]" /></Condition></Predicate><Predicate ID="CP_2[1]_-15" Target="2[1]" TrueUsage="O" FalseUsage="R"><Description>If HD.1(Namespace ID) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_3[1]_-16" Target="3[1]" TrueUsage="R" FalseUsage="X"><Description>If HD.2(Universal ID) is valued</Description><Condition><Presence Path="2[1]" /></Condition></Predicate></ByID><ByID ID="XPN_VR"><Predicate ID="CP_1[1]_-25" Target="1[1]" TrueUsage="R" FalseUsage="O"><Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description><Condition><StringList Path="7[1]" CSV="S,U" /></Condition></Predicate><Predicate ID="CP_2[1]_-1" Target="2[1]" TrueUsage="R" FalseUsage="O"><Description>If the value of XPN.7(Name Type Code) is not equal to U,S.</Description><Condition><SimpleValue Path="7[1]" Operator="EQ" Value="U,S" /></Condition></Predicate></ByID><ByID ID="CWE_VR"><Predicate ID="CP_2[1]_-6" Target="2[1]" TrueUsage="R" FalseUsage="X"><Description>If CWE.1(Identifier) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_3[1]_-7" Target="3[1]" TrueUsage="R" FalseUsage="X"><Description>If CWE.1(Identifier) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate><Predicate ID="CP_9[1]_-8" Target="9[1]" TrueUsage="O" FalseUsage="R"><Description>If CWE.1(Identifier) is valued</Description><Condition><Presence Path="1[1]" /></Condition></Predicate></ByID></Datatype><Segment><ByID ID="PDA_VR_PSDI"><Predicate ID="CP_4[1]_-3" Target="4[1]" TrueUsage="RE" FalseUsage="O"><Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description><Condition><SimpleValue Path="9[1]" Operator="EQ" Value="Y" /></Condition></Predicate><Predicate ID="CP_5[1]_-4" Target="5[1]" TrueUsage="RE" FalseUsage="O"><Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description><Condition><SimpleValue Path="9[1]" Operator="EQ" Value="Y" /></Condition></Predicate><Predicate ID="CP_8[1]_-5" Target="8[1]" TrueUsage="RE" FalseUsage="O"><Description>If the value of PDA-6(Autopsy Indicator) is equal to Y.</Description><Condition><SimpleValue Path="6[1]" Operator="EQ" Value="Y" /></Condition></Predicate></ByID><ByID ID="OBX_VR"><Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O"><Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description><Condition><StringList Path="3[1].1[1]" CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427" /></Condition></Predicate><Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O"><Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description><Condition><PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false" /></Condition></Predicate></ByID></Segment><Message /></Predicates><Constraints><Datatype><ByID ID="VID_VR"><Constraint ID="VR-17" Target="1[1]"><Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description><Assertion><SimpleValue Path="1[1]" Operator="EQ" Value="2.6" /></Assertion></Constraint></ByID><ByID ID="HD_VR"><Constraint ID="VR-23" Target="3[1]"><Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description><Assertion><PlainText Path="3[1]" Text="ISO" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-24" Target="2[1]"><Description>The value of HD.2(Universal ID) SHALL be valid in format: 'ISO-compliant OID'.</Description><Assertion><Format Path="2[1]" Regex="[0-2](\.(0|[1-9][0-9]*))*" /></Assertion></Constraint></ByID><ByID ID="HD_AA"><Constraint ID="VR-20" Target="2[1]"><Description>The value of HD.2(Universal ID) SHALL be valid in format: 'ISO-compliant OID'.</Description><Assertion><Format Path="2[1]" Regex="[0-2](\.(0|[1-9][0-9]*))*" /></Assertion></Constraint><Constraint ID="VR-22" Target="3[1]"><Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description><Assertion><PlainText Path="3[1]" Text="ISO" IgnoreCase="false" /></Assertion></Constraint></ByID></Datatype><Segment><ByID ID="PV1_VR"><Constraint ID="VR-14" Target="2[1]"><Description>The value of PV1-2(Patient Class) SHALL be equal to N.</Description><Assertion><SimpleValue Path="2[1]" Operator="EQ" Value="N" /></Assertion></Constraint></ByID><ByID ID="EVN_VR_JDI_RVCA"><Constraint ID="VR-36" Target="2[1]"><Description>The value of EVN-2(Recorded Date/Time) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="2[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint></ByID><ByID ID="MSH_VR_PSDIA11"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-30" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A11^ATD_A09'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A11" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A09" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-31" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA11_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID><ByID ID="MSH_VR_PSDIA08"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-28" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A08" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-32" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA08_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="PSDIA08_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID><ByID ID="PDA_VR_PSDI"><Constraint ID="VR-37" Target="4[1]"><Description>The value of PDA-4(Death Certificate Signed Date/Time) SHALL be valid in format: 'YYYYMMDD'.</Description><Assertion><Format Path="4[1]" Regex="((([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1])))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3])))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9]))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9]))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]))" /></Assertion></Constraint></ByID><ByID ID="EVN_VR_PSDI_CCOD_CREI"><Constraint ID="VR-35" Target="2[1]"><Description>The value of EVN-2(Recorded Date/Time) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="2[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint></ByID><ByID ID="MSH_VR_JDIA04"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-29" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-33" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA04_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID><ByID ID="PID_VR_PSDI"><Constraint ID="VR-5" Target="1[1]"><Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description><Assertion><SimpleValue Path="1[1]" Operator="EQ" Value="1" /></Assertion></Constraint><Constraint ID="VR-6" Target="30[1]"><Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description><Assertion><SimpleValue Path="30[1]" Operator="EQ" Value="Y" /></Assertion></Constraint></ByID><ByID ID="OBX_VR"><Constraint ID="VR-25" Target="1[1]"><Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description><Assertion><SetID Path="1[1]" /></Assertion></Constraint></ByID><ByID ID="MSH_VR_JDIA11"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-30" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A11^ATD_A09'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A11" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A09" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-31" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA11_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID><ByID ID="MSH_VR"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-29" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-33" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA04_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID><ByID ID="PID_VR_JDI"><Constraint ID="VR-11" Target="1[1]"><Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description><Assertion><SimpleValue Path="1[1]" Operator="EQ" Value="1" /></Assertion></Constraint><Constraint ID="VR-12" Target="30[1]"><Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description><Assertion><SimpleValue Path="30[1]" Operator="EQ" Value="Y" /></Assertion></Constraint></ByID><ByID ID="MSH_VR_JDIA08"><Constraint ID="VR-1" Target="1[1]"><Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description><Assertion><PlainText Path="1[1]" Text="|" IgnoreCase="false" /></Assertion></Constraint><Constraint ID="VR-2" Target="2[1]"><Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description></Constraint><Constraint ID="VR-3" Target="7[1]"><Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description><Assertion><Format Path="7[1]" Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})" /></Assertion></Constraint><Constraint ID="VR-29" Target="9[1]"><Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description><Assertion><AND><AND><PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false" /><PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false" /></AND><PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false" /></AND></Assertion></Constraint><Constraint ID="VR-34" Target="21[1]"><Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA08_V1.0'.</Description><Assertion><PlainText Path="21[1]" Text="JDIA08_V1.0" IgnoreCase="false" /></Assertion></Constraint></ByID></Segment><Message /></Constraints><CoConstraints><Segment><ByID ID="OBX_VR"><CoConstraint><Description>Autopsy Results Available</Description><Comments>Coded representation of a Boolean indicator (Yes/No) that tells whether an autopsy report is available for the deceased.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69436-4"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Cause of death</Description><Comments>Information to indicate one or more diseases, injuries, or complications that were implicated as a cause of the person's death.  Healthcare providers and state vital registries provide this information as text using the original text component of the CWE data type.  In order to comply with NCHS edit specifications, there is a limit on the amount of text that may be included.  For initial submission of this information, the line for immediate cause of death and the line for underlying cause of death must be reported. Additional causes of death ? up to two lines ? may be recorded.  Death causes are ordered sequentially with the immediate cause of death appearing first in the sequence, and the most remote in time cause of death appearing last among the set of cited causes. Each cause of death is associated with an observation ? Disease onset to death interval ? which captures the approximate interval between the onset of the death cause (condition) and death.  This linkage is implemented through the use of observation sub-id. (See the example material provided in the Cause of Death Observation Grouping section below.) Observation value maximum length: 120 characters.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69453-9"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Coroner- medical examiner case number</Description><Comments>The identifier assigned to a case by the coroner or medical examiner.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69452-1"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Date/time pronounced dead</Description><Comments>The date and time the decedent was pronounced dead.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="80616-6"><PlainText Path="2[1]" Text="DTM" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Death certifier (address)</Description><Comments>The postal address used to locate the clinician or coroner at the time of death certification. The element is required if the death has been certified.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69439-8"><PlainText Path="2[1]" Text="XAD" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Death certifier (type)</Description><Comments>A coded value that indicates how the person certifying the death certificate participated in the death reporting process.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69437-2"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Certifier Types (NCHS)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Death date comment</Description><Comments>This observation allows the entry of information relevant to the date/time of death in those cases where the point in time can in no way be established.  Example values include "unknown", "partial", "remains". Estimates may be provided with "Approx-" placed before the date or time.   Note however, that his is a free text field, and there is no expectation that particular values will be parsed by receiving systems.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69454-7"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Death pronouncer details</Description><Comments>Information about the death pronouncer (full name, state license number or provider NPI). Business Rule: If an identifier cannot be provided because the person is not licensed, the value ?NA? should be used in place of the identifier.  Conformance Statement: OBX.5.13 (Identifier Type Code) shall be valued with one of the following values from the Identifier Type value set (PHVS_IdentifierType_CDC): LN or NPI.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="74499-5"><PlainText Path="2[1]" Text="XCN" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Did death result from injury at work</Description><Comments>Coded representation of a Boolean indicator (Yes/No) that tells whether or not the injury occurred while the person was at work. Required if the decedent suffered an injury leading to death. Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69444-8"><PlainText Path="2[1]" Text="CWE" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Did the death of this person involve injury of any kind</Description><Comments>Coded representation of a Boolean indicator (Yes/No) that tells whether the death resulted from an injury.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="71481-6"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Did tobacco use contribute to death</Description><Comments>A coded indication of the extent of the person's use of tobacco.  The data is captured if tobacco use may have contributed to their death.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69443-0"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Contributory Tobacco Use (NCHS)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Disease onset to death interval</Description><Comments>A measure of the time interval between the onset of the disease, injury or complication, and the person's death.  The data to be included will vary from statements of time intervals to text statements such as ?many months?, ?days?, ?unknown?. Each disease onset to death interval value is associated with a cause of death observation ? Cause of Death - that identifies the condition associated with the time interval.  This linkage is implemented through the use of observation sub-id.  (See the example material provided in the Cause of Death Observation Grouping section below.)</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69440-6"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Injury date</Description><Comments>The date/time at which the injury occurred. Required if the decedent suffered an injury leading to death. Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69445-5"><PlainText Path="2[1]" Text="DTM" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Injury incident description</Description><Comments>A text description of how the injury occurred. Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="11374-6"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Injury leading to death associated with transportation event</Description><Comments>Coded representation of a Boolean indicator (Yes/No) that tells whether the injury leading to death was associated with a transportation event.  Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69448-9"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Injury location</Description><Comments>A description of the type of place where the injury occurred. Possible entries are ?at home?, ?farm?, ?factory?, ?office building?, ?restaurant?. Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="11376-1"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Place of Injury (NCHS)" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Injury location Narrative</Description><Comments>The street address for the place where the injury occurred. Condition Predicate:  Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69447-1"><PlainText Path="2[1]" Text="XAD" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Death Cause Other Significant Conditions</Description><Comments>Descriptive text that provides information on a significant condition or conditions that contributed to death, but did not result in the underlying cause that is elsewhere described.  In order to comply with NCHS edit specifications, there is a limit on the amount of text that may be included. Observation value maximum length: 240 characters.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69441-4"><PlainText Path="2[1]" Text="ST" /></PlainCoConstraint></Assertion></CoConstraint><CoConstraint><Description>Manner of Death</Description><Comments>A coded indication of the manner in which the person died.</Comments><Assertion><PlainCoConstraint KeuPath="3[1]" KeyValue="69449-7"><PlainText Path="2[1]" Text="CWE" /><ValueSet Path="5[1]" ValueSetID="Manner Of Death (NCHS)" /></PlainCoConstraint></Assertion></CoConstraint></ByID></Segment></CoConstraints></ConformanceContext>
+<ConformanceContext UUID="4cbaca69-6db9-436f-977e-edd61a4065VR" xsi:noNamespaceSchemaLocation="../Schema/ConformanceContext.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <MetaData Name="Vital Records Death Reporting" OrgName="NIST" Version="No Version Info"
+        Date="2016/08/10 11:24:34" Status="Draft"/>
+    <Predicates>
+        <Datatype>
+            <ByID ID="HD_AA">
+                <Predicate ID="CP_2[1]_-12" Target="2[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If HD.1(Namespace ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_3[1]_-13" Target="3[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If HD.2(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XAD_BP">
+                <Predicate ID="CP_3[1]_-17" Target="3[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.6(Country) is valued</Description>
+                    <Condition>
+                        <Presence Path="6[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_4[1]_-18" Target="4[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.6(Country) is valued</Description>
+                    <Condition>
+                        <Presence Path="6[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_6[1]_-19" Target="6[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.4(State or Province) is valued</Description>
+                    <Condition>
+                        <Presence Path="4[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XCN_VR">
+                <Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="EI_VR">
+                <Predicate ID="CP_2[1]_-9" Target="2[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If EI.3(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="3[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_3[1]_-10" Target="3[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If EI.2(Namespace ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_4[1]_-11" Target="4[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If EI.3(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="3[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XCN_PS">
+                <Predicate ID="CP_9[1]_-20" Target="9[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_13[1]_-22" Target="13[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="HD_VR">
+                <Predicate ID="CP_1[1]_-14" Target="1[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If HD.2(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_2[1]_-15" Target="2[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If HD.1(Namespace ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_3[1]_-16" Target="3[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If HD.2(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XPN_VR">
+                <Predicate ID="CP_1[1]_-25" Target="1[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description>
+                    <Condition>
+                        <StringList Path="7[1]" CSV="S,U"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_2[1]_-1" Target="2[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of XPN.7(Name Type Code) is not equal to U,S.</Description>
+                    <Condition>
+                        <SimpleValue Path="7[1]" Operator="EQ" Value="U,S"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="CWE_VR">
+                <Predicate ID="CP_2[1]_-6" Target="2[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If CWE.1(Identifier) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_3[1]_-7" Target="3[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If CWE.1(Identifier) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_9[1]_-8" Target="9[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If CWE.1(Identifier) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+        </Datatype>
+        <Segment>
+            <ByID ID="PDA_VR_PSDI">
+                <Predicate ID="CP_4[1]_-3" Target="4[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
+                    <Condition>
+                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_5[1]_-4" Target="5[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
+                    <Condition>
+                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_8[1]_-5" Target="8[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-6(Autopsy Indicator) is equal to Y.</Description>
+                    <Condition>
+                        <SimpleValue Path="6[1]" Operator="EQ" Value="Y"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="OBX_VR">
+                <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
+                    <Condition>
+                        <StringList Path="3[1].1[1]"
+                            CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
+                    <Condition>
+                        <PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+        </Segment>
+        <Message/>
+    </Predicates>
+    <Constraints>
+        <Datatype>
+            <ByID ID="VID_VR">
+                <Constraint ID="VR-17" Target="1[1]">
+                    <Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="2.6"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="HD_VR">
+                <Constraint ID="VR-23" Target="3[1]">
+                    <Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description>
+                    <Assertion>
+                        <PlainText Path="3[1]" Text="ISO" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-24" Target="2[1]">
+                    <Description>The value of HD.2(Universal ID) SHALL be valid in format: 'ISO-compliant OID'.</Description>
+                    <Assertion>
+                        <Format Path="2[1]" Regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="HD_AA">
+                <Constraint ID="VR-20" Target="2[1]">
+                    <Description>The value of HD.2(Universal ID) SHALL be valid in format: 'ISO-compliant OID'.</Description>
+                    <Assertion>
+                        <Format Path="2[1]" Regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-22" Target="3[1]">
+                    <Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description>
+                    <Assertion>
+                        <PlainText Path="3[1]" Text="ISO" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+        </Datatype>
+        <Segment>
+            <ByID ID="PV1_VR">
+                <Constraint ID="VR-14" Target="2[1]">
+                    <Description>The value of PV1-2(Patient Class) SHALL be equal to N.</Description>
+                    <Assertion>
+                        <SimpleValue Path="2[1]" Operator="EQ" Value="N"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="EVN_VR_JDI_RVCA">
+                <Constraint ID="VR-36" Target="2[1]">
+                    <Description>The value of EVN-2(Recorded Date/Time) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="2[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_PSDIA11">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-30" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A11^ATD_A09'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A11" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A09" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-31" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA11_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_PSDIA08">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-28" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A08" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-32" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA08_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA08_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PDA_VR_PSDI">
+                <Constraint ID="VR-37" Target="4[1]">
+                    <Description>The value of PDA-4(Death Certificate Signed Date/Time) SHALL be valid in format: 'YYYYMMDD'.</Description>
+                    <Assertion>
+                        <Format Path="4[1]"
+                            Regex="((([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1])))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3])))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9]))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9]))|(([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]))"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="EVN_VR_PSDI_CCOD_CREI">
+                <Constraint ID="VR-35" Target="2[1]">
+                    <Description>The value of EVN-2(Recorded Date/Time) SHALL be valid in format:'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="2[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA04">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be'^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format:'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-29" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be'ADT^A04^ATD_A01'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-33" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be'JDIA04_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PID_VR_PSDI">
+                <Constraint ID="VR-5" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-6" Target="30[1]">
+                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
+                    <Assertion>
+                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="OBX_VR">
+                <Constraint ID="VR-25" Target="1[1]">
+                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
+                    <Assertion>
+                        <SetID Path="1[1]"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA11">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be'^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format:'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-30" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A11^ATD_A09'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A11" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A09" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-31" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be'JDIA11_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be'^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-29" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-33" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA04_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PID_VR_JDI">
+                <Constraint ID="VR-11" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-12" Target="30[1]">
+                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
+                    <Assertion>
+                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA08">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-3" Target="7[1]">
+                    <Description>The value of MSH-7(Date/Time of Message) SHALL be valid in format: 'YYYYMMDDhhmmss.sss+-ZZZZ'.</Description>
+                    <Assertion>
+                        <Format Path="7[1]"
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])\.[0-9][0-9][0-9][0-9]((\+|\-)[0-9]{4})"
+                        />
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-29" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Assertion>
+                        <AND>
+                            <AND>
+                                <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
+                                <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
+                            </AND>
+                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                        </AND>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-34" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA08_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="JDIA08_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+        </Segment>
+        <Message/>
+    </Constraints>
+    <!--  
+    <CoConstraints>
+        <Segment>
+            <ByID ID="OBX_VR">
+                <CoConstraint>
+                    <Description>Autopsy Results Available</Description>
+                    <Comments>Coded representation of a Boolean indicator (Yes/No) that tells
+                        whether an autopsy report is available for the deceased.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69436-4">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Cause of death</Description>
+                    <Comments>Information to indicate one or more diseases, injuries, or
+                        complications that were implicated as a cause of the person's death.
+                        Healthcare providers and state vital registries provide this information as
+                        text using the original text component of the CWE data type. In order to
+                        comply with NCHS edit specifications, there is a limit on the amount of text
+                        that may be included. For initial submission of this information, the line
+                        for immediate cause of death and the line for underlying cause of death must
+                        be reported. Additional causes of death ? up to two lines ? may be recorded.
+                        Death causes are ordered sequentially with the immediate cause of death
+                        appearing first in the sequence, and the most remote in time cause of death
+                        appearing last among the set of cited causes. Each cause of death is
+                        associated with an observation ? Disease onset to death interval ? which
+                        captures the approximate interval between the onset of the death cause
+                        (condition) and death. This linkage is implemented through the use of
+                        observation sub-id. (See the example material provided in the Cause of Death
+                        Observation Grouping section below.) Observation value maximum length: 120
+                        characters.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69453-9">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Coroner- medical examiner case number</Description>
+                    <Comments>The identifier assigned to a case by the coroner or medical
+                        examiner.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69452-1">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Date/time pronounced dead</Description>
+                    <Comments>The date and time the decedent was pronounced dead.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80616-6">
+                            <PlainText Path="2[1]" Text="DTM"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Death certifier (address)</Description>
+                    <Comments>The postal address used to locate the clinician or coroner at the time
+                        of death certification. The element is required if the death has been
+                        certified.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69439-8">
+                            <PlainText Path="2[1]" Text="XAD"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Death certifier (type)</Description>
+                    <Comments>A coded value that indicates how the person certifying the death
+                        certificate participated in the death reporting process.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69437-2">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Certifier Types (NCHS)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Death date comment</Description>
+                    <Comments>This observation allows the entry of information relevant to the
+                        date/time of death in those cases where the point in time can in no way be
+                        established. Example values include "unknown", "partial", "remains".
+                        Estimates may be provided with "Approx-" placed before the date or time.
+                        Note however, that his is a free text field, and there is no expectation
+                        that particular values will be parsed by receiving systems.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69454-7">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Death pronouncer details</Description>
+                    <Comments>Information about the death pronouncer (full name, state license
+                        number or provider NPI). Business Rule: If an identifier cannot be provided
+                        because the person is not licensed, the value ?NA? should be used in place
+                        of the identifier. Conformance Statement: OBX.5.13 (Identifier Type Code)
+                        shall be valued with one of the following values from the Identifier Type
+                        value set (PHVS_IdentifierType_CDC): LN or NPI.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="74499-5">
+                            <PlainText Path="2[1]" Text="XCN"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Did death result from injury at work</Description>
+                    <Comments>Coded representation of a Boolean indicator (Yes/No) that tells
+                        whether or not the injury occurred while the person was at work. Required if
+                        the decedent suffered an injury leading to death. Condition Predicate:
+                        Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 =
+                        ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69444-8">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Did the death of this person involve injury of any
+                        kind</Description>
+                    <Comments>Coded representation of a Boolean indicator (Yes/No) that tells
+                        whether the death resulted from an injury.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="71481-6">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Did tobacco use contribute to death</Description>
+                    <Comments>A coded indication of the extent of the person's use of tobacco. The
+                        data is captured if tobacco use may have contributed to their
+                        death.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69443-0">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Disease onset to death interval</Description>
+                    <Comments>A measure of the time interval between the onset of the disease,
+                        injury or complication, and the person's death. The data to be included will
+                        vary from statements of time intervals to text statements such as ?many
+                        months?, ?days?, ?unknown?. Each disease onset to death interval value is
+                        associated with a cause of death observation ? Cause of Death - that
+                        identifies the condition associated with the time interval. This linkage is
+                        implemented through the use of observation sub-id. (See the example material
+                        provided in the Cause of Death Observation Grouping section
+                        below.)</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69440-6">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Injury date</Description>
+                    <Comments>The date/time at which the injury occurred. Required if the decedent
+                        suffered an injury leading to death. Condition Predicate: Usage: C(RE/O)
+                        Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 = ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69445-5">
+                            <PlainText Path="2[1]" Text="DTM"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Injury incident description</Description>
+                    <Comments>A text description of how the injury occurred. Condition Predicate:
+                        Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 =
+                        ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="11374-6">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Injury leading to death associated with transportation
+                        event</Description>
+                    <Comments>Coded representation of a Boolean indicator (Yes/No) that tells
+                        whether the injury leading to death was associated with a transportation
+                        event. Condition Predicate: Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE
+                        OBX.3.1 = ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69448-9">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Injury location</Description>
+                    <Comments>A description of the type of place where the injury occurred. Possible
+                        entries are ?at home?, ?farm?, ?factory?, ?office building?, ?restaurant?.
+                        Condition Predicate: Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE
+                        OBX.3.1 = ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="11376-1">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Place of Injury (NCHS)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Injury location Narrative</Description>
+                    <Comments>The street address for the place where the injury occurred. Condition
+                        Predicate: Usage: C(RE/O) Predicate: If OBX.5.1 = ?Y? WHERE OBX.3.1 =
+                        ?71481-6?.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69447-1">
+                            <PlainText Path="2[1]" Text="XAD"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Death Cause Other Significant Conditions</Description>
+                    <Comments>Descriptive text that provides information on a significant condition
+                        or conditions that contributed to death, but did not result in the
+                        underlying cause that is elsewhere described. In order to comply with NCHS
+                        edit specifications, there is a limit on the amount of text that may be
+                        included. Observation value maximum length: 240 characters.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69441-4">
+                            <PlainText Path="2[1]" Text="ST"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description>Manner of Death</Description>
+                    <Comments>A coded indication of the manner in which the person died.</Comments>
+                    <Assertion>
+                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69449-7">
+                            <PlainText Path="2[1]" Text="CWE"/>
+                            <ValueSet Path="5[1]" ValueSetID="Manner Of Death (NCHS)"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+            </ByID>
+        </Segment>
+    </CoConstraints>
+    -->
+</ConformanceContext>
