@@ -1,7 +1,6 @@
 MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20101102133312-0400||ADT^A04^ADT_A01|1223334499|P|2.6|||AL|NE|US||EN^English^ISO639||PSDI_v1.0^PHIN VS
-SFT|Level Seven Healthcare Software, Inc.^L^^^^&2.16.840.1.113883.19.4.6&ISO^XX^^^1234|1.2|An EHealthReporting System|56734||20080817
 EVN| |20101102133312|
-PID|1||111111111^^^^SS||Smith^Madelyn^NMI||19350312|F|||5590 Lockwood Drive^^Canton^NC^20621^US||||||||||||||||||201011021400-0500|Y
+PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS||Smith^Madelyn^NMI||19350312|F|||5590 Lockwood Drive^^Canton^NC^20621^US||||||||||||||||||201011021400-0500|Y
 PV1||N
 OBX|1|CE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
 OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
@@ -23,4 +22,4 @@ OBX|17|CE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
 OBX|18|DTM|LOINCtbd^Date/time pronouced dead^LN||201011021400-0400||||||F
 OBX|19|FT|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
 OBX|20|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^Canton^NC^20621^US||||||F
-PDA||^^^^^H-ER/OP^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^DHHS&&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y
+PDA||^^^^^H-ER/OP^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y

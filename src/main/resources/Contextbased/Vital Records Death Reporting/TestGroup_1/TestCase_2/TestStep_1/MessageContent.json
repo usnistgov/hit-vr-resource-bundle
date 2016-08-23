@@ -80,22 +80,10 @@ LLC", "categorization" : "Presence-Configuration"},
 							{"location" : "MSH.21.4", "dataelement" : "Universal ID Type", "data" : "",
 "categorization" : "Indifferent"},		]
 		{
-			"title":"SFT : Software Segment",
-			"elements" : 
-			[
-				{"location" : "SFT.1", "dataelement" : "Software Vendor Organization", "data"
-: "", "categorization" : ""},
-				{"location" : "SFT.2", "dataelement" : "Software Certified Version or Release
-Number", "data" : "1.2", "categorization" : ""},
-				{"location" : "SFT.3", "dataelement" : "Software Product Name", "data" : "An EHealthReporting
-System", "categorization" : ""},
-				{"location" : "SFT.4", "dataelement" : "Software Binary ID", "data" : "56734",
-"categorization" : ""},		]
-		{
 			"title":"EVN : Event Type",
 			"elements" : 
 			[
-				{"location" : "EVN.2", "dataelement" : "Recorded Date/Time", "data" : "201510141705-0400",
+				{"location" : "EVN.2", "dataelement" : "Recorded Date/Time", "data" : "20101005183312-0400",
 "categorization" : "Presence-System Generated"},		]
 		{
 			"title":"PID : Patient Identification",
@@ -105,14 +93,14 @@ System", "categorization" : ""},
 : "Value-Profile Fixed"},
 				{"location" : "PID.3", "dataelement" : "Patient Identifier List", "data" : "",
 "categorization" : ""},
-							{"location" : "PID.3.1", "dataelement" : "ID Number", "data" : "987-65-4321",
+							{"location" : "PID.3.1", "dataelement" : "ID Number", "data" : "987-57-4661",
 "categorization" : "Presence-Content Indifferent"},
 							{"location" : "PID.3.4", "dataelement" : "Assigning Authority", "data" : "",
 "categorization" : ""},
-									{"location" : "PID.3.4.2", "dataelement" : "Universal ID", "data" : "", "categorization"
-: "Indifferent"},
+									{"location" : "PID.3.4.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+"categorization" : "Indifferent"},
 									{"location" : "PID.3.4.3", "dataelement" : "Universal ID Type", "data" :
-"", "categorization" : "Indifferent"},
+"ISO", "categorization" : "Indifferent"},
 							{"location" : "PID.3.5", "dataelement" : "Identifier Type Code", "data" : "SS",
 "categorization" : "Value-Test Case Fixed"},
 				{"location" : "PID.5", "dataelement" : "Patient Name", "data" : "", "categorization"
@@ -154,7 +142,7 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "Anne
 Arundel", "categorization" : "Value-Profile Fixed List"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
-: "201510051125-0400", "categorization" : "Presence-Content Indifferent"},
+: "201010051125-0400", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",
 "categorization" : "Value-Profile Fixed"},		]
 		{
@@ -1125,7 +1113,7 @@ available", "categorization" : ""},
 							{"location" : "PDA.2.9", "dataelement" : "Location Description", "data" : "Memorial
 Hospital", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "PDA.4", "dataelement" : "Death Certificate Signed Date/Time", "data"
-: "20140201", "categorization" : "Presence-Content Indifferent"},
+: "201010050400", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PDA.5", "dataelement" : "Death Certified By", "data" : "", "categorization"
 : ""},
 							{"location" : "PDA.5.1", "dataelement" : "ID Number", "data" : "78457845",
@@ -1140,8 +1128,8 @@ Hospital", "categorization" : "Presence-Test Case Proper"},
 Initials Thereof", "data" : "", "categorization" : "Indifferent"},
 							{"location" : "PDA.5.9", "dataelement" : "Assigning Authority", "data" : "",
 "categorization" : ""},
-									{"location" : "PDA.5.9.2", "dataelement" : "Universal ID", "data" : "", "categorization"
-: "Indifferent"},
+									{"location" : "PDA.5.9.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+"categorization" : "Indifferent"},
 									{"location" : "PDA.5.9.3", "dataelement" : "Universal ID Type", "data" :
 "ISO", "categorization" : "Value-Profile Fixed"},
 							{"location" : "PDA.5.13", "dataelement" : "Identifier Type Code", "data" :

@@ -93,14 +93,14 @@ LLC", "categorization" : "Presence-Configuration"},
 : "Value-Profile Fixed"},
 				{"location" : "PID.3", "dataelement" : "Patient Identifier List", "data" : "",
 "categorization" : ""},
-							{"location" : "PID.3.1", "dataelement" : "ID Number", "data" : "888227777",
+							{"location" : "PID.3.1", "dataelement" : "ID Number", "data" : "987-57-5661",
 "categorization" : "Presence-Configuration"},
 							{"location" : "PID.3.4", "dataelement" : "Assigning Authority", "data" : "",
 "categorization" : ""},
-									{"location" : "PID.3.4.2", "dataelement" : "Universal ID", "data" : "", "categorization"
-: "Indifferent"},
+									{"location" : "PID.3.4.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+"categorization" : "Indifferent"},
 									{"location" : "PID.3.4.3", "dataelement" : "Universal ID Type", "data" :
-"", "categorization" : "Indifferent"},
+"ISO", "categorization" : "Indifferent"},
 							{"location" : "PID.3.5", "dataelement" : "Identifier Type Code", "data" : "SS",
 "categorization" : "Value-Test Case Fixed"},
 				{"location" : "PID.5", "dataelement" : "Patient Name", "data" : "", "categorization"

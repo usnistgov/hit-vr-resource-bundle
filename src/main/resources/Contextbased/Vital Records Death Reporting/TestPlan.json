@@ -3,6 +3,6 @@
   "description" : "No Description",
   "type" : "DataInstance",
   "transport" : false,
-  "position" : 1,
+  "position" : 0,
   "domain" : ""
 }
