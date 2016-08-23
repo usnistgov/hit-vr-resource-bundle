@@ -1231,7 +1231,7 @@
             <ValueElement Value="11374-6" DisplayName="Injury incident description" CodeSystem="LN"
                 Usage="R"/>
             <ValueElement Value="69448-9"
-                DisplayName="Injury Leading to Death? Associated with Transportation Event"
+                DisplayName="Injury Leading to Death  Associated with Transportation Event"
                 CodeSystem="LN" Usage="R"/>
             <ValueElement Value="11376-1" DisplayName="Injury location" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69447-1" DisplayName="Injury location narrative" CodeSystem="LN"
@@ -1633,7 +1633,7 @@
             <ValueElement Value="IT" DisplayName="ITALY" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IU" DisplayName="ISRAEL-SYRIA DEMILITARIZED ZONE"
                 CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="IV" DisplayName="COTE D?IVOIRE" CodeSystem="gec-country" Usage="R"/>
+            <ValueElement Value="IV" DisplayName="COTE D’IVOIRE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IW" DisplayName="ISRAEL-JORDAN DEMILITARIZED ZONE"
                 CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IY" DisplayName="IRAQ-SAUDI ARABIA NEUTRAL ZONE"
@@ -1768,7 +1768,7 @@
                 CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SY" DisplayName="SYRIA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SZ" DisplayName="SWITZERLAND" CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="TB" DisplayName="SAINT BARTH?LEMY" CodeSystem="gec-country"
+            <ValueElement Value="TB" DisplayName="SAINT BARTHÉLEMY" CodeSystem="gec-country"
                 Usage="R"/>
             <ValueElement Value="TC" DisplayName="UNITED ARAB EMIRATES " CodeSystem="gec-country"
                 Usage="R"/>
@@ -2126,7 +2126,7 @@
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="Death Reporting Event Reason (HL70062) (NCHS)"
             Name="Death Reporting Event Reason (HL70062) (NCHS)"
-            Description="Death Reporting Event Reason (HL70062) (NCHS)?????"
+            Description="Death Reporting Event Reason (HL70062) (NCHS)     "
             Oid="2.16.840.1.114222.4.11.7383" Stability="Static" Extensibility="Open"
             ContentDefinition="Extensional">
             <ValueElement Value="PHC1419" DisplayName="Valid Transmission" CodeSystem="CDCPHINVS"
@@ -7297,7 +7297,7 @@
                 CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="LB" DisplayName="Local billing code" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="LN"
-                DisplayName="Logical Observation Identifier Names and Codes (LOINC??)"
+                DisplayName="Logical Observation Identifier Names and Codes (LOINCÂ®)"
                 CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCD" DisplayName="Medicaid" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCR" DisplayName="Medicare" CodeSystem="HL70396" Usage="P"/>
@@ -7908,17 +7908,6 @@
             <ValueElement Value="W" DisplayName="Not applicable" CodeSystem="HL70895" Usage="P"/>
             <ValueElement Value="Y" DisplayName="Yes" CodeSystem="HL70895" Usage="P"/>
         </ValueSetDefinition>
-        <ValueSetDefinition BindingIdentifier="Death Reporting Message Structure"
-            Name="Death Reporting Message Structure"
-            Description="Death Reporting Message Structure (NCHS)" Oid="2.16.840.1.114222.4.11.7443"
-            Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
-            <ValueElement Value="ACK" DisplayName="Acknowledgement message structure"
-                CodeSystem="HL70354" Usage="R"/>
-            <ValueElement Value="ADT_A01" DisplayName="Admit patient message structure"
-                CodeSystem="HL70354" Usage="R"/>
-            <ValueElement Value="ADT_A21" DisplayName="Leave of absense message structure"
-                CodeSystem="HL70354" Usage="R"/>
-        </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="Death Reporting Message Type"
             Name="Death Reporting Message Type" Description="Death Reporting Message Type (NCHS)"
             Oid="2.16.840.1.114222.4.11.7444" Stability="Static" Extensibility="Open"
@@ -7926,18 +7915,6 @@
             <ValueElement Value="ACK" DisplayName="General acknowledgement message"
                 CodeSystem="HL70076" Usage="R"/>
             <ValueElement Value="ADT" DisplayName="ADT message" CodeSystem="HL70076" Usage="R"/>
-        </ValueSetDefinition>
-        <ValueSetDefinition BindingIdentifier="Death Reporting Event Type"
-            Name="Death Reporting Event Type"
-            Description="Death Reporting Event Type (HL70003) (NCHS)"
-            Oid="2.16.840.1.114222.4.11.7442" Stability="Static" Extensibility="Open"
-            ContentDefinition="Extensional">
-            <ValueElement Value="A04" DisplayName="ADT/ACK - Register a patient"
-                CodeSystem="HL70003" Usage="R"/>
-            <ValueElement Value="A08" DisplayName="ADT/ACK - Update patient information"
-                CodeSystem="HL70003" Usage="R"/>
-            <ValueElement Value="A23" DisplayName="ADT/ACK - Delete a patient record"
-                CodeSystem="HL70003" Usage="R"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="0298" Name="0298" Description="CP range type"
             Oid="2.16.840.1.113883.12.298" Stability="Static" Extensibility="Closed"
