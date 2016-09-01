@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ValueSetLibrary ValueSetLibraryIdentifier="afba85be-780b-4889-b658-ce2ca721c2VR" xsi:noNamespaceSchemaLocation="../Schema/ValueSets.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <MetaData Name="Vital Records Death Reporting" OrgName="NIST" Version="No Version Info"
-        Date="2016/08/10 11:24:34" Status="Draft"/>
+        Date="2016/08/25 09:30:44" Status="Draft"/>
     <ValueSetDefinitions Group="NOGroup" Order="0">
         <ValueSetDefinition BindingIdentifier="0002" Name="0002" Description="Marital Status"
             Oid="2.16.840.1.113883.12.2" Stability="Static" Extensibility="Open"
@@ -1231,7 +1231,7 @@
             <ValueElement Value="11374-6" DisplayName="Injury incident description" CodeSystem="LN"
                 Usage="R"/>
             <ValueElement Value="69448-9"
-                DisplayName="Injury Leading to Death  Associated with Transportation Event"
+                DisplayName="Injury Leading to Death? Associated with Transportation Event"
                 CodeSystem="LN" Usage="R"/>
             <ValueElement Value="11376-1" DisplayName="Injury location" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69447-1" DisplayName="Injury location narrative" CodeSystem="LN"
@@ -1633,7 +1633,7 @@
             <ValueElement Value="IT" DisplayName="ITALY" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IU" DisplayName="ISRAEL-SYRIA DEMILITARIZED ZONE"
                 CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="IV" DisplayName="COTE D’IVOIRE" CodeSystem="gec-country" Usage="R"/>
+            <ValueElement Value="IV" DisplayName="COTE D?IVOIRE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IW" DisplayName="ISRAEL-JORDAN DEMILITARIZED ZONE"
                 CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IY" DisplayName="IRAQ-SAUDI ARABIA NEUTRAL ZONE"
@@ -1768,7 +1768,7 @@
                 CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SY" DisplayName="SYRIA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SZ" DisplayName="SWITZERLAND" CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="TB" DisplayName="SAINT BARTHÉLEMY" CodeSystem="gec-country"
+            <ValueElement Value="TB" DisplayName="SAINT BARTH?LEMY" CodeSystem="gec-country"
                 Usage="R"/>
             <ValueElement Value="TC" DisplayName="UNITED ARAB EMIRATES " CodeSystem="gec-country"
                 Usage="R"/>
@@ -2126,7 +2126,7 @@
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="Death Reporting Event Reason (HL70062) (NCHS)"
             Name="Death Reporting Event Reason (HL70062) (NCHS)"
-            Description="Death Reporting Event Reason (HL70062) (NCHS)     "
+            Description="Death Reporting Event Reason (HL70062) (NCHS)?????"
             Oid="2.16.840.1.114222.4.11.7383" Stability="Static" Extensibility="Open"
             ContentDefinition="Extensional">
             <ValueElement Value="PHC1419" DisplayName="Valid Transmission" CodeSystem="CDCPHINVS"
@@ -2860,19 +2860,6 @@
                 CodeSystem="HL70003" Usage="P"/>
             <ValueElement Value="W02" DisplayName="QRF - Waveform result, response to query"
                 CodeSystem="HL70003" Usage="P"/>
-        </ValueSetDefinition>
-        <ValueSetDefinition BindingIdentifier="Death Reporting Profiles (NCHS)"
-            Name="Death Reporting Profiles (NCHS)" Description="Death Reporting Profiles (NCHS)"
-            Oid="2.16.840.1.114222.4.11.7386" Stability="Static" Extensibility="Open"
-            ContentDefinition="Extensional">
-            <ValueElement Value="CCOD_v1.0" DisplayName="Coded Cause of Death"
-                CodeSystem="CDCPHINVS" Usage="R"/>
-            <ValueElement Value="PSDI_v1.0" DisplayName="Provider Supplied Death Information"
-                CodeSystem="CDCPHINVS" Usage="R"/>
-            <ValueElement Value="RDI_v1.0" DisplayName="Registry Death Information"
-                CodeSystem="CDCPHINVS" Usage="R"/>
-            <ValueElement Value="CREI_v1.0 " DisplayName="Coded Race/Ethnicity Information"
-                CodeSystem="CDCPHINVS" Usage="R"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="0288" Name="0288" Description="Census tract"
             Oid="2.16.840.1.113883.12.288" Stability="Static" Extensibility="Open"
@@ -7297,7 +7284,7 @@
                 CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="LB" DisplayName="Local billing code" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="LN"
-                DisplayName="Logical Observation Identifier Names and Codes (LOINCÂ®)"
+                DisplayName="Logical Observation Identifier Names and Codes (LOINC??)"
                 CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCD" DisplayName="Medicaid" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCR" DisplayName="Medicare" CodeSystem="HL70396" Usage="P"/>
@@ -7605,19 +7592,6 @@
             Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70056"
                 Usage="P"/>
-        </ValueSetDefinition>
-        <ValueSetDefinition BindingIdentifier="Death Reporting Identifier Type"
-            Name="Death Reporting Identifier Type"
-            Description="Death Reporting Identifier Type (HL70203) (NCHS)"
-            Oid="2.16.840.1.114222.4.11.7382" Stability="Static" Extensibility="Open"
-            ContentDefinition="Extensional">
-            <ValueElement Value="SS" DisplayName="Social Security Number" CodeSystem="HL70203"
-                Usage="R"/>
-            <ValueElement Value="SR" DisplayName="State Registry ID" CodeSystem="HL70203" Usage="R"/>
-            <ValueElement Value="DC" DisplayName="Death Certificate Id" CodeSystem="HL70203"
-                Usage="R"/>
-            <ValueElement Value="DCFN" DisplayName="Death Certificate File Number"
-                CodeSystem="HL70203" Usage="R"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="0055" Name="0055"
             Description="Diagnosis related group" Oid="2.16.840.1.113883.12.55" Stability="Static"
