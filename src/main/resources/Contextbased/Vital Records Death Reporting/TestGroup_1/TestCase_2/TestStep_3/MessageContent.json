@@ -48,9 +48,9 @@ LLC", "categorization" : "Presence-Configuration"},
 				{"location" : "MSH.9", "dataelement" : "Message Type", "data" : "", "categorization"
 : ""},
 							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "ADT", "categorization"
-: "Value-Test Case Fixed"},
+: "Value-Profile Fixed"},
 							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A11", "categorization"
-: "Value-Test Case Fixed"},
+: "Value-Profile Fixed"},
 							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "ADT_A09",
 "categorization" : "Value-Test Case Fixed"},
 				{"location" : "MSH.10", "dataelement" : "Message Control ID", "data" : "1223334502",
@@ -64,15 +64,15 @@ LLC", "categorization" : "Presence-Configuration"},
 							{"location" : "MSH.12.1", "dataelement" : "Version ID", "data" : "2.6", "categorization"
 : "Value-Profile Fixed"},
 				{"location" : "MSH.15", "dataelement" : "Accept Acknowledgment Type", "data" :
-"NE", "categorization" : "Value-Profile Fixed"},
+"NE", "categorization" : "Value-Test Case Fixed"},
 				{"location" : "MSH.16", "dataelement" : "Application Acknowledgment Type", "data"
-: "NE", "categorization" : "Value-Profile Fixed"},
+: "NE", "categorization" : "Value-Test Case Fixed"},
 				{"location" : "MSH.17", "dataelement" : "Country Code", "data" : "US", "categorization"
 : "Value-Profile Fixed"},
 				{"location" : "MSH.21", "dataelement" : "Message Profile Identifier", "data" :
 "", "categorization" : ""},
-							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDI_v1.0",
-"categorization" : "Value-Test Case Fixed"},
+							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDIA11_V1.0",
+"categorization" : "Value-Profile Fixed"},
 							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS",
 "categorization" : "Presence-Configuration"},
 							{"location" : "MSH.21.3", "dataelement" : "Universal ID", "data" : "", "categorization"
@@ -138,7 +138,7 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 							{"location" : "PID.11.6", "dataelement" : "Country", "data" : "US", "categorization"
 : "Value-Profile Fixed"},
 							{"location" : "PID.11.8", "dataelement" : "Other Geographic Designation", "data"
-: "Yes", "categorization" : "Value-Test Case Fixed"},
+: "Y", "categorization" : "Value-Test Case Fixed"},
 							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "Anne
 Arundel", "categorization" : "Value-Profile Fixed"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"

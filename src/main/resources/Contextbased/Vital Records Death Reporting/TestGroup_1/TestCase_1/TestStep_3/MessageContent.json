@@ -48,11 +48,11 @@ LLC", "categorization" : "Presence-Configuration"},
 				{"location" : "MSH.9", "dataelement" : "Message Type", "data" : "", "categorization"
 : ""},
 							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "ADT", "categorization"
-: "Value-Test Case Fixed"},
+: "Value-Profile Fixed"},
 							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A11", "categorization"
-: "Value-Test Case Fixed"},
+: "Value-Profile Fixed"},
 							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "ADT_A09",
-"categorization" : "Value-Test Case Fixed"},
+"categorization" : "Value-Profile Fixed"},
 				{"location" : "MSH.10", "dataelement" : "Message Control ID", "data" : "1223334502",
 "categorization" : "Presence Length-Configuration"},
 				{"location" : "MSH.11", "dataelement" : "Processing ID", "data" : "", "categorization"
@@ -71,8 +71,8 @@ LLC", "categorization" : "Presence-Configuration"},
 : "Value-Profile Fixed"},
 				{"location" : "MSH.21", "dataelement" : "Message Profile Identifier", "data" :
 "", "categorization" : ""},
-							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDI_v1.0",
-"categorization" : "Value-Test Case Fixed"},
+							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDIA11_v1.0",
+"categorization" : "Value-Profile Fixed"},
 							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS",
 "categorization" : "Presence-Configuration"},
 							{"location" : "MSH.21.3", "dataelement" : "Universal ID", "data" : "", "categorization"

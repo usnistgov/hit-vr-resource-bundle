@@ -47,34 +47,34 @@ LLC", "categorization" : "Presence-Configuration"},
 "categorization" : "Presence-System Generated"},
 				{"location" : "MSH.9", "dataelement" : "Message Type", "data" : "", "categorization"
 : ""},
-							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "1223334499",
-"categorization" : "Indifferent"},
-							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "", "categorization"
-: "Indifferent"},
-							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "",
-"categorization" : "Indifferent"},
-				{"location" : "MSH.10", "dataelement" : "Message Control ID", "data" : "P", "categorization"
-: "Presence Length-Configuration"},
+							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "ADT", "categorization"
+: "Value-Profile Fixed"},
+							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A04", "categorization"
+: "Value-Profile Fixed"},
+							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "ADT_A01",
+"categorization" : "Value-Profile Fixed"},
+				{"location" : "MSH.10", "dataelement" : "Message Control ID", "data" : "1223334499",
+"categorization" : "Presence Length-Configuration"},
 				{"location" : "MSH.11", "dataelement" : "Processing ID", "data" : "", "categorization"
 : ""},
-							{"location" : "MSH.11.1", "dataelement" : "Processing ID", "data" : "2.6",
-"categorization" : "Value-Test Case Fixed"},
+							{"location" : "MSH.11.1", "dataelement" : "Processing ID", "data" : "P", "categorization"
+: "Value-Test Case Fixed"},
 				{"location" : "MSH.12", "dataelement" : "Version ID", "data" : "", "categorization"
 : ""},
-							{"location" : "MSH.12.1", "dataelement" : "Version ID", "data" : "", "categorization"
+							{"location" : "MSH.12.1", "dataelement" : "Version ID", "data" : "2.6", "categorization"
 : "Indifferent"},
 				{"location" : "MSH.15", "dataelement" : "Accept Acknowledgment Type", "data" :
 "NE", "categorization" : "Value-Test Case Fixed"},
 				{"location" : "MSH.16", "dataelement" : "Application Acknowledgment Type", "data"
-: "US", "categorization" : "Value-Test Case Fixed"},
-				{"location" : "MSH.17", "dataelement" : "Country Code", "data" : "", "categorization"
+: "NE", "categorization" : "Value-Test Case Fixed"},
+				{"location" : "MSH.17", "dataelement" : "Country Code", "data" : "US", "categorization"
 : "Indifferent"},
 				{"location" : "MSH.21", "dataelement" : "Message Profile Identifier", "data" :
 "", "categorization" : ""},
-							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDI_v1.0",
-"categorization" : "Value-Test Case Fixed"},
-							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS",
-"categorization" : "Presence-Configuration"},
+							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDIA08_V1.0",
+"categorization" : "Value-Profile Fixed"},
+							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS
+SFT", "categorization" : "Presence-Configuration"},
 							{"location" : "MSH.21.3", "dataelement" : "Universal ID", "data" : "", "categorization"
 : "Indifferent"},
 							{"location" : "MSH.21.4", "dataelement" : "Universal ID Type", "data" : "",
