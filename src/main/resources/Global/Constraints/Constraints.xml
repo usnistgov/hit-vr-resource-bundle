@@ -250,14 +250,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -298,14 +298,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-28" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A08" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -338,14 +338,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-28" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A08" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -436,14 +436,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -508,14 +508,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-28" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A08" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -610,14 +610,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A08^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -642,14 +642,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -747,14 +747,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
@@ -867,14 +867,14 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-29" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ATD_A01'.</Description>
+                    <Description>The value of MSH-9(Message Type) SHALL be 'ADT^A04^ADT_A01'.</Description>
                     <Assertion>
                         <AND>
                             <AND>
                                 <PlainText Path="9[1].1[1]" Text="ADT" IgnoreCase="false"/>
                                 <PlainText Path="9[1].2[1]" Text="A04" IgnoreCase="false"/>
                             </AND>
-                            <PlainText Path="9[1].3[1]" Text="ATD_A01" IgnoreCase="false"/>
+                            <PlainText Path="9[1].3[1]" Text="ADT_A01" IgnoreCase="false"/>
                         </AND>
                     </Assertion>
                 </Constraint>
