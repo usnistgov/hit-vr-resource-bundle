@@ -1,9 +1,9 @@
 {
-  "name": "PSDIA11_V1.0",
+  "name": "CCOD_A11",
   "description": "<p><font face=\"Times New Roman\" size=\"3\">\r\n\r\n<br></font></p><br>",
-  "position": 12,
-  "hl7v2" : {
-    "messageId" : "c1bd660c-0912-416b-928b-a146f2e1eA09",
+  "position": 3,
+  "hl7v2": {
+    "messageId" : "c1bd660c-0912-416b-928b-a146fCCODA11",
     "constraintId" : "4cbaca69-6db9-436f-977e-edd61a4065VR",
     "valueSetLibraryId" : "afba85be-780b-4889-b658-ce2ca721c2VR"
   }
