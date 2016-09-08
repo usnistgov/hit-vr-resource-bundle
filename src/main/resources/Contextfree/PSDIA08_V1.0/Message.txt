@@ -1,25 +1,31 @@
-MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20101102133312-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||AL|NE|US||EN^English^ISO639||PSDI_v1.0^PHIN VS
-EVN| |20101102133312|
-PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS||Smith^Madeline^NMI||19350312|F|||5590 Lockwood Drive^^Canton^NC^20621^US||||||||||||||||||201011021400-0500|Y
+MSH|^~\&#|89898989|Best Care LLC|StateAppID|VRDept|20151018183312-0400||ADT^A08^ADT_A01|1223334500|P|2.6|||NE|NE|USA||EN^English^ISO639||PSDIA08_v1.0^PHIN VS
+SFT|Level Seven Healthcare Software, Inc.^L^^^^&2.16.840.1.113883.19.4.6&ISO^XX^^^1234|1.2|An EHealthReporting System|56734||20080817
+EVN||201510141705-0400|
+PID|1||987-65-4321^^^^SS||Perez^Javier^Luis||19510401|M|||143 Taylor Street^^Annapolis^MD^21401^US^^Yes^Anne Arundel||||||||||||||||||201510051125-0400|Y|
 PV1||N
-OBX|1|CE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
-OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
-OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|2 hours||||||F
-OBX|4|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
-OBX|5|ST|69453-9^Cause of Death^LN|2|Deep Vein Thrombosis||||||F
-OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|Aproximately 8 days||||||F
-OBX|7|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
-OBX|8|ST|69453-9^Cause of Death^LN|3|Lupus||||||F
-OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
-OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
-OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
-OBX|12|TS|31211-6^Date of Death^LN||201011021400-0500||||||F
-OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^Ashville^NC^12345^US||||||F
-OBX|14|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
-OBX|15|CE|69443-0^ Did Tobacco Use Contribute to Death^LN||373067005^No^SCT||||||F
-OBX|16|CE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
-OBX|17|CE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
-OBX|18|DTM|LOINCtbd^Date/time pronouced dead^LN||201011021400-0400||||||F
-OBX|19|FT|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
-OBX|20|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^Canton^NC^20621^US||||||F
-PDA||^^^^^H-ER/OP^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y
+OBX|1|XAD|LOINCtbd^Birthplace^LN||^^Chicago^IL^^US||||||F
+OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^Annapolis^MD^21401^US^^^Anne Arundel||||||F
+OBX|3|XCN|74499-5^Death pronouncer details^LN||9898989898^Spade^Samuel^^^Dr.^^^Maryland^^^^SL||||||F
+OBX|4|DTM|LOINCtbd^Date/time pronouced dead^LN||201510051125-0400||||||F
+OBX|5|ST|LOINCtbd^Cause of Death^LN|1|Blunt Head Trauma||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|1|20 hours||||||F
+OBX|7|ST|LOINCtbd^Cause of Death^LN|2|Automobile accident||||||F
+OBX|8|ST|69440-6^Disease Onset to Death Interval^LN|2|20 hours||||||F
+OBX|9|ST|LOINCtbd^Cause of Death^LN|3|Epilepsy||||||F
+OBX|10|ST|69440-6^Disease Onset to Death Interval ^LN|3|5 years||||||F
+OBX|11|ST|69441-4^Death Cause Other Significant Conditions ^LN||Cerebrovascular Accident||||||F
+OBX|12|CE|69437-2 ^Certifier Type^LN||434641000124105^Certifying physician-To the best of my knowledge, death occurred due to the cause(s) and manner stated.^SCT||||||F
+OBX|13|CE|69443-0^Tobacco^LN||373067005^No^SCT||||||F
+OBX|14|CE|69441-4^Pregnancy Status Code^LN||NA^Not Applicable^NULLFL||||||F
+OBX|15|CE|69449-7^Manner of death^LN||7878000^Accident^SCT||||||F
+OBX|16|CE|LOINCtbd^Activity at time of death^LN||PHC1352^While engaged in other specified activities^CDCPHINVS||||||F
+OBX|17|CE|71481-6^Did the death of this person involve injury of any kind^LN||Y^Yes^HL70532||||||F
+OBX|18|CE|69444-8^Did death result from injury at work^LN||N^No^HL70532||||||F
+OBX|19|DTM|69445-5^Injury date^LN||201510040830-0400||||||F
+OBX|20|TX|11374-6^Injury incident description^LN||Automobile collision with other vehicales while pulling into traffic on the street||||||F
+OBX|21|CE|69448-9^Injury leading to death associated with transportation event^LN||Y^Yes^HL70532||||||F
+OBX|22|CE|69451-3^Transportation role of decedent^LN||236320001^Driver/Operator^SCT||||||F
+OBX|23|CE|11376-1^Injury location^LN||4^Street/Highway^NCHS place of injury||||||F
+OBX|24|XAD|69447-1^Injury location narrative^LN||921 Automobile Blvd^^Silver Spring^MD||||||F
+OBX|25|CE|69436-4^Autopsy results available^LN||N^No^HL70532||||||F
+PDA||^^^^^16983000^^^Best Care Hospice Center||20140201|78457845^Certifier^Charles^^^Dr.^^^Maryland^^^^SL^^^^^^^^M.D.|N|||N
