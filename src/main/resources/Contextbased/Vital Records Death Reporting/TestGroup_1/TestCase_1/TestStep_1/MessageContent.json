@@ -160,7 +160,7 @@ Initials Thereof", "data" : "NMI", "categorization" : "Presence-Test Case Proper
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "1", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -176,14 +176,14 @@ Available", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "HL70136", "categorization"
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "Y", "categorization"
 : ""},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "",
-"categorization" : ""},
-							{"location" : "OBX.5.6", "dataelement" : "Country", "data" : "", "categorization"
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Yes", "categorization"
 : ""},
-							{"location" : "OBX.5.9", "dataelement" : "County/Parish Code", "data" : "",
-"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70136", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -542,7 +542,7 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "12", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "TS", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "DTM", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -660,7 +660,7 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "15", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -702,7 +702,7 @@ Contribute to Death", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "16", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -744,7 +744,7 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "17", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},

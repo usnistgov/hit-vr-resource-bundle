@@ -5,8 +5,13 @@
         <BindingIdentifier>0361</BindingIdentifier>
         <BindingIdentifier>0362</BindingIdentifier>
     </NoValidation>
-    
-    <ValueSetDefinitions Group="CDC-VR" Order="1"><ValueSetDefinition BindingIdentifier="Death Reporting Value Type (NCHS)" Name="Death Reporting Value Type (NCHS)" Description="To reflect the list of possible data types that can appear as the data type for observations used within the Death Reporting Implementation Guide." Version="2" Oid="2.16.840.1.114222.4.11.7497" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+    <ValueSetDefinitions Group="CDC-VR" Order="1">
+        <ValueSetDefinition BindingIdentifier="Death Reporting Message Structure (NCHS)" Name="Death Reporting Message Structure (NCHS)" Description="To identify the segments used in messages for death reporting&#x0D;&#x0A;" Version="2" Oid="2.16.840.1.114222.4.11.7443" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="ACK" DisplayName="Acknowledgement message structure" CodeSystem="HL70354" Usage="R"/>
+            <ValueElement Value="ADT_A01" DisplayName="Admit patient message structure" CodeSystem="HL70354" Usage="R"/>
+            <ValueElement Value="ADT_A09" DisplayName="Patient departing message structure" CodeSystem="HL70354" Usage="R"/>
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Value Type (NCHS)" Name="Death Reporting Value Type (NCHS)" Description="To reflect the list of possible data types that can appear as the data type for observations used within the Death Reporting Implementation Guide." Version="2" Oid="2.16.840.1.114222.4.11.7497" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="CWE" DisplayName="Coded With Exceptions" CodeSystem="HL70125" Usage="R"/>
             <ValueElement Value="FT" DisplayName="Formatted Text (Display)" CodeSystem="HL70125" Usage="R"/>
             <ValueElement Value="NM" DisplayName="Numeric" CodeSystem="HL70125" Usage="R"/>
@@ -14,7 +19,8 @@
             <ValueElement Value="DTM" DisplayName="Time Stamp (Date &amp; Time)" CodeSystem="HL70125" Usage="R"/>
             <ValueElement Value="TX" DisplayName="Text Data (Display)" CodeSystem="HL70125" Usage="R"/>
             <ValueElement Value="XAD" DisplayName="Extended Address" CodeSystem="HL70125" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Coding System HL7 2x Table 0396" Name="Coding System HL7 2x Table 0396" Description="List of all the code systems identifier from HL7 Table 0396." Version="3" Oid="2.16.840.1.114222.4.11.3338" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Coding System HL7 2x Table 0396" Name="Coding System HL7 2x Table 0396" Description="List of all the code systems identifier from HL7 Table 0396." Version="3" Oid="2.16.840.1.114222.4.11.3338" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="ACR" DisplayName="American College of Radiology finding codes" CodeSystem="HL70396" Usage="R"/>
             <ValueElement Value="ATC" DisplayName="American Type Culture Collection" CodeSystem="HL70396" Usage="R"/>
             <ValueElement Value="AS4E" DisplayName="AS4 Neurophysiology Codes" CodeSystem="HL70396" Usage="R"/>
@@ -202,11 +208,13 @@
             <ValueElement Value="W4" DisplayName="WHO record # code with ASTM extension" CodeSystem="HL70396" Usage="R"/>
             <ValueElement Value="W1" DisplayName="WHO record # drug codes (6 digit)" CodeSystem="HL70396" Usage="R"/>
             <ValueElement Value="W2" DisplayName="WHO record # drug codes (8 digit)" CodeSystem="HL70396" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Death Reporting Name Type Code (NCHS)" Name="Death Reporting Name Type Code (NCHS)" Description="Used to differentiate between legal name and alias name of the decedent; also identifies names that are unspecified." Version="2" Oid="2.16.840.1.114222.4.11.7378" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Name Type Code (NCHS)" Name="Death Reporting Name Type Code (NCHS)" Description="Used to differentiate between legal name and alias name of the decedent; also identifies names that are unspecified." Version="2" Oid="2.16.840.1.114222.4.11.7378" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="A" DisplayName="Alias Name" CodeSystem="HL70200" Usage="R"/>
             <ValueElement Value="L" DisplayName="Legal Name" CodeSystem="HL70200" Usage="R"/>
             <ValueElement Value="U" DisplayName="Unspecified" CodeSystem="HL70200" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Observation Result Status (HL7)" Name="Observation Result Status (HL7)" Description="Observation Result Status (HL7)" Oid="2.16.840.1.114222.4.11.811" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Observation Result Status (HL7)" Name="Observation Result Status (HL7)" Description="Observation Result Status (HL7)" Oid="2.16.840.1.114222.4.11.811" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="D" DisplayName="Deletes the OBX record" CodeSystem="HL70085" Usage="R"/>
             <ValueElement Value="F" DisplayName="Final results; Can only be changed with a corrected result." CodeSystem="HL70085" Usage="R"/>
             <ValueElement Value="N" DisplayName="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought." CodeSystem="HL70085" Usage="R"/>
@@ -219,7 +227,8 @@
             <ValueElement Value="R" DisplayName="Results entered -- not verified" CodeSystem="HL70085" Usage="R"/>
             <ValueElement Value="U" DisplayName="Results status change to final without retransmitting results already sent as _preliminary._  E.g., radiology changes status from preliminary to final" CodeSystem="HL70085" Usage="R"/>
             <ValueElement Value="I" DisplayName="Specimen in lab; results pending" CodeSystem="HL70085" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Death Report Observation Identifier (NCHS)" Name="Death Report Observation Identifier (NCHS)" Description="Death Report Observation Identifier (NCHS)" Oid="2.16.840.1.114222.4.11.7267" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Report Observation Identifier (NCHS)" Name="Death Report Observation Identifier (NCHS)" Description="Death Report Observation Identifier (NCHS)" Oid="2.16.840.1.114222.4.11.7267" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="39016-1" DisplayName="Age at death" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="PHC1421" DisplayName="Age edit flag" CodeSystem="CDCPHINVS" Usage="R"/>
             <ValueElement Value="69436-4" DisplayName="Autopsy results available" CodeSystem="LN" Usage="R"/>
@@ -241,7 +250,7 @@
             <ValueElement Value="PHC1425" DisplayName="Ethnicity post edits" CodeSystem="CDCPHINVS" Usage="R"/>
             <ValueElement Value="69445-5" DisplayName="Injury date" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="11374-6" DisplayName="Injury incident description" CodeSystem="LN" Usage="R"/>
-            <ValueElement Value="69448-9" DisplayName="Injury Leading to Death? Associated with Transportation Event" CodeSystem="LN" Usage="R"/>
+            <ValueElement Value="69448-9" DisplayName="Injury Leading to Death  Associated with Transportation Event" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="11376-1" DisplayName="Injury location" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69447-1" DisplayName="Injury location narrative" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69449-7" DisplayName="maner of death" CodeSystem="LN" Usage="R"/>
@@ -257,7 +266,8 @@
             <ValueElement Value="69435-6" DisplayName="Street address where death occurred" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69442-2" DisplayName="Timing of recent pregnancy related to death" CodeSystem="LN" Usage="R"/>
             <ValueElement Value="69451-3" DisplayName="Transportation Role of Decedent" CodeSystem="LN" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Time Units (NCHS)" Name="Time Units (NCHS)" Description="Time Units (NCHS)" Oid="2.16.840.1.114222.4.11.7372" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Time Units (NCHS)" Name="Time Units (NCHS)" Description="Time Units (NCHS)" Oid="2.16.840.1.114222.4.11.7372" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="a" DisplayName="Year" CodeSystem="UCUM" Usage="R"/>
             <ValueElement Value="mo" DisplayName="Month" CodeSystem="UCUM" Usage="R"/>
             <ValueElement Value="wk" DisplayName="Week" CodeSystem="UCUM" Usage="R"/>
@@ -265,18 +275,30 @@
             <ValueElement Value="h" DisplayName="Hour" CodeSystem="UCUM" Usage="R"/>
             <ValueElement Value="min" DisplayName="Minute" CodeSystem="UCUM" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="Unknown" CodeSystem="NULLFL" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Yes No Indicator (HL7)" Name="Yes No Indicator (HL7)" Description="Yes No Indicator (HL7)" Oid="2.16.840.1.114222.4.11.819" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Identifier Type (HL70203) (NCHS)" Name="Death Reporting Identifier Type (HL70203) (NCHS)" Description="The value indicates the type for the identifier&#x0D;&#x0A;Codes added to Identifier Type (HL7) Code system for HL7 v2.9: [ DC , Death Certificate Id ] , [ DCFN , Death Certificate File Number ] " Version="2" Oid="2.16.840.1.114222.4.11.7382" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="DC" DisplayName="Death Certificate Id" CodeSystem="HL70203" Usage="R"/>
+            <ValueElement Value="DCFN" DisplayName="Death Certificate File Number" CodeSystem="HL70203" Usage="R"/>
+            <ValueElement Value="LN" DisplayName="License number" CodeSystem="HL70203" Usage="R"/>
+            <ValueElement Value="NPI" DisplayName="National provider identifier" CodeSystem="HL70203" Usage="R"/>
+            <ValueElement Value="SR" DisplayName="State Registry ID" CodeSystem="HL70203" Usage="R"/>
+            <ValueElement Value="SS" DisplayName="Social Security Number" CodeSystem="HL70203" Usage="R"/>
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Yes No Indicator (HL7)" Name="Yes No Indicator (HL7)" Description="Yes No Indicator (HL7)" Oid="2.16.840.1.114222.4.11.819" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="N" DisplayName="No" CodeSystem="HL70136" Usage="R"/>
             <ValueElement Value="Y" DisplayName="Yes" CodeSystem="HL70136" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="NCHS Ethnicity Group (NCHS)" Name="NCHS Ethnicity Group (NCHS)" Description="NCHS Ethnicity Group (NCHS)" Oid="2.16.840.1.114222.4.11.7375" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="NCHS Ethnicity Group (NCHS)" Name="NCHS Ethnicity Group (NCHS)" Description="NCHS Ethnicity Group (NCHS)" Oid="2.16.840.1.114222.4.11.7375" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="2135-2" DisplayName="Hispanic or Latino " CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="2186-5" DisplayName="Not Hispanic or Latino" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="Unknown" CodeSystem="NULLFL" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Sex(MFU)" Name="Sex (MFU)" Description="Sex(MFU)" Oid="2.16.840.1.114222.4.11.1038" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Sex(MFU)" Name="Sex (MFU)" Description="Sex(MFU)" Oid="2.16.840.1.114222.4.11.1038" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="F" DisplayName="Female" CodeSystem="HL70001" Usage="R"/>
             <ValueElement Value="M" DisplayName="Male" CodeSystem="HL70001" Usage="R"/>
             <ValueElement Value="U" DisplayName="Unknown" CodeSystem="HL70001" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Country (GEC)" Name="Country (GEC)" Description="Country (GEC)" Oid="2.16.840.1.114222.4.11.7162" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Country (GEC)" Name="Country (GEC)" Description="Country (GEC)" Oid="2.16.840.1.114222.4.11.7162" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="AA" DisplayName="ARUBA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="AC" DisplayName="ANTIGUA AND BARBUDA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="AE" DisplayName="UNITED ARAB EMIRATES" CodeSystem="gec-country" Usage="R"/>
@@ -404,7 +426,7 @@
             <ValueElement Value="IS" DisplayName="ISRAEL" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IT" DisplayName="ITALY" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IU" DisplayName="ISRAEL-SYRIA DEMILITARIZED ZONE" CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="IV" DisplayName="COTE D?IVOIRE" CodeSystem="gec-country" Usage="R"/>
+            <ValueElement Value="IV" DisplayName="COTE D’IVOIRE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IW" DisplayName="ISRAEL-JORDAN DEMILITARIZED ZONE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IY" DisplayName="IRAQ-SAUDI ARABIA NEUTRAL ZONE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="IZ" DisplayName="IRAQ" CodeSystem="gec-country" Usage="R"/>
@@ -522,7 +544,7 @@
             <ValueElement Value="SX" DisplayName="SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SY" DisplayName="SYRIA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="SZ" DisplayName="SWITZERLAND" CodeSystem="gec-country" Usage="R"/>
-            <ValueElement Value="TB" DisplayName="SAINT BARTH?LEMY" CodeSystem="gec-country" Usage="R"/>
+            <ValueElement Value="TB" DisplayName="SAINT BARTHÉLEMY" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="TC" DisplayName="UNITED ARAB EMIRATES " CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="TD" DisplayName="TRINIDAD AND TOBAGO" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="TE" DisplayName="TROMELIN ISLAND" CodeSystem="gec-country" Usage="R"/>
@@ -573,16 +595,19 @@
             <ValueElement Value="ZA" DisplayName="ZAMBIA" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="ZI" DisplayName="ZIMBABWE" CodeSystem="gec-country" Usage="R"/>
             <ValueElement Value="ZZ" DisplayName="NOT CLASSIFIABLE" CodeSystem="gec-country" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Accept Application Acknowledgment Conditions (HL7)" Name="Accept Application Acknowledgment Conditions (HL7)" Description="Accept Application Acknowledgment Conditions (HL7)" Oid="2.16.840.1.114222.4.11.3344" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Accept Application Acknowledgment Conditions (HL7)" Name="Accept Application Acknowledgment Conditions (HL7)" Description="Accept Application Acknowledgment Conditions (HL7)" Oid="2.16.840.1.114222.4.11.3344" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="AL" DisplayName="Always" CodeSystem="HL70155" Usage="R"/>
             <ValueElement Value="ER" DisplayName="Error/reject conditions only" CodeSystem="HL70155" Usage="R"/>
             <ValueElement Value="NE" DisplayName="Never" CodeSystem="HL70155" Usage="R"/>
             <ValueElement Value="SU" DisplayName="Successful completion only" CodeSystem="HL70155" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Yes No Unknown (YNU)" Name="Yes No Unknown (YNU)" Description="Yes No Unknown (YNU)" Oid="2.16.840.1.114222.4.11.888" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Yes No Unknown (YNU)" Name="Yes No Unknown (YNU)" Description="Yes No Unknown (YNU)" Oid="2.16.840.1.114222.4.11.888" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="N" DisplayName="No" CodeSystem="HL70136" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="unknown" CodeSystem="NULLFL" Usage="R"/>
             <ValueElement Value="Y" DisplayName="Yes" CodeSystem="HL70136" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="NCHS Race (NCHS)" Name="NCHS Race (NCHS)" Description="NCHS Race (NCHS)" Oid="2.16.840.1.114222.4.11.7373" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="NCHS Race (NCHS)" Name="NCHS Race (NCHS)" Description="NCHS Race (NCHS)" Oid="2.16.840.1.114222.4.11.7373" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="2106-3" DisplayName="White" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="2054-5" DisplayName="Black or African American" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="1002-5" DisplayName="American Indian or Alaska Native" CodeSystem="CDCREC" Usage="R"/>
@@ -598,23 +623,27 @@
             <ValueElement Value="2080-0" DisplayName="Samoan" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="2500-7" DisplayName="Other Pacific Islander" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="2131-1" DisplayName="Other" CodeSystem="CDCREC" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Marital Status (HL70002) (NCHS)" Name="Marital Status (HL70002) (NCHS)" Description="Marital Status (HL70002) (NCHS)" Oid="2.16.840.1.114222.4.11.7380" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Marital Status (HL70002) (NCHS)" Name="Marital Status (HL70002) (NCHS)" Description="Marital Status (HL70002) (NCHS)" Oid="2.16.840.1.114222.4.11.7380" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="M" DisplayName="Married" CodeSystem="HL70002" Usage="R"/>
             <ValueElement Value="A" DisplayName="Separated" CodeSystem="HL70002" Usage="R"/>
             <ValueElement Value="W" DisplayName="Widowed" CodeSystem="HL70002" Usage="R"/>
             <ValueElement Value="D" DisplayName="Divorced" CodeSystem="HL70002" Usage="R"/>
             <ValueElement Value="S" DisplayName="Single" CodeSystem="HL70002" Usage="R"/>
             <ValueElement Value="U" DisplayName="Unknown" CodeSystem="HL70002" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Death Reporting Event Reason (HL70062) (NCHS)" Name="Death Reporting Event Reason (HL70062) (NCHS)" Description="Death Reporting Event Reason (HL70062) (NCHS)?????" Oid="2.16.840.1.114222.4.11.7383" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Event Reason (HL70062) (NCHS)" Name="Death Reporting Event Reason (HL70062) (NCHS)" Description="Death Reporting Event Reason (HL70062) (NCHS)     " Oid="2.16.840.1.114222.4.11.7383" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="PHC1419" DisplayName="Valid Transmission" CodeSystem="CDCPHINVS" Usage="R"/>
             <ValueElement Value="PHC1420" DisplayName="Void Record" CodeSystem="CDCPHINVS" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Certifier Titles (NCHS)" Name="Certifier Titles (NCHS)" Description="Certifier Titles (NCHS)" Oid="2.16.840.1.114222.4.11.7212" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Certifier Titles (NCHS)" Name="Certifier Titles (NCHS)" Description="Certifier Titles (NCHS)" Oid="2.16.840.1.114222.4.11.7212" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="309343006" DisplayName="Physician" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="449161006" DisplayName="Physician assistant" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="224571005" DisplayName="Nurse Practitioner" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="6868009" DisplayName="Hospital administrator" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="OTH" DisplayName="Other" CodeSystem="NULLFL" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Place of Death" Name="Place of Death" Description="Place of Death (NCHS)" Oid="2.16.840.1.114222.4.11.7216" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Place of Death" Name="Place of Death" Description="Place of Death (NCHS)" Oid="2.16.840.1.114222.4.11.7216" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="16983000" DisplayName="Death in hospital" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="440041000124106" DisplayName="Death in hospital-based emergency department       " CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="440031000124101" DisplayName="Patient died in hospital-based outpatient department" CodeSystem="SCT" Usage="R"/>
@@ -625,7 +654,29 @@
             <ValueElement Value="440081000124100" DisplayName="Death in home" CodeSystem="SCT" Usage="R"/>
             <ValueElement Value="OTH" DisplayName="Other" CodeSystem="NULLFL" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="Unknown" CodeSystem="NULLFL" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="County" Name="County" Description="Codes representing county of origin, address county, reporting county" Version="3" Oid="2.16.840.1.114222.4.11.829" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Profiles (NCHS)" Name="Death Reporting Profiles (NCHS)" Description="To indicate the use case supported by the message instance&#x0D;&#x0A;" Version="4" Oid="2.16.840.1.114222.4.11.7386" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="PSDIA04_V1.0" DisplayName="Report Provider Supplied Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="PSDIA08_V1.0" DisplayName="Revise Provider Supplied Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="PSDIA11_V1.0" DisplayName="Cancel Provider Supplied Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="JDIA04_V1.0" DisplayName="Report Jurisdiction Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="JDIA08_V1.0" DisplayName="Revise Jurisdiction Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="JDIA11_V1.0" DisplayName="Cancel Jurisdiction Death Information" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="RVCA04_V1.0" DisplayName="Report Void Certificate" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="RVCA11_V1.0" DisplayName="Cancel Void Certificate" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CCODA04_V1.0" DisplayName="Report Coded Cause of Death" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CCODA08_V1.0" DisplayName="Revise Coded Cause of Death Report" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CCODA11_V1.0" DisplayName="Cancel Coded Cause of Death Report" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CREIA04_V1.0" DisplayName="Report Coded Race &amp; Ethnicity" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CREIA08_V1.0" DisplayName="Revise Coded Race &amp; Ethnicity Report" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="CREIA11_V1.0" DisplayName="Cancel Coded Race &amp; Ethnicity Report" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="ACK_V1.0" DisplayName="Accept Acknowledgement" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="WACPTACK_V1.0" DisplayName="wAcceptACK" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="WOACPTACK_V1.0" DisplayName="woAcceptACK" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="WAPPLACK_V1.0" DisplayName="wApplACK" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="WOAPPLACK_V1.0" DisplayName="woApplACK" CodeSystem="CDCPHINVS" Usage="R"/>
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="County" Name="County" Description="Codes representing county of origin, address county, reporting county" Version="3" Oid="2.16.840.1.114222.4.11.829" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="45001" DisplayName="Abbeville" CodeSystem="FIPS6_4" Usage="R"/>
             <ValueElement Value="22001" DisplayName="Acadia" CodeSystem="FIPS6_4" Usage="R"/>
             <ValueElement Value="51001" DisplayName="Accomack" CodeSystem="FIPS6_4" Usage="R"/>
@@ -3900,7 +3951,8 @@
             <ValueElement Value="48505" DisplayName="Zapata" CodeSystem="FIPS6_4" Usage="R"/>
             <ValueElement Value="48507" DisplayName="Zavala" CodeSystem="FIPS6_4" Usage="R"/>
             <ValueElement Value="46137" DisplayName="Ziebach" CodeSystem="FIPS6_4" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="States Territories Provinces (NCHS)" Name="States Territories Provinces (NCHS)" Description="States Territories Provinces (NCHS)" Oid="2.16.840.1.114222.4.11.7446" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="States Territories Provinces (NCHS)" Name="States Territories Provinces (NCHS)" Description="States Territories Provinces (NCHS)" Oid="2.16.840.1.114222.4.11.7446" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="US-AL" DisplayName="Alabama" CodeSystem="ISO3166_2" Usage="R"/>
             <ValueElement Value="US-AK" DisplayName="Alaska" CodeSystem="ISO3166_2" Usage="R"/>
             <ValueElement Value="US-AZ" DisplayName="Arizona" CodeSystem="ISO3166_2" Usage="R"/>
@@ -3972,19 +4024,28 @@
             <ValueElement Value="CA-YT" DisplayName="Yukon Territory" CodeSystem="ISO3166_2" Usage="R"/>
             <ValueElement Value="PHC1434" DisplayName="The residence is not in the US or Canada" CodeSystem="CDCPHINVS" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="Unknown" CodeSystem="NULLFL" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Death Reporting Message Type" Name="Death Reporting Message Type" Description="Death Reporting Message Type (NCHS)" Oid="2.16.840.1.114222.4.11.7444" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Event Type (NCHS)" Name="Death Reporting Event Type  (NCHS)" Description="Used within ADT messaging to transmit trigger event information for death reporting.&#x0D;&#x0A;" Version="2" Oid="2.16.840.1.114222.4.11.7442" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="A04" DisplayName="ADT/ACK - Register a patient" CodeSystem="HL70003" Usage="R"/>
+            <ValueElement Value="A08" DisplayName="ADT/ACK - Update patient information" CodeSystem="HL70003" Usage="R"/>
+            <ValueElement Value="A11" DisplayName="ADT/ACK – Cancel Admit/Visit Notification" CodeSystem="HL70003" Usage="R"/>
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Death Reporting Message Type" Name="Death Reporting Message Type" Description="Death Reporting Message Type (NCHS)" Oid="2.16.840.1.114222.4.11.7444" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="ACK" DisplayName="General acknowledgement message" CodeSystem="HL70076" Usage="R"/>
             <ValueElement Value="ADT" DisplayName="ADT message" CodeSystem="HL70076" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Processing Mode (HL7)" Name="Processing Mode (HL7)" Description="Processing Mode (HL7)" Oid="2.16.840.1.114222.4.11.1029" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Processing Mode (HL7)" Name="Processing Mode (HL7)" Description="Processing Mode (HL7)" Oid="2.16.840.1.114222.4.11.1029" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="T" DisplayName="Current processing, transmitted at intervals (scheduled or on demand)" CodeSystem="HL70207" Usage="R"/>
             <ValueElement Value="I" DisplayName="Initial load" CodeSystem="HL70207" Usage="R"/>
             <ValueElement Value="Not present" DisplayName="Not present (the default, meaning current processing)" CodeSystem="HL70207" Usage="R"/>
             <ValueElement Value="R" DisplayName="Restore from archive" CodeSystem="HL70207" Usage="R"/>
-        </ValueSetDefinition><ValueSetDefinition BindingIdentifier="Processing ID (HL7)" Name="Processing ID (HL7)" Description="Processing ID (HL7)" Oid="2.16.840.1.114222.4.11.1028" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
+        </ValueSetDefinition>
+        <ValueSetDefinition BindingIdentifier="Processing ID (HL7)" Name="Processing ID (HL7)" Description="Processing ID (HL7)" Oid="2.16.840.1.114222.4.11.1028" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="D" DisplayName="Debugging" CodeSystem="HL70103" Usage="R"/>
             <ValueElement Value="P" DisplayName="Production" CodeSystem="HL70103" Usage="R"/>
             <ValueElement Value="T" DisplayName="Training" CodeSystem="HL70103" Usage="R"/>
-        </ValueSetDefinition></ValueSetDefinitions>
+        </ValueSetDefinition>
+    </ValueSetDefinitions>
     <ValueSetDefinitions Group="HL7" Order="2">
         <ValueSetDefinition BindingIdentifier="0002" Name="0002" Description="Marital Status" Oid="2.16.840.1.113883.12.2" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="A" DisplayName="Separated" CodeSystem="HL70002" Usage="P"/>
@@ -4279,7 +4340,6 @@
         <ValueSetDefinition BindingIdentifier="0129" Name="0129" Description="Accommodation code" Oid="2.16.840.1.113883.12.129" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70129" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0043" Name="0043" Description="Condition Code" Oid="2.16.840.1.113883.12.43" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values" CodeSystem="HL70043" Usage="P"/>
         </ValueSetDefinition>
@@ -4304,7 +4364,6 @@
             <ValueElement Value="O1 ... O9" DisplayName="Officers" CodeSystem="HL70141" Usage="P"/>
             <ValueElement Value="W1 ... W4" DisplayName="Warrant Officers" CodeSystem="HL70141" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0834" Name="0834" Description="MIME Types" Oid="2.16.840.1.113883.12.834" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="application" DisplayName="Application data" CodeSystem="HL70834" Usage="P"/>
             <ValueElement Value="audio" DisplayName="Audio data" CodeSystem="HL70834" Usage="P"/>
@@ -4314,7 +4373,6 @@
             <ValueElement Value="text" DisplayName="Text data" CodeSystem="HL70834" Usage="P"/>
             <ValueElement Value="video" DisplayName="Video data" CodeSystem="HL70834" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0289" Name="0289" Description="County/parish" Oid="2.16.840.1.113883.12.289" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70289" Usage="P"/>
         </ValueSetDefinition>
@@ -4392,7 +4450,6 @@
             <ValueElement Value="PRP" DisplayName="Proposal" CodeSystem="HL70725" Usage="P"/>
             <ValueElement Value="RQO" DisplayName="Request-Order" CodeSystem="HL70725" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="9999" Name="9999" Description="#FIXME#" Oid="UNSPECIFIED" Stability="Static" Extensibility="Open" ContentDefinition="Extensional"/>
         <ValueSetDefinition BindingIdentifier="0078" Name="0078" Description="Abnormal flags" Oid="2.16.840.1.113883.12.78" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="&lt;" DisplayName="Below absolute low-off instrument scale" CodeSystem="HL70078" Usage="P"/>
@@ -4433,8 +4490,6 @@
             <ValueElement Value="P" DisplayName="Phone" CodeSystem="HL70305" Usage="P"/>
             <ValueElement Value="S" DisplayName="SNF" CodeSystem="HL70305" Usage="P"/>
         </ValueSetDefinition>
-        
-        
         <ValueSetDefinition BindingIdentifier="0140" Name="0140" Description="Military Service" Oid="2.16.840.1.113883.12.140" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="AUSA" DisplayName="Australian Army" CodeSystem="HL70140" Usage="P"/>
             <ValueElement Value="AUSAF" DisplayName="Australian Air Force" CodeSystem="HL70140" Usage="P"/>
@@ -4487,7 +4542,6 @@
         <ValueSetDefinition BindingIdentifier="0446" Name="0446" Description="Species Code" Oid="2.16.840.1.113883.12.446" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="no suggested values" CodeSystem="HL70446" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0445" Name="0445" Description="Identity Reliability Code" Oid="2.16.840.1.113883.12.445" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="AL" DisplayName="Patient/Person Name is an Alias" CodeSystem="HL70445" Usage="P"/>
             <ValueElement Value="UA" DisplayName="Unknown/Default Address" CodeSystem="HL70445" Usage="P"/>
@@ -4507,7 +4561,6 @@
             <ValueElement Value="1" DisplayName="the primary procedure" CodeSystem="HL70418" Usage="P"/>
             <ValueElement Value="2" DisplayName="for ranked secondary procedures" CodeSystem="HL70418" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0719" Name="0719" Description="Access Restriction Reason Code" Oid="2.16.840.1.113883.12.719" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="DIA" DisplayName="Diagnosis-related" CodeSystem="HL70719" Usage="P"/>
             <ValueElement Value="EMP" DisplayName="Employee of this organization" CodeSystem="HL70719" Usage="P"/>
@@ -4545,8 +4598,6 @@
             <ValueElement Value="T" DisplayName="Indigenous/Tribal/Community Name" CodeSystem="HL70200" Usage="P"/>
             <ValueElement Value="U" DisplayName="Unspecified" CodeSystem="HL70200" Usage="P"/>
         </ValueSetDefinition>
-        
-        
         <ValueSetDefinition BindingIdentifier="0211" Name="0211" Description="Alternate character sets" Oid="2.16.840.1.113883.12.211" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="8859/1" DisplayName="The printable characters from the ISO 8859/1 Character set" CodeSystem="HL70211" Usage="P"/>
             <ValueElement Value="8859/15" DisplayName="The printable characters from the ISO 8859/15 (Latin-15)" CodeSystem="HL70211" Usage="P"/>
@@ -4574,7 +4625,6 @@
         <ValueSetDefinition BindingIdentifier="0362" Name="0362" Description="Facility" Oid="2.16.840.1.113883.12.362" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70362" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0205" Name="0205" Description="Price type" Oid="2.16.840.1.113883.12.205" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="AP" DisplayName="administrative price or handling fee" CodeSystem="HL70205" Usage="P"/>
             <ValueElement Value="DC" DisplayName="direct unit cost" CodeSystem="HL70205" Usage="P"/>
@@ -4590,7 +4640,6 @@
         <ValueSetDefinition BindingIdentifier="0361" Name="0361" Description="Application" Oid="2.16.840.1.113883.12.361" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70361" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0022" Name="0022" Description="Billing Status" Oid="2.16.840.1.113883.12.22" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70022" Usage="P"/>
         </ValueSetDefinition>
@@ -4615,8 +4664,6 @@
             <ValueElement Value="C" DisplayName="Carcinoma-unspecified type" CodeSystem="HL70417" Usage="P"/>
             <ValueElement Value="G" DisplayName="Additional tissue required" CodeSystem="HL70417" Usage="P"/>
         </ValueSetDefinition>
-        
-        
         <ValueSetDefinition BindingIdentifier="0432" Name="0432" Description="Admission Level of Care Code" Oid="2.16.840.1.113883.12.432" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="AC" DisplayName="Acute" CodeSystem="HL70432" Usage="P"/>
             <ValueElement Value="CH" DisplayName="Chronic" CodeSystem="HL70432" Usage="P"/>
@@ -4678,7 +4725,6 @@
             <ValueElement Value="P" DisplayName="Physician/professional" CodeSystem="HL70309" Usage="P"/>
             <ValueElement Value="RX" DisplayName="Pharmacy" CodeSystem="HL70309" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0003" Name="0003" Description="Event type" Oid="2.16.840.1.113883.12.3" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="A01" DisplayName="ADT/ACK - Admit/visit notification" CodeSystem="HL70003" Usage="P"/>
             <ValueElement Value="A02" DisplayName="ADT/ACK - Transfer a patient" CodeSystem="HL70003" Usage="P"/>
@@ -5003,7 +5049,6 @@
             <ValueElement Value="AI" DisplayName="Active Inpatient" CodeSystem="HL70216" Usage="P"/>
             <ValueElement Value="DI" DisplayName="Discharged Inpatient" CodeSystem="HL70216" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0061" Name="0061" Description="Check digit scheme" Oid="2.16.840.1.113883.12.61" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="BCV" DisplayName="Bank Card Validation Number" CodeSystem="HL70061" Usage="P"/>
             <ValueElement Value="ISO" DisplayName="ISO 7064: 1983" CodeSystem="HL70061" Usage="P"/>
@@ -5131,7 +5176,6 @@
         <ValueSetDefinition BindingIdentifier="0302" Name="0302" Description="Point of care" Oid="2.16.840.1.113883.12.302" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70302" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0145" Name="0145" Description="Room type" Oid="2.16.840.1.113883.12.145" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="2ICU" DisplayName="Second intensive care unit" CodeSystem="HL70145" Usage="P"/>
             <ValueElement Value="2PRI" DisplayName="Second private room" CodeSystem="HL70145" Usage="P"/>
@@ -5267,7 +5311,6 @@
             <ValueElement Value="N" DisplayName="Not Hispanic or Latino" CodeSystem="HL70189" Usage="P"/>
             <ValueElement Value="U" DisplayName="Unknown" CodeSystem="HL70189" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0001" Name="0001" Description="Administrative Sex" Oid="2.16.840.1.113883.12.1" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="A" DisplayName="Ambiguous" CodeSystem="HL70001" Usage="P"/>
             <ValueElement Value="F" DisplayName="Female" CodeSystem="HL70001" Usage="P"/>
@@ -5641,7 +5684,7 @@
             <ValueElement Value="JC8" DisplayName="Japanese Chemistry" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="JJ1017" DisplayName="Japanese Image Examination Cache" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="LB" DisplayName="Local billing code" CodeSystem="HL70396" Usage="P"/>
-            <ValueElement Value="LN" DisplayName="Logical Observation Identifier Names and Codes (LOINC??)" CodeSystem="HL70396" Usage="P"/>
+            <ValueElement Value="LN" DisplayName="Logical Observation Identifier Names and Codes (LOINCÂ®)" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCD" DisplayName="Medicaid" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MCR" DisplayName="Medicare" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="MDC" DisplayName="Medical Device Communication" CodeSystem="HL70396" Usage="P"/>
@@ -5820,7 +5863,6 @@
         <ValueSetDefinition BindingIdentifier="0055" Name="0055" Description="Diagnosis related group" Oid="2.16.840.1.113883.12.55" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70055" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0350" Name="0350" Description="Occurrence code" Oid="2.16.840.1.113883.12.350" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="Use NUBC codes" CodeSystem="HL70350" Usage="P"/>
         </ValueSetDefinition>
@@ -5929,12 +5971,10 @@
             <ValueElement Value="W" DisplayName="Not applicable" CodeSystem="HL70895" Usage="P"/>
             <ValueElement Value="Y" DisplayName="Yes" CodeSystem="HL70895" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0298" Name="0298" Description="CP range type" Oid="2.16.840.1.113883.12.298" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
             <ValueElement Value="F" DisplayName="Flat-rate. Apply the entire price to this interval, do not pro-rate the price if the full interval has not occurred/been consumed" CodeSystem="HL70298" Usage="P"/>
             <ValueElement Value="P" DisplayName="Pro-rate. Apply this price to this interval, pro-rated by whatever portion of the interval has occurred/been consumed" CodeSystem="HL70298" Usage="P"/>
         </ValueSetDefinition>
-        
         <ValueSetDefinition BindingIdentifier="0342" Name="0342" Description="Military Recipient" Oid="2.16.840.1.113883.12.342" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
             <ValueElement Value="..." DisplayName="No suggested values defined" CodeSystem="HL70342" Usage="P"/>
         </ValueSetDefinition>
@@ -5943,6 +5983,6 @@
             <ValueElement Value="1" DisplayName="Listed respiration minutes used for grouping" CodeSystem="HL70757" Usage="P"/>
             <ValueElement Value="2" DisplayName="OPS code value used for grouping" CodeSystem="HL70757" Usage="P"/>
         </ValueSetDefinition>
-        
     </ValueSetDefinitions>
+
 </ValueSetLibrary>

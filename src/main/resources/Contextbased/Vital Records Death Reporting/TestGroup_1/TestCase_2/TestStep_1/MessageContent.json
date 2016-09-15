@@ -680,7 +680,7 @@ Accident", "categorization" : ""},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "15", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -694,9 +694,17 @@ Accident", "categorization" : ""},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "434641000124105^Certifying
-physician-To the best of my knowledge, death occurred due to the cause(s) and manner
-stated.^SCT", "categorization" : ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "434641000124105",
+"categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Certifying physician-To
+the best of my knowledge, death occurred due to the cause(s) and manner stated.",
+"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -715,7 +723,7 @@ stated.^SCT", "categorization" : ""},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "16", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -729,8 +737,16 @@ Contribute to Death", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "373067005^No^SCT",
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "373067005",
 "categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "No", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -749,7 +765,7 @@ Contribute to Death", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "17", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -763,8 +779,16 @@ Contribute to Death", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "7878000^Accident^SCT",
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "7878000",
 "categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Accident", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -783,7 +807,7 @@ Contribute to Death", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "18", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -797,8 +821,16 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Y^Yes^HL70532",
-"categorization" : ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "Y", "categorization"
+: ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Yes", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70532", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -817,7 +849,7 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "19", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -831,8 +863,16 @@ from injury at work", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "N^No^HL70532",
-"categorization" : ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "N", "categorization"
+: ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "No", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70532", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -920,7 +960,7 @@ collision with other vehicles while pulling into traffic on the street", "catego
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "22", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -935,8 +975,16 @@ Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Y^Yes^HL70532",
-"categorization" : ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "Y", "categorization"
+: ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Yes", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70532", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -955,7 +1003,7 @@ Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "23", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -969,8 +1017,16 @@ of decedent", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : "Indifferent"},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "236320001^Driver/Operator^SCT",
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "236320001",
 "categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Driver/Operator",
+"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -989,7 +1045,7 @@ of decedent", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "24", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -1003,8 +1059,16 @@ of decedent", "categorization" : "Presence-Test Case Proper"},
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : ""},
-				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "4^Street/Highway^NCHS
-place of injury", "categorization" : ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "4", "categorization"
+: ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Street/Highway",
+"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"NCHS place of injury", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -1065,7 +1129,7 @@ narrative", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "26", "categorization"
 : ""},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CE", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
 : ""},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -1081,14 +1145,14 @@ available", "categorization" : ""},
 : ""},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "HL70532", "categorization"
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "N", "categorization"
 : ""},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "",
-"categorization" : ""},
-							{"location" : "OBX.5.6", "dataelement" : "Country", "data" : "", "categorization"
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "No", "categorization"
 : ""},
-							{"location" : "OBX.5.9", "dataelement" : "County/Parish Code", "data" : "",
-"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70532", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
