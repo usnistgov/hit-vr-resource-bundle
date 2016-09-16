@@ -1,8 +1,8 @@
-MSH|^~\&|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|CauseOfDeathProcessing|VRDept|20151220111500-0400||ADT^A08^ADT_A01|1223334487|P|2.6|||AL|NE|US||EN^English^ISO639||CCODA08_v1.0^PHIN VS
+MSH|^~\&|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|StateAppID|VRDept|20151220111500-0400||ADT^A08^ADT_A01|1223334487|P|2.6|||AL|NE|US||EN^English^ISO639||CCODA08_v1.0^PHIN VS
 EVN||201512201000-0400|
-PID|1||9000213^^^&2.16.840.1.113883.883.101&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||||||||||||||||||||||||||201510051125-0400
+PID|1||9000213^^^&2.16.840.1.113883.883.101&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||Smith^Madelyn^NMI||||||||||||||||||||||||201510051125-0400|Y
 PV1||N
-OBX|1|XAD|69435-6^Address of location where death occurred^LN||^^^MD||||||F
+OBX|1|XAD|69435-6^Address of location where death occurred^LN||2121 Main St^^Ashville^NC^12345^US||||||F
 OBX|2|CWE|80356-9^Cause of death entity axis code [Automated]^LN|1|S099^Unspecified injury of head^I10C||||||F
 OBX|3|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
 OBX|4|ST|PHC1427^Sequence within Line^CDCPHINVS|1|1||||||F
@@ -13,14 +13,14 @@ OBX|8|CWE|PHC1423^E-code indicator^CDCPHINVS|3|Y^Yes^HL70532||||||F
 OBX|9|CWE|80356-9^Cause of death entity axis code [Automated]^LN|3|G409^Epilepsy, unspecified^I10C||||||F
 OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
 OBX|11|ST|PHC1427^Sequence within Line^CDCPHINVS|3|1||||||F
-OBX|12|CWE|80356-9^ Cause of death entity axis code [Automated]^^LN|4|I64^Stroke, not specified as haemorrhage or infarction^I10C||||||F
+OBX|12|CWE|80356-9^ Cause of death entity axis code [Automated]^LN|4|I64^Stroke, not specified as haemorrhage or infarction^I10C||||||F
 OBX|13|ST|PHC1428^Part\Line Number^CDCPHINVS|4|6||||||F
 OBX|14|ST|PHC1427^Sequence within Line^CDCPHINVS|4|1||||||F
 OBX|15|CWE|80357-7^Cause of death record axis code [Automated]^LN|1|S099^Unspecified injury of head^I10C||||||F
 OBX|16|CWE|80357-7^Cause of death record axis code [Automated]^LN|2|G409^Epilepsy, unspecified^I10C||||||F
 OBX|17|CWE|80357-7^Cause of death record axis code [Automated]^LN|3|I64^Stroke, not specified as haemorrhage or infarction^I10C||||||F
 OBX|18|CWE|80357-7^Cause of death record axis code [Automated]^LN|4|V890^Person injured in unspecified motor-vehicle accident, nontraffic Motor-vehicle accident NOS, nontraffic^I10C||||||F
-OBX|19|CWE|80357-7^ Cause of death.underlying [Automated]^LN||""||||||F
+OBX|19|CWE|80357-7^ Cause of death.underlying [Automated]^LN|1|""||||||F
 OBX|20|CWE|80359-3^ Cause of death.underlying [Manual]^LN||S099^Unspecified injury of head^I10C||||||F
 OBX|21|CWE|11376-1^Injury location^LN||4^Street/Highway^NCHS place of injury||||||F
 OBX|22|CWE|80626-5^Activity at time of death^LN||PHC1352^While engaged in other specified activities^CDCPHINVS||||||F
