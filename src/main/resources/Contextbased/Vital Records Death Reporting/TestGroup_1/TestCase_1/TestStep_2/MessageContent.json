@@ -71,7 +71,7 @@ LLC", "categorization" : "Presence-Configuration"},
 : "Value-Profile Fixed"},
 				{"location" : "MSH.21", "dataelement" : "Message Profile Identifier", "data" :
 "", "categorization" : ""},
-							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDIA08_v1.0",
+							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "PSDIA08_V1.0",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS",
 "categorization" : "Presence-Configuration"},

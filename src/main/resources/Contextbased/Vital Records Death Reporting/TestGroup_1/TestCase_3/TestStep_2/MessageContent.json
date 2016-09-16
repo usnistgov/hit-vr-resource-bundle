@@ -49,7 +49,7 @@ LLC", "categorization" : "Presence-Configuration"},
 : ""},
 							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "ADT", "categorization"
 : "Value-Profile Fixed"},
-							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A04", "categorization"
+							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A08", "categorization"
 : "Value-Profile Fixed"},
 							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "ADT_A01",
 "categorization" : "Value-Profile Fixed"},
