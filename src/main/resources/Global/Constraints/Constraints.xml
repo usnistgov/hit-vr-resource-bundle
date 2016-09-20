@@ -211,6 +211,46 @@
     </Predicates>
     <Constraints>
         <Datatype>
+            <ByID ID="DTM_YDR">
+                <Constraint ID="VR-DTM_YDR" Target=".">
+                    <Description>The value of DTM SHALL be valid in format: YYYY.</Description>
+                    <Assertion>
+                        <Format Path="."
+                            Regex="([0-9]{4})(((0[1-9])|(1[0-2]))(((0[1-9])|([1-2][0-9])|(3[0-1]))((([0-1][0-9])|(2[0-3]))(([0-5][0-9])(([0-5][0-9])(\.[0-9]{1,4})?)?)?)?)?)?((\+|\-)[0-9]{4})?"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="DTM_D">
+                <Constraint ID="VR-DTM_D" Target=".">
+                    <Description>The value of DTM SHALL be valid in format: YYYYMMDD.</Description>
+                    <Assertion>
+                        <Format Path="."
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))((([0-1][0-9])|(2[0-3]))(([0-5][0-9])(([0-5][0-9])(\.[0-9]{1,4})?)?)?)?((\+|\-)[0-9]{4})?"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="DTM_M">
+                <Constraint ID="VR-DTM_M" Target=".">
+                    <Description>The value of DTM SHALL be valid in format: YYYYMMDDHHMM.</Description>
+                    <Assertion>
+                        <Format Path="."
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])(([0-5][0-9])(\.[0-9]{1,4})?)?((\+|\-)[0-9]{4})?"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="DTM_S">
+                <Constraint ID="VR-DTM_S" Target=".">
+                    <Description>The value of DTM SHALL be valid in format: YYYYMMDDHHMMSS.</Description>
+                    <Assertion>
+                        <Format Path="."
+                            Regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])(\.[0-9]{1,4})?((\+|\-)[0-9]{4})?"
+                        />
+                    </Assertion>
+                </Constraint>
+            </ByID>
             <ByID ID="HD_VR">
                 <Constraint ID="VR-23" Target="3[1]">
                     <Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description>
