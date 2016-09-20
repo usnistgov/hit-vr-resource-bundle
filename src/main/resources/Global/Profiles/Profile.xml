@@ -370,10 +370,10 @@
             <Segment Ref="PDA_VR_PSDI" Usage="O" Min="1" Max="1"/>
         </Message>
         <Message ID="c1bd660c-0912-416b-928b-a146f2e1eRVC" Identifier="c1bd660c-0912-416b-928b-a146f2e1eRVC" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_PSDIA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -383,10 +383,10 @@
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
         </Message>
         <Message ID="c1bd660c-0912-416b-928b-a146f2RVCA11" Identifier="c1bd660c-0912-416b-928b-a146f2RVCA11" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_PSDIA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -888,7 +888,7 @@
             <Field Name="Alternate Patient ID - PID" Usage="X" Datatype="CX" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00107"/>
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
-            <Field Name="Date/Time of Birth" Usage="RE" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
+            <Field Name="Date/Time of Birth" Usage="RE" Datatype="DTM_D" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
             <Field Name="Administrative Sex" Usage="R" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
             <Field Name="Race" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="NCHS Race (NCHS)" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
@@ -1003,15 +1003,15 @@
         </Segment>
         <Segment ID="OBX_VR" Name="OBX" Label="OBX_VR" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3">
-                    <Case Value="DTM" SecondValue="80616-6" Datatype="DTM_M"/>
+                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                    <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_PD"/>
+                    <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_BP"/>
                     <Case Value="DTM" SecondValue="69445-5" Datatype="DTM_M"/>
+                    <Case Value="DTM" SecondValue="80616-6" Datatype="DTM_M"/>
                     <Case Value="DTM" SecondValue="80904-6" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" SecondValue="80907-9" Datatype="DTM_D"/>
                     <Case Value="XAD" SecondValue="69439-8" Datatype="XAD_OL"/>
-                    <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_OL"/>
-                    <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_OL"/>
                     <Case Value="XAD" SecondValue="69439-8" Datatype="XAD_BP"/>
                     <Case Value="TX" Datatype="TX"/>
                     <Case Value="DTM" Datatype="DTM_M"/>
@@ -1219,7 +1219,7 @@
         </Segment>
         <Segment ID="OBX_VR_CCOD" Name="OBX" Label="OBX_VR_CCOD" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3">
+                <Mapping Position="5" Reference="2" SecondReference="3.1">
                     <Case Value="DTM" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" Datatype="DTM_D"/>
@@ -1937,6 +1937,31 @@
             <Component Name="Professional Suffix" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
             <Component Name="Assigning Jurisdiction" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
             <Component Name="Assigning Agency or Department" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
+        </Datatype>
+        <Datatype ID="XAD_PD" Name="XAD" Label="XAD_PD" Description="Extended Address">
+            <Component Name="Street Address" Usage="RE" Datatype="SAD_VR" MinLength="1" MaxLength="184" ConfLength="1"/>
+            <Component Name="Other Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="120" ConfLength="1"/>
+            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1"/>
+            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="States Territories Provinces (NCHS)"/>
+            <Component Name="Zip or Postal Code" Usage="RE" Datatype="ST" MinLength="1" MaxLength="12" ConfLength="1"/>
+            <Component Name="Country" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1" Binding="0399"/>
+            <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
+            <Component Name="Other Geographic Designation" Usage="O" Datatype="ST" MinLength="0" MaxLength="50" ConfLength="1"/>
+            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="County"/>
+            <Component Name="Census Tract" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
+            <Component Name="Address Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
+            <Component Name="Address Validity Range" Usage="X" Datatype="DR" MinLength="0" MaxLength="49" ConfLength="1"/>
+            <Component Name="Effective Date" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1"/>
+            <Component Name="Expiration Date" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1"/>
+            <Component Name="Expiration Reason" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1"/>
+            <Component Name="Temporary Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136"/>
+            <Component Name="Bad Address Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136"/>
+            <Component Name="Address Usage" Usage="O" Datatype="ID" MinLength="0" MaxLength="44" ConfLength="1"/>
+            <Component Name="Addressee" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
+            <Component Name="Comment" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
+            <Component Name="Preference Order" Usage="O" Datatype="NM" MinLength="0" MaxLength="2" ConfLength="1"/>
+            <Component Name="Protection Code" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1"/>
+            <Component Name="Address Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1"/>
         </Datatype>
         <Datatype ID="XCN" Name="XCN" Label="XCN" Description="Extended Composite ID Number and Name for Persons">
             <Component Name="ID Number" Usage="O" Datatype="ST" MinLength="0" MaxLength="15" ConfLength="1"/>
