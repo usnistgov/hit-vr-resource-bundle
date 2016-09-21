@@ -142,7 +142,7 @@ Initials Thereof", "data" : "NMI", "categorization" : "Presence-Test Case Proper
 							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "",
 "categorization" : "Indifferent"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
-: "201011021400-0500", "categorization" : "Presence-Content Indifferent"},
+: "20101102140000-0500", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",
 "categorization" : "Value-Profile Fixed"},		]
 		{

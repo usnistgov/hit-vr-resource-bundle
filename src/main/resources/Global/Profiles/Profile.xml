@@ -252,7 +252,7 @@
             <Segment Ref="PDA_VR_JDI" Usage="R" Min="1" Max="1"/>
         </Message>
         <Message ID="0f44cb25-4bb0-4fe7-8244-155c6a422A04" Identifier="0f44cb25-4bb0-4fe7-8244-155c6a422A04" Name="ADT^ A04^ADT_A01" Type="ADT" Event=" A04" StructID="ADT_A01" Description="PSDI">
-            <Segment Ref="MSH_VR" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_PSDIA04" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
             <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
@@ -1003,7 +1003,7 @@
         </Segment>
         <Segment ID="OBX_VR" Name="OBX" Label="OBX_VR" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                <Mapping Position="5" Reference="2" SecondReference="3">
                     <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_PD"/>
                     <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_BP"/>
                     <Case Value="DTM" SecondValue="69445-5" Datatype="DTM_M"/>
@@ -1219,7 +1219,7 @@
         </Segment>
         <Segment ID="OBX_VR_CCOD" Name="OBX" Label="OBX_VR_CCOD" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                <Mapping Position="5" Reference="2" SecondReference="3">
                     <Case Value="DTM" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" Datatype="DTM_D"/>
@@ -1699,7 +1699,7 @@
             <Field Name="Autopsy Performed By" Usage="C" Datatype="XCN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="01581"/>
             <Field Name="Coroner Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Unknown (YNU)" Min="0" Max="1" ItemNo="01582"/>
         </Segment>
-        <Segment ID="MSH_VR" Name="MSH" Label="MSH_VR" Description="Message Header">
+        <Segment ID="MSH_VR_PSDIA04" Name="MSH" Label="MSH_VR_PSDIA04" Description="Message Header">
             <Field Name="Field Separator" Usage="R" Datatype="ST" MinLength="1" MaxLength="1" ConfLength="1" Min="1" Max="1" ItemNo="00001"/>
             <Field Name="Encoding Characters" Usage="R" Datatype="ST" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00002"/>
             <Field Name="Sending Application" Usage="R" Datatype="HD_VR" MinLength="1" MaxLength="227" ConfLength="1" Binding="0361" BindingLocation="1" Min="1" Max="1" ItemNo="00003"/>
@@ -1828,7 +1828,7 @@
         <Datatype ID="CWE_VR" Name="CWE" Label="CWE_VR" Description="Coded with Exceptions">
             <Component Name="Identifier" Usage="RE" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="C" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="Coding System HL7 2x Table 0396"/>
+            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="HL70396_VR"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
             <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1"/>
@@ -2076,10 +2076,10 @@
         <Datatype ID="CNE" Name="CNE" Label="CNE" Description="Coded with No Exceptions">
             <Component Name="Identifier" Usage="R" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
             <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Original Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
@@ -2125,10 +2125,10 @@
         <Datatype ID="CWE" Name="CWE" Label="CWE" Description="Coded with Exceptions">
             <Component Name="Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
             <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Original Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>

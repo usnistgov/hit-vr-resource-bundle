@@ -83,7 +83,7 @@ LLC", "categorization" : "Presence-Configuration"},
 			"title":"EVN : Event Type",
 			"elements" : 
 			[
-				{"location" : "EVN.2", "dataelement" : "Recorded Date/Time", "data" : "201510141705-0400",
+				{"location" : "EVN.2", "dataelement" : "Recorded Date/Time", "data" : "20151014170500-0400",
 "categorization" : "Presence-System Generated"},		]
 		{
 			"title":"PID : Patient Identification",
@@ -142,7 +142,7 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "Anne
 Arundel", "categorization" : "Value-Profile Fixed"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
-: "201510051125-0400", "categorization" : "Presence-Content Indifferent"},
+: "20151005112500-0400", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",
 "categorization" : "Value-Profile Fixed"},		]
 		{
