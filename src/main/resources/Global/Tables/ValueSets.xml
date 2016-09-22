@@ -313,8 +313,11 @@
             <ValueElement Value="Y" DisplayName="Yes" CodeSystem="HL70136" Usage="R"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="NCHS Ethnicity Group (NCHS)" Name="NCHS Ethnicity Group (NCHS)" Description="NCHS Ethnicity Group (NCHS)" Oid="2.16.840.1.114222.4.11.7375" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
-            <ValueElement Value="2135-2" DisplayName="Hispanic or Latino " CodeSystem="CDCREC" Usage="R"/>
+            <ValueElement Value="2135-2" DisplayName="Hispanic or Latino" CodeSystem="CDCREC" Usage="R"/>
             <ValueElement Value="2186-5" DisplayName="Not Hispanic or Latino" CodeSystem="CDCREC" Usage="R"/>
+            <ValueElement Value="PHC1369" DisplayName="Not obtainable" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="PHC1367" DisplayName="Refused" CodeSystem="CDCPHINVS" Usage="R"/>
+            <ValueElement Value="ASKU" DisplayName="asked but unknown" CodeSystem="NULLFL" Usage="R"/>
             <ValueElement Value="UNK" DisplayName="Unknown" CodeSystem="NULLFL" Usage="R"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="Sex(MFU)" Name="Sex (MFU)" Description="Sex(MFU)" Oid="2.16.840.1.114222.4.11.1038" Stability="Static" Extensibility="Open" ContentDefinition="Extensional">
