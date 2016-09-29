@@ -915,9 +915,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1425">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="NCHS Ethnicity Group (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1425">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="NCHS Ethnicity Group (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -925,9 +925,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1430">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="PHVS_BridgedRace_NCHS"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1430">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="PHVS_BridgedRace_NCHS"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -937,8 +937,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69436-4">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69436-4">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -946,8 +946,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69453-9">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69453-9">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -955,8 +955,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69452-1">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69452-1">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -964,8 +964,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80616-6">
-                            <PlainText Path="2[1]" Text="DTM"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80616-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -973,8 +973,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69441-4">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69441-4">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -982,8 +982,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69439-8">
-                            <PlainText Path="2[1]" Text="XAD"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69439-8">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -991,9 +991,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69437-2">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Certifier Types (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69437-2">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Certifier Types (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1001,8 +1001,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69454-7">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69454-7">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1010,8 +1010,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="74499-5">
-                            <PlainText Path="2[1]" Text="XCN"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="74499-5">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="XCN"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1019,9 +1019,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="694444-8">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="694444-8">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1029,9 +1029,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="71481-6">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="71481-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1039,9 +1039,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69443-0">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69443-0">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1049,8 +1049,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69440-6">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69440-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1058,8 +1058,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69445-5">
-                            <PlainText Path="2[1]" Text="DTM"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69445-5">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1067,8 +1067,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="11374-6">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11374-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1076,9 +1076,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69448-9">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69448-9">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1086,9 +1086,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="11376-1">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Place of Injury (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11376-1">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Place of Injury (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1096,8 +1096,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69447-1">
-                            <PlainText Path="2[1]" Text="XAD"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69447-1">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1105,8 +1105,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69449-7">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69449-7">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1114,8 +1114,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1428">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1123,8 +1123,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69438-0">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69438-0">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1132,8 +1132,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69435-6">
-                            <PlainText Path="2[1]" Text="XAD"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69435-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1141,8 +1141,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69442-2">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69442-2">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1150,9 +1150,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69451-3">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Transportation Relationships (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69451-3">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Transportation Relationships (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1162,8 +1162,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80626-5">
-                            <PlainText Path="2[1]" Text="NM"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80626-5">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="NM"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1171,8 +1171,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69453-9">
-                            <PlainText Path="2[1]" Text="ST"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69453-9">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1180,9 +1180,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69444-8">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69444-8">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1190,9 +1190,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="71481-6">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="71481-6">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1200,9 +1200,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69443-0">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69443-0">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1210,9 +1210,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Education Level Edit Flags (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Education Level Edit Flags (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1220,8 +1220,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69445-5">
-                            <PlainText Path="2[1]" Text="DTM"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69445-5">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1229,8 +1229,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69448-9">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69448-9">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1238,8 +1238,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="11376-1">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11376-1">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1247,9 +1247,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69449-7">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Manner Of Death (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69449-7">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Manner Of Death (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1257,8 +1257,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1461">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1461">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1266,8 +1266,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1428">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1275,9 +1275,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1429">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Place of Death"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1429">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Place of Death"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1285,9 +1285,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="69442-2">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Pregnancy Status (NCHS)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69442-2">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Pregnancy Status (NCHS)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1295,8 +1295,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80356-9">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80356-9">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1304,8 +1304,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80357-7">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80357-7">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1313,8 +1313,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="880358-5">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="880358-5">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1322,8 +1322,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="80359-3">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80359-3">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1331,8 +1331,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1422">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1422">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1340,9 +1340,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1423">
-                            <PlainText Path="2[1]" Text="CWE"/>
-                            <ValueSet Path="5[1]" ValueSetID="Yes No Indicator (HL7)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1423">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Indicator (HL7)"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1350,8 +1350,8 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1431">
-                            <PlainText Path="2[1]" Text="CWE"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1431">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1359,16 +1359,9 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1427">
-                            <PlainText Path="2[1]" Text="NM"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1427">
+                            <PlainText IgnoreCase="false" Path="2[1]" Text="NM"/>
                         </PlainCoConstraint>
-                    </Assertion>
-                </CoConstraint>
-                <CoConstraint>
-                    <Description/>
-                    <Comments/>
-                    <Assertion>
-                        <PlainCoConstraint KeuPath="3[1]" KeyValue="PHC1462"/>
                     </Assertion>
                 </CoConstraint>
             </ByID>
