@@ -482,13 +482,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -516,16 +516,16 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Value Type (NCHS)" Min="1" Max="1" ItemNo="00570"/>
-            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Death Report Observation Identifier (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="O" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
-            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Time Units (NCHS)" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
+            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_TimeUnits_NCHS" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
             <Field Name="References Range" Usage="O" Datatype="ST" MinLength="0" MaxLength="60" ConfLength="1" Min="0" Max="1" ItemNo="00575"/>
             <Field Name="Abnormal Flags" Usage="O" Datatype="IS" MinLength="0" MaxLength="5" ConfLength="1" Binding="0078" Min="0" Max="*" ItemNo="00576"/>
             <Field Name="Probability" Usage="O" Datatype="NM" MinLength="0" MaxLength="5" ConfLength="1" Min="0" Max="1" ItemNo="00577"/>
             <Field Name="Nature of Abnormal Test" Usage="O" Datatype="ID" MinLength="0" MaxLength="2" ConfLength="1" Binding="0080" Min="0" Max="*" ItemNo="00578"/>
-            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Observation Result Status (HL7)" Min="1" Max="1" ItemNo="00579"/>
+            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_DeathReportingObservationResultStatus_NCHS" Min="1" Max="1" ItemNo="00579"/>
             <Field Name="Effective Date of Reference Range" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00580"/>
             <Field Name="User Defined Access Checks" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00581"/>
             <Field Name="Date/Time of the Observation" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00582"/>
@@ -611,13 +611,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -638,13 +638,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -665,13 +665,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -692,13 +692,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -734,10 +734,10 @@
             <Field Name="Death Certified Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01576"/>
             <Field Name="Death Certificate Signed Date/Time" Usage="O" Datatype="DTM" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01577"/>
             <Field Name="Death Certified By" Usage="O" Datatype="XCN" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="01578"/>
-            <Field Name="Autopsy Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Unknown (YNU)" Min="0" Max="1" ItemNo="01579"/>
+            <Field Name="Autopsy Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Min="0" Max="1" ItemNo="01579"/>
             <Field Name="Autopsy Start and End Date/Time" Usage="O" Datatype="DR" MinLength="1" MaxLength="53" ConfLength="1" Min="0" Max="1" ItemNo="01580"/>
             <Field Name="Autopsy Performed By" Usage="O" Datatype="XCN" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="01581"/>
-            <Field Name="Coroner Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Unknown (YNU)" Min="0" Max="1" ItemNo="01582"/>
+            <Field Name="Coroner Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Min="0" Max="1" ItemNo="01582"/>
         </Segment>
         <Segment ID="IN2" Name="IN2" Label="IN2" Description="Insurance Additional Information">
             <Field Name="Insured's Employee ID" Usage="O" Datatype="CX" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00472"/>
@@ -821,7 +821,7 @@
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
             <Field Name="Date/Time of Birth" Usage="RE" Datatype="DTM_D" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
-            <Field Name="Administrative Sex" Usage="R" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
+            <Field Name="Administrative Sex" Usage="R" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_Sex_MFU" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
             <Field Name="Race" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0005" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
             <Field Name="Patient Address" Usage="R" Datatype="XAD_D" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="1" ItemNo="00114"/>
@@ -842,8 +842,8 @@
             <Field Name="Citizenship" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0171" BindingLocation="1" Min="0" Max="*" ItemNo="00129"/>
             <Field Name="Veterans Military Status" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0172" BindingLocation="1" Min="0" Max="1" ItemNo="00130"/>
             <Field Name="Nationality" Usage="X" Datatype="CWE" MinLength="0" MaxLength="0" ConfLength="1" Binding="0212" BindingLocation="1" Min="0" Max="1" ItemNo="00739"/>
-            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
-            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Indicator (HL7)" Min="1" Max="1" ItemNo="00741"/>
+            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_YDR" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
+            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNo_HL7_2x" Min="1" Max="1" ItemNo="00741"/>
             <Field Name="Identity Unknown Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01535"/>
             <Field Name="Identity Reliability Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0445" Min="0" Max="*" ItemNo="01536"/>
             <Field Name="Last Update Date/Time" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01537"/>
@@ -889,29 +889,29 @@
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
             <Field Name="Date/Time of Birth" Usage="RE" Datatype="DTM_D" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
-            <Field Name="Administrative Sex" Usage="R" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
+            <Field Name="Administrative Sex" Usage="R" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_Sex_MFU" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
-            <Field Name="Race" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="NCHS Race (NCHS)" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
+            <Field Name="Race" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_Race_NCHS" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
             <Field Name="Patient Address" Usage="R" Datatype="XAD_D" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="1" ItemNo="00114"/>
             <Field Name="County Code" Usage="X" Datatype="IS" MinLength="0" MaxLength="0" ConfLength="1" Binding="0289" Min="0" Max="1" ItemNo="00115"/>
             <Field Name="Phone Number - Home" Usage="O" Datatype="XTN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00116"/>
             <Field Name="Phone Number - Business" Usage="O" Datatype="XTN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00117"/>
             <Field Name="Primary Language" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0296" BindingLocation="1" Min="0" Max="1" ItemNo="00118"/>
-            <Field Name="Marital Status" Usage="RE" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="Marital Status (HL70002) (NCHS)" BindingLocation="1" Min="0" Max="1" ItemNo="00119"/>
+            <Field Name="Marital Status" Usage="RE" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_MaritalStatus_NCHS" BindingLocation="1" Min="0" Max="1" ItemNo="00119"/>
             <Field Name="Religion" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0006" BindingLocation="1" Min="0" Max="1" ItemNo="00120"/>
             <Field Name="Patient Account Number" Usage="X" Datatype="CX" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00121"/>
             <Field Name="SSN Number - Patient" Usage="X" Datatype="ST" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="1" ItemNo="00122"/>
             <Field Name="Driver's License Number - Patient" Usage="X" Datatype="DLN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="1" ItemNo="00123"/>
             <Field Name="Mother's Identifier" Usage="O" Datatype="CX" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00124"/>
-            <Field Name="Ethnic Group" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="NCHS Ethnicity Group (NCHS)" BindingLocation="1" Min="0" Max="*" ItemNo="00125"/>
+            <Field Name="Ethnic Group" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_EthnicityDetail_NCHS:PHVS_EthnicityGroup_NCHS" BindingLocation="1" Min="0" Max="*" ItemNo="00125"/>
             <Field Name="Birth Place" Usage="O" Datatype="ST" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00126"/>
             <Field Name="Multiple Birth Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="00127"/>
             <Field Name="Birth Order" Usage="O" Datatype="NM" MinLength="0" MaxLength="2" ConfLength="1" Min="0" Max="1" ItemNo="00128"/>
             <Field Name="Citizenship" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0171" BindingLocation="1" Min="0" Max="*" ItemNo="00129"/>
             <Field Name="Veterans Military Status" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0172" BindingLocation="1" Min="0" Max="1" ItemNo="00130"/>
             <Field Name="Nationality" Usage="X" Datatype="CWE" MinLength="0" MaxLength="0" ConfLength="1" Binding="0212" BindingLocation="1" Min="0" Max="1" ItemNo="00739"/>
-            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
-            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Indicator (HL7)" Min="1" Max="1" ItemNo="00741"/>
+            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_YDR" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
+            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNo_HL7_2x" Min="1" Max="1" ItemNo="00741"/>
             <Field Name="Identity Unknown Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01535"/>
             <Field Name="Identity Reliability Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0445" Min="0" Max="*" ItemNo="01536"/>
             <Field Name="Last Update Date/Time" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01537"/>
@@ -962,13 +962,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -989,13 +989,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1021,16 +1021,16 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Value Type (NCHS)" Min="1" Max="1" ItemNo="00570"/>
-            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Death Report Observation Identifier (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
-            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Time Units (NCHS)" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
+            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_TimeUnits_NCHS" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
             <Field Name="References Range" Usage="O" Datatype="ST" MinLength="0" MaxLength="60" ConfLength="1" Min="0" Max="1" ItemNo="00575"/>
             <Field Name="Abnormal Flags" Usage="O" Datatype="IS" MinLength="0" MaxLength="5" ConfLength="1" Binding="0078" Min="0" Max="*" ItemNo="00576"/>
             <Field Name="Probability" Usage="O" Datatype="NM" MinLength="0" MaxLength="5" ConfLength="1" Min="0" Max="1" ItemNo="00577"/>
             <Field Name="Nature of Abnormal Test" Usage="O" Datatype="ID" MinLength="0" MaxLength="2" ConfLength="1" Binding="0080" Min="0" Max="*" ItemNo="00578"/>
-            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Observation Result Status (HL7)" Min="1" Max="1" ItemNo="00579"/>
+            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_DeathReportingObservationResultStatus_NCHS" Min="1" Max="1" ItemNo="00579"/>
             <Field Name="Effective Date of Reference Range" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00580"/>
             <Field Name="User Defined Access Checks" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00581"/>
             <Field Name="Date/Time of the Observation" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00582"/>
@@ -1050,7 +1050,7 @@
             <Field Name="Event Type Code" Usage="X" Datatype="ID" MinLength="0" MaxLength="0" ConfLength="1" Binding="0003" Min="0" Max="1" ItemNo="00099"/>
             <Field Name="Recorded Date/Time" Usage="R" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00100"/>
             <Field Name="Date/Time Planned Event" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00101"/>
-            <Field Name="Event Reason Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="3" ConfLength="1" Binding="0062" Min="0" Max="1" ItemNo="00102"/>
+            <Field Name="Event Reason Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="15" ConfLength="1" Binding="PHVS_DeathReportingEventReason_NCHS" Min="0" Max="1" ItemNo="00102"/>
             <Field Name="Operator ID" Usage="O" Datatype="XCN" MinLength="0" MaxLength="250" ConfLength="1" Binding="0188" BindingLocation="1" Min="0" Max="*" ItemNo="00103"/>
             <Field Name="Event Occurred" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01278"/>
             <Field Name="Event Facility" Usage="O" Datatype="HD" MinLength="0" MaxLength="241" ConfLength="1" Min="0" Max="1" ItemNo="01534"/>
@@ -1100,7 +1100,7 @@
             <Field Name="Event Type Code" Usage="X" Datatype="ID" MinLength="0" MaxLength="0" ConfLength="1" Binding="0003" Min="0" Max="1" ItemNo="00099"/>
             <Field Name="Recorded Date/Time" Usage="R" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00100"/>
             <Field Name="Date/Time Planned Event" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00101"/>
-            <Field Name="Event Reason Code" Usage="R" Datatype="IS" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Event Reason (HL70062) (NCHS)" Min="1" Max="1" ItemNo="00102"/>
+            <Field Name="Event Reason Code" Usage="R" Datatype="IS" MinLength="1" MaxLength="15" ConfLength="1" Binding="PHVS_DeathReportingEventReason_NCHS" Min="1" Max="1" ItemNo="00102"/>
             <Field Name="Operator ID" Usage="O" Datatype="XCN" MinLength="0" MaxLength="250" ConfLength="1" Binding="0188" BindingLocation="1" Min="0" Max="*" ItemNo="00103"/>
             <Field Name="Event Occurred" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01278"/>
             <Field Name="Event Facility" Usage="O" Datatype="HD" MinLength="0" MaxLength="241" ConfLength="1" Min="0" Max="1" ItemNo="01534"/>
@@ -1184,9 +1184,9 @@
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
             <Field Name="Date/Time of Birth" Usage="O" Datatype="DTM" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
-            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
+            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="0001" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
-            <Field Name="Race" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="NCHS Race (NCHS)" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
+            <Field Name="Race" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_Race_NCHS" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
             <Field Name="Patient Address" Usage="O" Datatype="XAD" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="1" ItemNo="00114"/>
             <Field Name="County Code" Usage="X" Datatype="IS" MinLength="0" MaxLength="0" ConfLength="1" Binding="0289" Min="0" Max="1" ItemNo="00115"/>
             <Field Name="Phone Number - Home" Usage="O" Datatype="XTN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00116"/>
@@ -1198,7 +1198,7 @@
             <Field Name="SSN Number - Patient" Usage="X" Datatype="ST" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="1" ItemNo="00122"/>
             <Field Name="Driver's License Number - Patient" Usage="X" Datatype="DLN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="1" ItemNo="00123"/>
             <Field Name="Mother's Identifier" Usage="O" Datatype="CX" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00124"/>
-            <Field Name="Ethnic Group" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="NCHS Ethnicity Group (NCHS)" BindingLocation="1" Min="0" Max="*" ItemNo="00125"/>
+            <Field Name="Ethnic Group" Usage="R" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_EthnicityDetail_NCHS:PHVS_EthnicityGroup_NCHS" BindingLocation="1" Min="0" Max="*" ItemNo="00125"/>
             <Field Name="Birth Place" Usage="O" Datatype="ST" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00126"/>
             <Field Name="Multiple Birth Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="00127"/>
             <Field Name="Birth Order" Usage="O" Datatype="NM" MinLength="0" MaxLength="2" ConfLength="1" Min="0" Max="1" ItemNo="00128"/>
@@ -1206,7 +1206,7 @@
             <Field Name="Veterans Military Status" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0172" BindingLocation="1" Min="0" Max="1" ItemNo="00130"/>
             <Field Name="Nationality" Usage="X" Datatype="CWE" MinLength="0" MaxLength="0" ConfLength="1" Binding="0212" BindingLocation="1" Min="0" Max="1" ItemNo="00739"/>
             <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_YDR" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
-            <Field Name="Patient Death Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Min="1" Max="1" ItemNo="00741"/>
+            <Field Name="Patient Death Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNo_HL7_2x" Min="1" Max="1" ItemNo="00741"/>
             <Field Name="Identity Unknown Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01535"/>
             <Field Name="Identity Reliability Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0445" Min="0" Max="*" ItemNo="01536"/>
             <Field Name="Last Update Date/Time" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01537"/>
@@ -1233,16 +1233,16 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Value Type (NCHS)" Min="1" Max="1" ItemNo="00570"/>
-            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Death Report Observation Identifier (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
-            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="Time Units (NCHS)" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
+            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_TimeUnits_NCHS" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
             <Field Name="References Range" Usage="O" Datatype="ST" MinLength="0" MaxLength="60" ConfLength="1" Min="0" Max="1" ItemNo="00575"/>
             <Field Name="Abnormal Flags" Usage="O" Datatype="IS" MinLength="0" MaxLength="5" ConfLength="1" Binding="0078" Min="0" Max="*" ItemNo="00576"/>
             <Field Name="Probability" Usage="O" Datatype="NM" MinLength="0" MaxLength="5" ConfLength="1" Min="0" Max="1" ItemNo="00577"/>
             <Field Name="Nature of Abnormal Test" Usage="O" Datatype="ID" MinLength="0" MaxLength="2" ConfLength="1" Binding="0080" Min="0" Max="*" ItemNo="00578"/>
-            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Observation Result Status (HL7)" Min="1" Max="1" ItemNo="00579"/>
+            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_DeathReportingObservationResultStatus_NCHS" Min="1" Max="1" ItemNo="00579"/>
             <Field Name="Effective Date of Reference Range" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00580"/>
             <Field Name="User Defined Access Checks" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00581"/>
             <Field Name="Date/Time of the Observation" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00582"/>
@@ -1252,7 +1252,7 @@
             <Field Name="Equipment Instance Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1" Min="0" Max="*" ItemNo="01479"/>
             <Field Name="Date/Time of the Analysis" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01480"/>
             <Field Name="Observation Site" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0163" BindingLocation="1" Min="0" Max="*" ItemNo="02179"/>
-            <Field Name="Observation Instance Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1" Min="0" Max="1" ItemNo="02180"/>
+            <Field Name="Observation Instance Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1" BindingLocation="1" Min="0" Max="1" ItemNo="02180"/>
             <Field Name="Mood Code" Usage="O" Datatype="CNE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0725" BindingLocation="1" Min="0" Max="1" ItemNo="02182"/>
             <Field Name="Performing Organization Name" Usage="O" Datatype="XON" MinLength="0" MaxLength="570" ConfLength="1" Min="0" Max="1" ItemNo="02283"/>
             <Field Name="Performing Organization Address" Usage="O" Datatype="XAD" MinLength="0" MaxLength="2915" ConfLength="1" Min="0" Max="1" ItemNo="02284"/>
@@ -1266,9 +1266,9 @@
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
             <Field Name="Date/Time of Birth" Usage="O" Datatype="DTM" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
-            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
+            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="0001" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
-            <Field Name="Race" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0005" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
+            <Field Name="Race" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="PHVS_Race_NCHS" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
             <Field Name="Patient Address" Usage="O" Datatype="XAD" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="1" ItemNo="00114"/>
             <Field Name="County Code" Usage="X" Datatype="IS" MinLength="0" MaxLength="0" ConfLength="1" Binding="0289" Min="0" Max="1" ItemNo="00115"/>
             <Field Name="Phone Number - Home" Usage="O" Datatype="XTN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00116"/>
@@ -1287,8 +1287,8 @@
             <Field Name="Citizenship" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0171" BindingLocation="1" Min="0" Max="*" ItemNo="00129"/>
             <Field Name="Veterans Military Status" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0172" BindingLocation="1" Min="0" Max="1" ItemNo="00130"/>
             <Field Name="Nationality" Usage="X" Datatype="CWE" MinLength="0" MaxLength="0" ConfLength="1" Binding="0212" BindingLocation="1" Min="0" Max="1" ItemNo="00739"/>
-            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_S" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
-            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Indicator (HL7)" Min="1" Max="1" ItemNo="00741"/>
+            <Field Name="Patient Death Date and Time" Usage="R" Datatype="DTM_YDR" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
+            <Field Name="Patient Death Indicator" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNo_HL7_2x" Min="1" Max="1" ItemNo="00741"/>
             <Field Name="Identity Unknown Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01535"/>
             <Field Name="Identity Reliability Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0445" Min="0" Max="*" ItemNo="01536"/>
             <Field Name="Last Update Date/Time" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01537"/>
@@ -1307,7 +1307,7 @@
             <Field Name="Patient Name" Usage="R" Datatype="XPN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="*" ItemNo="00108"/>
             <Field Name="Mother's Maiden Name" Usage="X" Datatype="XPN" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="*" ItemNo="00109"/>
             <Field Name="Date/Time of Birth" Usage="O" Datatype="DTM" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00110"/>
-            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="Sex(MFU)" Min="1" Max="1" ItemNo="00111"/>
+            <Field Name="Administrative Sex" Usage="O" Datatype="IS" MinLength="1" MaxLength="1" ConfLength="1" Binding="0001" Min="1" Max="1" ItemNo="00111"/>
             <Field Name="Patient Alias" Usage="X" Datatype="XPN" MinLength="0" MaxLength="0" ConfLength="1" Min="0" Max="*" ItemNo="00112"/>
             <Field Name="Race" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0005" BindingLocation="1" Min="0" Max="*" ItemNo="00113"/>
             <Field Name="Patient Address" Usage="O" Datatype="XAD" MinLength="1" MaxLength="250" ConfLength="1" Min="1" Max="1" ItemNo="00114"/>
@@ -1328,8 +1328,8 @@
             <Field Name="Citizenship" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0171" BindingLocation="1" Min="0" Max="*" ItemNo="00129"/>
             <Field Name="Veterans Military Status" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0172" BindingLocation="1" Min="0" Max="1" ItemNo="00130"/>
             <Field Name="Nationality" Usage="X" Datatype="CWE" MinLength="0" MaxLength="0" ConfLength="1" Binding="0212" BindingLocation="1" Min="0" Max="1" ItemNo="00739"/>
-            <Field Name="Patient Death Date and Time" Usage="O" Datatype="DTM" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
-            <Field Name="Patient Death Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Min="1" Max="1" ItemNo="00741"/>
+            <Field Name="Patient Death Date and Time" Usage="O" Datatype="DTM_YDR" MinLength="1" MaxLength="24" ConfLength="1" Min="1" Max="1" ItemNo="00740"/>
+            <Field Name="Patient Death Indicator" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNo_HL7_2x" Min="1" Max="1" ItemNo="00741"/>
             <Field Name="Identity Unknown Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01535"/>
             <Field Name="Identity Reliability Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0445" Min="0" Max="*" ItemNo="01536"/>
             <Field Name="Last Update Date/Time" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01537"/>
@@ -1482,13 +1482,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1509,13 +1509,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1560,13 +1560,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1622,13 +1622,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1649,13 +1649,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1676,13 +1676,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1694,10 +1694,10 @@
             <Field Name="Death Certified Indicator" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0136" Min="0" Max="1" ItemNo="01576"/>
             <Field Name="Death Certificate Signed Date/Time" Usage="C" Datatype="DTM_D" MinLength="1" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01577"/>
             <Field Name="Death Certified By" Usage="C" Datatype="XCN_PS" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="01578"/>
-            <Field Name="Autopsy Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Unknown (YNU)" Min="0" Max="1" ItemNo="01579"/>
+            <Field Name="Autopsy Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNoUnknown_CDC" Min="0" Max="1" ItemNo="01579"/>
             <Field Name="Autopsy Start and End Date/Time" Usage="O" Datatype="DR" MinLength="1" MaxLength="53" ConfLength="1" Min="0" Max="1" ItemNo="01580"/>
             <Field Name="Autopsy Performed By" Usage="C" Datatype="XCN_VR" MinLength="1" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="01581"/>
-            <Field Name="Coroner Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Yes No Unknown (YNU)" Min="0" Max="1" ItemNo="01582"/>
+            <Field Name="Coroner Indicator" Usage="RE" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_YesNoUnknown_CDC" Min="0" Max="1" ItemNo="01582"/>
         </Segment>
         <Segment ID="MSH_VR_PSDIA04" Name="MSH" Label="MSH_VR_PSDIA04" Description="Message Header">
             <Field Name="Field Separator" Usage="R" Datatype="ST" MinLength="1" MaxLength="1" ConfLength="1" Min="1" Max="1" ItemNo="00001"/>
@@ -1714,13 +1714,13 @@
             <Field Name="Version ID" Usage="R" Datatype="VID_VR" MinLength="1" MaxLength="60" ConfLength="1" Min="1" Max="1" ItemNo="00012"/>
             <Field Name="Sequence Number" Usage="O" Datatype="NM" MinLength="0" MaxLength="15" ConfLength="1" Min="0" Max="1" ItemNo="00013"/>
             <Field Name="Continuation Pointer" Usage="O" Datatype="ST" MinLength="0" MaxLength="180" ConfLength="1" Min="0" Max="1" ItemNo="00014"/>
-            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00015"/>
-            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="Accept Application Acknowledgment Conditions (HL7)" Min="1" Max="1" ItemNo="00016"/>
-            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)" Min="0" Max="1" ItemNo="00017"/>
+            <Field Name="Accept Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00015"/>
+            <Field Name="Application Acknowledgment Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="2" ConfLength="1" Binding="PHVS_AcceptApplicationAcknowledgmentConditions_HL7" Min="1" Max="1" ItemNo="00016"/>
+            <Field Name="Country Code" Usage="RE" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC" Min="0" Max="1" ItemNo="00017"/>
             <Field Name="Character Set" Usage="O" Datatype="ID" MinLength="0" MaxLength="16" ConfLength="1" Binding="0211" Min="0" Max="*" ItemNo="00692"/>
             <Field Name="Principal Language Of Message" Usage="O" Datatype="CWE" MinLength="0" MaxLength="250" ConfLength="1" Min="0" Max="1" ItemNo="00693"/>
             <Field Name="Alternate Character Set Handling Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0356" Min="0" Max="1" ItemNo="01317"/>
-            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="Death Reporting Profiles (NCHS)" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
+            <Field Name="Message Profile Identifier" Usage="R" Datatype="EI_VR" MinLength="1" MaxLength="427" ConfLength="1" Binding="PHVS_DeathReportingProfiles_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="01598"/>
             <Field Name="Sending Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01823"/>
             <Field Name="Receiving Responsible Organization" Usage="O" Datatype="XON" MinLength="0" MaxLength="567" ConfLength="1" Min="0" Max="1" ItemNo="01824"/>
             <Field Name="Sending Network Address" Usage="O" Datatype="HD" MinLength="0" MaxLength="227" ConfLength="1" Min="0" Max="1" ItemNo="01825"/>
@@ -1778,7 +1778,7 @@
             <Component Name="Suffix (e.g., JR or III)" Usage="RE" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1"/>
             <Component Name="Prefix (e.g., DR)" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Degree (e.g., MD)" Usage="O" Datatype="IS" MinLength="0" MaxLength="6" ConfLength="1"/>
-            <Component Name="Name Type Code" Usage="RE" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="Death Reporting Name Type Code (NCHS)"/>
+            <Component Name="Name Type Code" Usage="RE" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="PHVS_DeathReportingNameTypeCode_NCHS"/>
             <Component Name="Name Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Name Context" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
             <Component Name="Name Validity Range" Usage="X" Datatype="DR_VR" MinLength="0" MaxLength="49" ConfLength="1"/>
@@ -1813,7 +1813,7 @@
             <Component Name="Name Type Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0200"/>
             <Component Name="Identifier Check Digit" Usage="O" Datatype="ST" MinLength="0" MaxLength="4" ConfLength="1"/>
             <Component Name="Check Digit Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
-            <Component Name="Identifier Type Code" Usage="C" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="Death Reporting Identifier Type (HL70203) (NCHS)"/>
+            <Component Name="Identifier Type Code" Usage="C" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="PHVS_DeathReportingIdentifierType_HL70203_NCHS"/>
             <Component Name="Assigning Facility" Usage="RE" Datatype="HD_AA" MinLength="1" MaxLength="227" ConfLength="1"/>
             <Component Name="Name Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Name Context" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
@@ -1821,14 +1821,14 @@
             <Component Name="Name Assembly Order" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Effective Date" Usage="O" Datatype="DTM_S" MinLength="0" MaxLength="24" ConfLength="1"/>
             <Component Name="Expiration Date" Usage="O" Datatype="DTM_S" MinLength="0" MaxLength="24" ConfLength="1"/>
-            <Component Name="Professional Suffix" Usage="RE" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1" Binding="Certifier Titles (NCHS)"/>
+            <Component Name="Professional Suffix" Usage="RE" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1" Binding="PHVS_CertifierTitles_NCHS"/>
             <Component Name="Assigning Jurisdiction" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
             <Component Name="Assigning Agency or Department" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
         </Datatype>
         <Datatype ID="CWE_VR" Name="CWE" Label="CWE_VR" Description="Coded with Exceptions">
             <Component Name="Identifier" Usage="RE" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="C" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="HL70396_VR"/>
+            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_CodingSystem_HL7_2x_Table0396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
             <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1"/>
@@ -1926,7 +1926,7 @@
             <Component Name="Name Type Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1" Binding="0200"/>
             <Component Name="Identifier Check Digit" Usage="O" Datatype="ST" MinLength="0" MaxLength="4" ConfLength="1"/>
             <Component Name="Check Digit Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
-            <Component Name="Identifier Type Code" Usage="C" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="Death Reporting Identifier Type (HL70203) (NCHS)"/>
+            <Component Name="Identifier Type Code" Usage="C" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="PHVS_DeathReportingIdentifierType_HL70203_NCHS"/>
             <Component Name="Assigning Facility" Usage="RE" Datatype="HD_AA" MinLength="1" MaxLength="227" ConfLength="1"/>
             <Component Name="Name Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Name Context" Usage="O" Datatype="CWE_VR" MinLength="0" MaxLength="705" ConfLength="1"/>
@@ -1941,13 +1941,13 @@
         <Datatype ID="XAD_PD" Name="XAD" Label="XAD_PD" Description="Extended Address">
             <Component Name="Street Address" Usage="RE" Datatype="SAD_VR" MinLength="1" MaxLength="184" ConfLength="1"/>
             <Component Name="Other Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="120" ConfLength="1"/>
-            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1"/>
-            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="States Territories Provinces (NCHS)"/>
+            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_CityPlaces_NCHS"/>
+            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_StatesTerritoriesProvinces_NCHS:PHVS_StatesTerritoriesProvinces_NCHS"/>
             <Component Name="Zip or Postal Code" Usage="RE" Datatype="ST" MinLength="1" MaxLength="12" ConfLength="1"/>
             <Component Name="Country" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1" Binding="0399"/>
             <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
             <Component Name="Other Geographic Designation" Usage="O" Datatype="ST" MinLength="0" MaxLength="50" ConfLength="1"/>
-            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="County"/>
+            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Census Tract" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Address Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Address Validity Range" Usage="X" Datatype="DR" MinLength="0" MaxLength="49" ConfLength="1"/>
@@ -1996,13 +1996,13 @@
         <Datatype ID="XAD_D" Name="XAD" Label="XAD_D" Description="Extended Address">
             <Component Name="Street Address" Usage="RE" Datatype="SAD_VR" MinLength="1" MaxLength="184" ConfLength="1"/>
             <Component Name="Other Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="120" ConfLength="1"/>
-            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1"/>
-            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="States Territories Provinces (NCHS)"/>
+            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_CityPlaces_NCHS"/>
+            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_StatesTerritoriesProvinces_NCHS"/>
             <Component Name="Zip or Postal Code" Usage="RE" Datatype="ST" MinLength="1" MaxLength="12" ConfLength="1"/>
-            <Component Name="Country" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)"/>
+            <Component Name="Country" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC"/>
             <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
-            <Component Name="Other Geographic Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="Yes No Unknown (YNU)"/>
-            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="County"/>
+            <Component Name="Other Geographic Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_YesNoUnknown_CDC"/>
+            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_County_FIPS_6-4"/>
             <Component Name="Census Tract" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Address Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Address Validity Range" Usage="X" Datatype="DR" MinLength="0" MaxLength="49" ConfLength="1"/>
@@ -2028,7 +2028,7 @@
             <Component Name="Identifier Check Digit" Usage="O" Datatype="ST" MinLength="0" MaxLength="4" ConfLength="1"/>
             <Component Name="Check Digit Scheme" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
             <Component Name="Assigning Authority" Usage="R" Datatype="HD_AA" MinLength="1" MaxLength="227" ConfLength="1"/>
-            <Component Name="Identifier Type Code" Usage="R" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="Death Reporting Identifier Type (HL70203) (NCHS)"/>
+            <Component Name="Identifier Type Code" Usage="R" Datatype="ID" MinLength="1" MaxLength="5" ConfLength="1" Binding="PHVS_DeathReportingIdentifierType_HL70203_NCHS"/>
             <Component Name="Assigning Facility" Usage="O" Datatype="HD_AA" MinLength="0" MaxLength="227" ConfLength="1"/>
             <Component Name="Effective Date" Usage="O" Datatype="DT" MinLength="0" MaxLength="8" ConfLength="1"/>
             <Component Name="Expiration Date" Usage="O" Datatype="DT" MinLength="0" MaxLength="8" ConfLength="1"/>
@@ -2041,7 +2041,7 @@
             <Component Name="Bed" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Facility" Usage="O" Datatype="HD_VR" MinLength="0" MaxLength="227" ConfLength="1"/>
             <Component Name="Location Status" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
-            <Component Name="Person Location Type" Usage="R" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="Place of Death"/>
+            <Component Name="Person Location Type" Usage="R" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_PlaceOfDeath_NCHS:PHVS_PlaceOfDeath_NCHS"/>
             <Component Name="Building" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Floor" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Location Description" Usage="RE" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1"/>
@@ -2049,9 +2049,9 @@
             <Component Name="Assigning Authority for Location" Usage="O" Datatype="HD_VR" MinLength="0" MaxLength="227" ConfLength="1"/>
         </Datatype>
         <Datatype ID="MSG_VR_1" Name="MSG" Label="MSG_VR_1" Description="Message Type">
-            <Component Name="Message Code" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Message Type"/>
-            <Component Name="Trigger Event" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Death Reporting Event Type (NCHS)"/>
-            <Component Name="Message Structure" Usage="R" Datatype="ID" MinLength="1" MaxLength="7" ConfLength="1" Binding="Death Reporting Message Structure (NCHS)"/>
+            <Component Name="Message Code" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingMessageType_NCHS"/>
+            <Component Name="Trigger Event" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingEventType_NCHS"/>
+            <Component Name="Message Structure" Usage="R" Datatype="ID" MinLength="1" MaxLength="7" ConfLength="1" Binding="PHVS_DeathReportingMessageStructure_NCHS          "/>
         </Datatype>
         <Datatype ID="DLD" Name="DLD" Label="DLD" Description="Discharge to Location and Date">
             <Component Name="Discharge to Location" Usage="R" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0113" BindingLocation="1"/>
@@ -2076,10 +2076,10 @@
         <Datatype ID="CNE" Name="CNE" Label="CNE" Description="Coded with No Exceptions">
             <Component Name="Identifier" Usage="R" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
             <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Original Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
@@ -2125,10 +2125,10 @@
         <Datatype ID="CWE" Name="CWE" Label="CWE" Description="Coded with Exceptions">
             <Component Name="Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="HL70396"/>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1" Binding="0396"/>
             <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MinLength="0" MaxLength="10" ConfLength="1"/>
             <Component Name="Original Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
@@ -2142,8 +2142,8 @@
         <Datatype ID="XAD_OL" Name="XAD" Label="XAD_OL" Description="Extended Address">
             <Component Name="Street Address" Usage="RE" Datatype="SAD_VR" MinLength="1" MaxLength="184" ConfLength="1"/>
             <Component Name="Other Designation" Usage="RE" Datatype="ST" MinLength="1" MaxLength="120" ConfLength="1"/>
-            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1"/>
-            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="States Territories Provinces (NCHS)"/>
+            <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_CityPlaces_NCHS"/>
+            <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_StatesTerritoriesProvinces_NCHS"/>
             <Component Name="Zip or Postal Code" Usage="RE" Datatype="ST" MinLength="1" MaxLength="12" ConfLength="1"/>
             <Component Name="Country" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1" Binding="0399"/>
             <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
@@ -2174,13 +2174,13 @@
         <Datatype ID="XAD_BP" Name="XAD" Label="XAD_BP" Description="Extended Address">
             <Component Name="Street Address" Usage="O" Datatype="SAD" MinLength="0" MaxLength="184" ConfLength="1"/>
             <Component Name="Other Designation" Usage="O" Datatype="ST" MinLength="0" MaxLength="120" ConfLength="1"/>
-            <Component Name="City" Usage="C" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1"/>
-            <Component Name="State or Province" Usage="C" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="States Territories Provinces (NCHS)"/>
+            <Component Name="City" Usage="C" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_CityPlaces_NCHS"/>
+            <Component Name="State or Province" Usage="C" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_StatesTerritoriesProvinces_NCHS"/>
             <Component Name="Zip or Postal Code" Usage="O" Datatype="ST" MinLength="0" MaxLength="12" ConfLength="1"/>
-            <Component Name="Country" Usage="C" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="Country (GEC)"/>
+            <Component Name="Country" Usage="C" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_Country_GEC"/>
             <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
             <Component Name="Other Geographic Designation" Usage="O" Datatype="ST" MinLength="0" MaxLength="50" ConfLength="1"/>
-            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="County"/>
+            <Component Name="County/Parish Code" Usage="RE" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1"/>
             <Component Name="Census Tract" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Address Representation Code" Usage="O" Datatype="ID" MinLength="0" MaxLength="1" ConfLength="1"/>
             <Component Name="Address Validity Range" Usage="X" Datatype="DR_VR" MinLength="0" MaxLength="49" ConfLength="1"/>
@@ -2232,8 +2232,8 @@
             <Component Name="Universal ID Type" Usage="C" Datatype="ID" MinLength="0" MaxLength="6" ConfLength="1" Binding="0301"/>
         </Datatype>
         <Datatype ID="PT_VR" Name="PT" Label="PT_VR" Description="Processing Type">
-            <Component Name="Processing ID" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Processing ID (HL7)"/>
-            <Component Name="Processing Mode" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="Processing Mode (HL7)"/>
+            <Component Name="Processing ID" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_ProcessingID_HL7_2x"/>
+            <Component Name="Processing Mode" Usage="O" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1"/>
         </Datatype>
         <Datatype ID="HD_AA" Name="HD" Label="HD_AA" Description="Hierarchic Designator">
             <Component Name="Namespace ID" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>

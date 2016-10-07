@@ -6,23 +6,23 @@
         Date="2016/08/25 09:30:44" Status="Draft"/>
     <Predicates>
         <Datatype>
-            <ByID ID="CWE_VR">
-                <Predicate ID="CP_2[1]_-6" Target="2[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If CWE.1(Identifier) is valued</Description>
+            <ByID ID="EI_VR">
+                <Predicate ID="CP_2[1]_-9" Target="2[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If EI.3(Universal ID) is valued</Description>
                     <Condition>
-                        <Presence Path="1[1]"/>
+                        <Presence Path="3[1]"/>
                     </Condition>
                 </Predicate>
-                <Predicate ID="CP_3[1]_-7" Target="3[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If CWE.1(Identifier) is valued</Description>
+                <Predicate ID="CP_3[1]_-10" Target="3[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If EI.2(Namespace ID) is valued</Description>
                     <Condition>
-                        <Presence Path="1[1]"/>
+                        <Presence Path="2[1]"/>
                     </Condition>
                 </Predicate>
-                <Predicate ID="CP_9[1]_-8" Target="9[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If CWE.1(Identifier) is valued</Description>
+                <Predicate ID="CP_4[1]_-11" Target="4[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If EI.3(Universal ID) is valued</Description>
                     <Condition>
-                        <Presence Path="1[1]"/>
+                        <Presence Path="3[1]"/>
                     </Condition>
                 </Predicate>
             </ByID>
@@ -41,26 +41,6 @@
                         <NOT>
                             <StringList Path="7[1]" CSV="S,U"/>
                         </NOT>
-                    </Condition>
-                </Predicate>
-            </ByID>
-            <ByID ID="XAD_BP">
-                <Predicate ID="CP_3[1]_-17" Target="3[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If XAD.6(Country) is valued</Description>
-                    <Condition>
-                        <Presence Path="6[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_4[1]_-18" Target="4[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If XAD.6(Country) is valued</Description>
-                    <Condition>
-                        <Presence Path="6[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_6[1]_-19" Target="6[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If XAD.4(State or Province) is valued</Description>
-                    <Condition>
-                        <Presence Path="4[1]"/>
                     </Condition>
                 </Predicate>
             </ByID>
@@ -84,37 +64,23 @@
                     </Condition>
                 </Predicate>
             </ByID>
-            <ByID ID="XCN_VR">
-                <Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
+            <ByID ID="CWE_VR">
+                <Predicate ID="CP_2[1]_-6" Target="2[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If CWE.1(Identifier) is valued</Description>
                     <Condition>
                         <Presence Path="1[1]"/>
                     </Condition>
                 </Predicate>
-                <Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
+                <Predicate ID="CP_3[1]_-7" Target="3[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If CWE.1(Identifier) is valued</Description>
                     <Condition>
                         <Presence Path="1[1]"/>
                     </Condition>
                 </Predicate>
-            </ByID>
-            <ByID ID="EI_VR">
-                <Predicate ID="CP_2[1]_-9" Target="2[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If EI.3(Universal ID) is valued</Description>
+                <Predicate ID="CP_9[1]_-8" Target="9[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If CWE.1(Identifier) is valued</Description>
                     <Condition>
-                        <Presence Path="3[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_3[1]_-10" Target="3[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If EI.2(Namespace ID) is valued</Description>
-                    <Condition>
-                        <Presence Path="2[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_4[1]_-11" Target="4[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If EI.3(Universal ID) is valued</Description>
-                    <Condition>
-                        <Presence Path="3[1]"/>
+                        <Presence Path="1[1]"/>
                     </Condition>
                 </Predicate>
             </ByID>
@@ -132,6 +98,26 @@
                     </Condition>
                 </Predicate>
             </ByID>
+            <ByID ID="XAD_BP">
+                <Predicate ID="CP_3[1]_-17" Target="3[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.6(Country) is valued</Description>
+                    <Condition>
+                        <Presence Path="6[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_4[1]_-18" Target="4[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.6(Country) is valued</Description>
+                    <Condition>
+                        <Presence Path="6[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_6[1]_-19" Target="6[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If XAD.4(State or Province) is valued</Description>
+                    <Condition>
+                        <Presence Path="4[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
             <ByID ID="XCN_PS">
                 <Predicate ID="CP_9[1]_-20" Target="9[1]" TrueUsage="R" FalseUsage="X">
                     <Description>If XCN.1(ID Number) is valued</Description>
@@ -146,23 +132,22 @@
                     </Condition>
                 </Predicate>
             </ByID>
-        </Datatype>
-        <Segment>
-            <ByID ID="OBX_VR_CCOD">
-                <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
+            <ByID ID="XCN_VR">
+                <Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
                     <Condition>
-                        <StringList Path="3[1].1[1]"
-                            CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427"/>
+                        <Presence Path="1[1]"/>
                     </Condition>
                 </Predicate>
-                <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
+                <Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
                     <Condition>
-                        <PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false"/>
+                        <Presence Path="1[1]"/>
                     </Condition>
                 </Predicate>
             </ByID>
+        </Datatype>
+        <Segment>
             <ByID ID="OBX_VR">
                 <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
                     <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
@@ -203,6 +188,21 @@
                     <Description>If the value of PDA-6(Autopsy Indicator) is equal to Y.</Description>
                     <Condition>
                         <SimpleValue Path="6[1]" Operator="EQ" Value="Y"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="OBX_VR_CCOD">
+                <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
+                    <Condition>
+                        <StringList Path="3[1].1[1]"
+                            CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
+                    <Condition>
+                        <PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false"/>
                     </Condition>
                 </Predicate>
             </ByID>
@@ -251,14 +251,6 @@
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="VID_VR">
-                <Constraint ID="VR-17" Target="1[1]">
-                    <Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="2.6"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
             <ByID ID="HD_VR">
                 <Constraint ID="VR-23" Target="3[1]">
                     <Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description>
@@ -270,6 +262,14 @@
                     <Description>The value of HD.2(Universal ID) SHALL be valid in format: 'ISO-compliant OID'.</Description>
                     <Assertion>
                         <Format Path="2[1]" Regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="VID_VR">
+                <Constraint ID="VR-17" Target="1[1]">
+                    <Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="2.6"/>
                     </Assertion>
                 </Constraint>
             </ByID>
@@ -289,288 +289,6 @@
             </ByID>
         </Datatype>
         <Segment>
-            <ByID ID="OBX_VR_CREI">
-                <Constraint ID="VR-26" Target="1[1]">
-                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
-                    <Assertion>
-                        <SetID Path="1[1]"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="OBX_VR">
-                <Constraint ID="VR-25" Target="1[1]">
-                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
-                    <Assertion>
-                        <SetID Path="1[1]"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_JDIA11">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-31" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA11_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-60" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-61" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-62" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-39" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to PSDIA04_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="PSDIA04_V1.0"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-45" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-46" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A04.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A04"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-47" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="PID_VR_JDI">
-                <Constraint ID="VR-11" Target="1[1]">
-                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-12" Target="30[1]">
-                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
-                    <Assertion>
-                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_CREIA08">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-42" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CREIA08_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="CREIA08_V1.0"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-76" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-77" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-78" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="PID_VR_CREI">
-                <Constraint ID="VR-13" Target="1[1]">
-                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_PSDIA08">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-32" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA08_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1]" Text="PSDIA08_V1.0" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-48" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-49" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-50" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="PID_VR_CCOD">
-                <Constraint ID="VR-4" Target="1[1]">
-                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_JDIA08">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-34" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA08_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1]" Text="JDIA08_V1.0" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-57" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-58" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-59" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="OBX_VR_CCOD">
-                <Constraint ID="VR-27" Target="1[1]">
-                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
-                    <Assertion>
-                        <SetID Path="1[1]"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_CCODA11">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-42" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA11_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA11_V1.0"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-82" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-83" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-84" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
             <ByID ID="MSH_VR_CREIA11">
                 <Constraint ID="VR-1" Target="1[1]">
                     <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
@@ -609,7 +327,7 @@
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="MSH_VR_JDIA04">
+            <ByID ID="MSH_VR_PSDIA08">
                 <Constraint ID="VR-1" Target="1[1]">
                     <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
                     <Assertion>
@@ -622,77 +340,25 @@
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-33" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA04_V1.0'.</Description>
+                <Constraint ID="VR-32" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA08_V1.0'.</Description>
                     <Assertion>
-                        <PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
+                        <PlainText Path="21[1]" Text="PSDIA08_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-90" Target="9[1]">
+                <Constraint ID="VR-48" Target="9[1]">
                     <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-91" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A04.</Description>
+                <Constraint ID="VR-49" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
                     <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A04"/>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-92" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="PID_VR_PSDI">
-                <Constraint ID="VR-5" Target="1[1]">
-                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-6" Target="30[1]">
-                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
-                    <Assertion>
-                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_CCODA04">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-43" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA04_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA04_V1.0"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-73" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-74" Target="9[1]">
-                    <Description>The value of MSH-9(Message Type) SHALL be equal to A04.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1]" Operator="EQ" Value="A04"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-75" Target="9[1]">
+                <Constraint ID="VR-50" Target="9[1]">
                     <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
@@ -737,7 +403,7 @@
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="MSH_VR_CCODA08">
+            <ByID ID="MSH_VR_PSDIA11">
                 <Constraint ID="VR-1" Target="1[1]">
                     <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
                     <Assertion>
@@ -750,82 +416,218 @@
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-41" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA08_V1.0.</Description>
+                <Constraint ID="VR-31" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA11_V1.0'.</Description>
                     <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA08_V1.0"/>
+                        <PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-79" Target="9[1]">
+                <Constraint ID="VR-51" Target="9[1]">
                     <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-80" Target="9[1]">
-                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-81" Target="9[1]">
-                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="MSH_VR_RVCA11">
-                <Constraint ID="VR-1" Target="1[1]">
-                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
-                    <Assertion>
-                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-2" Target="2[1]">
-                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
-                    <Assertion>
-                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-40" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to RVCA11_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1]" Operator="EQ" Value="RVCA11_V1.0"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-66" Target="9[1]">
-                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
-                    <Assertion>
-                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-67" Target="9[1]">
+                <Constraint ID="VR-52" Target="9[1]">
                     <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-68" Target="9[1]">
+                <Constraint ID="VR-53" Target="9[1]">
                     <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="PV1_VR">
-                <Constraint ID="VR-14" Target="2[1]">
-                    <Description>The value of PV1-2(Patient Class) SHALL be equal to N.</Description>
-                    <Assertion>
-                        <SimpleValue Path="2[1]" Operator="EQ" Value="N"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
-            <ByID ID="PID_VR_RVC">
-                <Constraint ID="VR-13" Target="1[1]">
+            <ByID ID="PID_VR_CCOD">
+                <Constraint ID="VR-4" Target="1[1]">
                     <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
                     <Assertion>
                         <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PID_VR_PSDI">
+                <Constraint ID="VR-5" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-6" Target="30[1]">
+                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
+                    <Assertion>
+                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA08">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-34" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA08_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="JDIA08_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-57" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-58" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-59" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_CCODA04">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-43" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-73" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-74" Target="9[1]">
+                    <Description>The value of MSH-9(Message Type) SHALL be equal to A04.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1]" Operator="EQ" Value="A04"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-75" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="OBX_VR">
+                <Constraint ID="VR-25" Target="1[1]">
+                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
+                    <Assertion>
+                        <SetID Path="1[1]"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA04">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-33" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA04_V1.0'.</Description>
+                    <Assertion>
+                        <PlainText Path="21[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-90" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-91" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A04.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A04"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-92" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_CCODA11">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-42" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-82" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-83" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-84" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="OBX_VR_CREI">
+                <Constraint ID="VR-26" Target="1[1]">
+                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
+                    <Assertion>
+                        <SetID Path="1[1]"/>
                     </Assertion>
                 </Constraint>
             </ByID>
@@ -867,7 +669,143 @@
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="MSH_VR_PSDIA11">
+            <ByID ID="PID_VR_JDI">
+                <Constraint ID="VR-11" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-12" Target="30[1]">
+                    <Description>The value of PID-30(Patient Death Indicator) SHALL be equal to Y.</Description>
+                    <Assertion>
+                        <SimpleValue Path="30[1]" Operator="EQ" Value="Y"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_RVCA11">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-40" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to RVCA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="RVCA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-66" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-67" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-68" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="OBX_VR_CCOD">
+                <Constraint ID="VR-27" Target="1[1]">
+                    <Description>The value of OBX-1(Set ID - OBX) SHALL be valued sequentially starting with the value '1'.</Description>
+                    <Assertion>
+                        <SetID Path="1[1]"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_CREIA08">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-42" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CREIA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="CREIA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-76" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-77" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-78" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_CCODA08">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-41" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="CCODA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-79" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-80" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A08.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A08"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-81" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_JDIA11">
                 <Constraint ID="VR-1" Target="1[1]">
                     <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
                     <Assertion>
@@ -881,27 +819,89 @@
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-31" Target="21[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA11_V1.0'.</Description>
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA11_V1.0'.</Description>
                     <Assertion>
                         <PlainText Path="21[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-51" Target="9[1]">
+                <Constraint ID="VR-60" Target="9[1]">
                     <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-52" Target="9[1]">
+                <Constraint ID="VR-61" Target="9[1]">
                     <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A11.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A11"/>
                     </Assertion>
                 </Constraint>
-                <Constraint ID="VR-53" Target="9[1]">
+                <Constraint ID="VR-62" Target="9[1]">
                     <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PV1_VR">
+                <Constraint ID="VR-14" Target="2[1]">
+                    <Description>The value of PV1-2(Patient Class) SHALL be equal to N.</Description>
+                    <Assertion>
+                        <SimpleValue Path="2[1]" Operator="EQ" Value="N"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PID_VR_CREI">
+                <Constraint ID="VR-13" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="PID_VR_RVC">
+                <Constraint ID="VR-13" Target="1[1]">
+                    <Description>The value of PID-1(Set ID - PID) SHALL be equal to 1.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="1"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
+            <ByID ID="MSH_VR_PSDIA04">
+                <Constraint ID="VR-1" Target="1[1]">
+                    <Description>The value of MSH-1(Field Separator) SHALL be '|'.</Description>
+                    <Assertion>
+                        <PlainText Path="1[1]" Text="|" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-2" Target="2[1]">
+                    <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
+                    <Assertion>
+                        <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-39" Target="21[1]">
+                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to PSDIA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1]" Operator="EQ" Value="PSDIA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-45" Target="9[1]">
+                    <Description>The value of MSH-9.1(Message Code) SHALL be equal to ADT.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].1[1]" Operator="EQ" Value="ADT"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-46" Target="9[1]">
+                    <Description>The value of MSH-9.2(Trigger Event) SHALL be equal to A04.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].2[1]" Operator="EQ" Value="A04"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR-47" Target="9[1]">
+                    <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A01.</Description>
+                    <Assertion>
+                        <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
             </ByID>
@@ -916,8 +916,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1425">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="NCHS Ethnicity Group (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_EthnicityGroup_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -926,8 +927,27 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1430">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="PHVS_BridgedRace_NCHS"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_BridgedRace_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description/>
+                    <Comments/>
+                    <Assertion>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80978-0">
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description/>
+                    <Comments/>
+                    <Assertion>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80977-2">
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -938,7 +958,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69436-4">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoNotApplicable_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -947,7 +969,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69453-9">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -956,7 +978,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69452-1">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -965,7 +987,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80616-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
+                            <PlainText Path="2[1]" Text="DTM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -974,7 +996,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69441-4">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -983,7 +1005,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69439-8">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
+                            <PlainText Path="2[1]" Text="XAD" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -992,8 +1014,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69437-2">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Certifier Types (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_CertifierTypes_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1002,7 +1025,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69454-7">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1011,7 +1034,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="74499-5">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="XCN"/>
+                            <PlainText Path="2[1]" Text="XCN" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1019,9 +1042,10 @@
                     <Description/>
                     <Comments/>
                     <Assertion>
-                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="694444-8">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69444-8">
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1030,8 +1054,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="71481-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1040,8 +1065,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69443-0">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1050,7 +1074,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69440-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1059,7 +1083,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69445-5">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
+                            <PlainText Path="2[1]" Text="DTM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1068,7 +1092,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11374-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1077,8 +1101,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69448-9">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1087,8 +1112,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11376-1">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Place of Injury (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_PlaceOfInjury_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1097,7 +1123,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69447-1">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
+                            <PlainText Path="2[1]" Text="XAD" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1106,7 +1132,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69449-7">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1115,7 +1141,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1124,7 +1150,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69438-0">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1133,7 +1159,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69435-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="XAD"/>
+                            <PlainText Path="2[1]" Text="XAD" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1142,7 +1168,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69442-2">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1151,8 +1177,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69451-3">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Transportation Relationships (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_TransportationRelationships_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1163,7 +1190,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80626-5">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="NM"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1172,7 +1199,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69453-9">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="ST"/>
+                            <PlainText Path="2[1]" Text="ST" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1181,8 +1208,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69444-8">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1191,8 +1219,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="71481-6">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Unknown (YNU)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1201,18 +1230,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69443-0">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Contributory Tobacco Use (NCHS)"/>
-                        </PlainCoConstraint>
-                    </Assertion>
-                </CoConstraint>
-                <CoConstraint>
-                    <Description/>
-                    <Comments/>
-                    <Assertion>
-                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Education Level Edit Flags (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1221,7 +1239,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69445-5">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="DTM"/>
+                            <PlainText Path="2[1]" Text="DTM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1230,7 +1248,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69448-9">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNoUnknown_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1239,7 +1259,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="11376-1">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_PlaceOfInjury_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1248,8 +1270,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69449-7">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Manner Of Death (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1258,7 +1279,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1461">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_IntentionalRejectEditFlags_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1267,7 +1290,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1276,8 +1299,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1429">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Place of Death"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_PregnancyEditFlags_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1286,8 +1310,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="69442-2">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Pregnancy Status (NCHS)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_PregnancyStatus_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1296,7 +1321,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80356-9">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_CauseOfDeath_ICD-10_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1305,7 +1332,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80357-7">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_CauseOfDeath_ICD-10_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1314,7 +1343,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="880358-5">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_CauseOfDeath_ICD-10_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1323,7 +1354,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="80359-3">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_CauseOfDeath_ICD-10_CDC"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1332,7 +1365,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1422">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_TransaxConversionFlag_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1341,8 +1376,9 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1423">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
-                            <ValueSet BindingStrength="R" BindingLocation="1" Path="5[1].1[1]" ValueSetID="Yes No Indicator (HL7)"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_YesNo_HL7_2x" BindingStrength="R"
+                                BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1351,7 +1387,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1431">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="CWE"/>
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1360,7 +1396,18 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1427">
-                            <PlainText IgnoreCase="false" Path="2[1]" Text="NM"/>
+                            <PlainText Path="2[1]" Text="NM" IgnoreCase="false"/>
+                        </PlainCoConstraint>
+                    </Assertion>
+                </CoConstraint>
+                <CoConstraint>
+                    <Description/>
+                    <Comments/>
+                    <Assertion>
+                        <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1462">
+                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <ValueSet Path="5[1].1[1]" ValueSetID="PHVS_SystemRejectCodes_NCHS"
+                                BindingStrength="R" BindingLocation="1"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
