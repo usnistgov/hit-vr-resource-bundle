@@ -183,7 +183,7 @@
             <Segment Ref="ARV" Usage="O" Min="0" Max="*"/>
             <Segment Ref="ROL" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DB1" Usage="O" Min="0" Max="*"/>
-            <Segment Ref="OBX_VR" Usage="R" Min="1" Max="*"/>
+            <Segment Ref="OBX_VR_JDI" Usage="R" Min="1" Max="*"/>
             <Segment Ref="AL1" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DRG" Usage="O" Min="0" Max="1"/>
@@ -231,7 +231,7 @@
             <Segment Ref="ARV" Usage="O" Min="0" Max="*"/>
             <Segment Ref="ROL" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DB1" Usage="O" Min="0" Max="*"/>
-            <Segment Ref="OBX_VR" Usage="R" Min="1" Max="*"/>
+            <Segment Ref="OBX_VR_JDI" Usage="R" Min="1" Max="*"/>
             <Segment Ref="AL1" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DRG" Usage="O" Min="0" Max="1"/>
@@ -370,10 +370,10 @@
             <Segment Ref="PDA_VR_PSDI" Usage="O" Min="1" Max="1"/>
         </Message>
         <Message ID="c1bd660c-0912-416b-928b-a146f2e1eRVC" Identifier="c1bd660c-0912-416b-928b-a146f2e1eRVC" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_PSDIA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -383,10 +383,10 @@
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
         </Message>
         <Message ID="c1bd660c-0912-416b-928b-a146f2RVCA11" Identifier="c1bd660c-0912-416b-928b-a146f2RVCA11" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_PSDIA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -1545,6 +1545,47 @@
             <Field Name="DRG Procedure Determination Status" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0761" Min="0" Max="1" ItemNo="02177"/>
             <Field Name="DRG Procedure Relevance" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0763" Min="0" Max="1" ItemNo="02178"/>
         </Segment>
+        <Segment ID="OBX_VR_JDI" Name="OBX" Label="OBX_VR_JDI" Description="Observation/Result">
+            <DynamicMapping>
+                <Mapping Position="5" Reference="2" SecondReference="3">
+                    <Case Value="DTM" SecondValue="80904-6" Datatype="DTM_Y"/>
+                    <Case Value="XCN" Datatype="XCN_VR"/>
+                    <Case Value="DTM" SecondValue="80907-9" Datatype="DTM_D"/>
+                    <Case Value="XAD" Datatype="XAD_OL"/>
+                    <Case Value="XAD" SecondValue="21842-0" Datatype="XAD_BP"/>
+                    <Case Value="TX" Datatype="TX"/>
+                    <Case Value="DTM" SecondValue="69445-5" Datatype="DTM_M"/>
+                    <Case Value="NM" Datatype="NM"/>
+                    <Case Value="ST" Datatype="ST"/>
+                    <Case Value="CWE" Datatype="CWE_VR"/>
+                </Mapping>
+            </DynamicMapping>
+            <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
+            <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
+            <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
+            <Field Name="Units" Usage="C" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_TimeUnits_NCHS" BindingLocation="1" Min="0" Max="1" ItemNo="00574"/>
+            <Field Name="References Range" Usage="O" Datatype="ST" MinLength="0" MaxLength="60" ConfLength="1" Min="0" Max="1" ItemNo="00575"/>
+            <Field Name="Abnormal Flags" Usage="O" Datatype="IS" MinLength="0" MaxLength="5" ConfLength="1" Binding="0078" Min="0" Max="*" ItemNo="00576"/>
+            <Field Name="Probability" Usage="O" Datatype="NM" MinLength="0" MaxLength="5" ConfLength="1" Min="0" Max="1" ItemNo="00577"/>
+            <Field Name="Nature of Abnormal Test" Usage="O" Datatype="ID" MinLength="0" MaxLength="2" ConfLength="1" Binding="0080" Min="0" Max="*" ItemNo="00578"/>
+            <Field Name="Observation Result Status" Usage="R" Datatype="ID" MinLength="1" MaxLength="1" ConfLength="1" Binding="PHVS_DeathReportingObservationResultStatus_NCHS" Min="1" Max="1" ItemNo="00579"/>
+            <Field Name="Effective Date of Reference Range" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00580"/>
+            <Field Name="User Defined Access Checks" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00581"/>
+            <Field Name="Date/Time of the Observation" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="00582"/>
+            <Field Name="Producer's ID" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="9999" BindingLocation="1" Min="0" Max="1" ItemNo="00583"/>
+            <Field Name="Responsible Observer" Usage="O" Datatype="XCN" MinLength="0" MaxLength="3220" ConfLength="1" Min="0" Max="*" ItemNo="00584"/>
+            <Field Name="Observation Method" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Min="0" Max="*" ItemNo="00936"/>
+            <Field Name="Equipment Instance Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1" Min="0" Max="*" ItemNo="01479"/>
+            <Field Name="Date/Time of the Analysis" Usage="O" Datatype="DTM" MinLength="0" MaxLength="24" ConfLength="1" Min="0" Max="1" ItemNo="01480"/>
+            <Field Name="Observation Site" Usage="O" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0163" BindingLocation="1" Min="0" Max="*" ItemNo="02179"/>
+            <Field Name="Observation Instance Identifier" Usage="O" Datatype="EI" MinLength="0" MaxLength="427" ConfLength="1" Min="0" Max="1" ItemNo="02180"/>
+            <Field Name="Mood Code" Usage="O" Datatype="CNE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0725" BindingLocation="1" Min="0" Max="1" ItemNo="02182"/>
+            <Field Name="Performing Organization Name" Usage="O" Datatype="XON" MinLength="0" MaxLength="570" ConfLength="1" Min="0" Max="1" ItemNo="02283"/>
+            <Field Name="Performing Organization Address" Usage="O" Datatype="XAD" MinLength="0" MaxLength="2915" ConfLength="1" Min="0" Max="1" ItemNo="02284"/>
+            <Field Name="Performing Organization Medical Director" Usage="O" Datatype="XCN" MinLength="0" MaxLength="3220" ConfLength="1" Min="0" Max="1" ItemNo="02285"/>
+        </Segment>
         <Segment ID="MSH_VR_RVCA11" Name="MSH" Label="MSH_VR_RVCA11" Description="Message Header">
             <Field Name="Field Separator" Usage="R" Datatype="ST" MinLength="1" MaxLength="1" ConfLength="1" Min="1" Max="1" ItemNo="00001"/>
             <Field Name="Encoding Characters" Usage="R" Datatype="ST" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00002"/>
@@ -2051,7 +2092,7 @@
         <Datatype ID="MSG_VR_1" Name="MSG" Label="MSG_VR_1" Description="Message Type">
             <Component Name="Message Code" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingMessageType_NCHS"/>
             <Component Name="Trigger Event" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingEventType_NCHS"/>
-            <Component Name="Message Structure" Usage="R" Datatype="ID" MinLength="1" MaxLength="7" ConfLength="1" Binding="PHVS_DeathReportingMessageStructure_NCHS          "/>
+            <Component Name="Message Structure" Usage="R" Datatype="ID" MinLength="1" MaxLength="7" ConfLength="1" Binding="PHVS_DeathReportingMessageStructure_NCHS"/>
         </Datatype>
         <Datatype ID="DLD" Name="DLD" Label="DLD" Description="Discharge to Location and Date">
             <Component Name="Discharge to Location" Usage="R" Datatype="CWE" MinLength="0" MaxLength="705" ConfLength="1" Binding="0113" BindingLocation="1"/>
