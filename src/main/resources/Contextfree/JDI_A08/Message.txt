@@ -17,7 +17,7 @@ OBX|12|CWE|69449-7^Manner of death^LN||7878000^Accident^SCT||||||F
 OBX|13|CWE|69444-8^Did death result from injury at work^LN||N^No^HL70532||||||F
 OBX|14|CWE|71481-6^Did the death of this person involve injury of any kind^LN||Y^Yes^HL70532||||||F
 OBX|15|DTM|69445-5^Injury date^LN||201510040830-0400||||||F
-OBX|16|TX|11374-6^Injury incident description^LN||Automobile collision with other vehicles while pulling into traffic on the street||||||F
+OBX|16|ST|11374-6^Injury incident description^LN||Automobile collision with other vehicles while pulling into traffic on the street||||||F
 OBX|17|CWE|69448-9^Injury leading to death associated with transportation event^LN||Y^Yes^HL70532||||||F
 OBX|18|CWE|69451-3^Transportation role of decedent^LN||236320001^Driver/Operator^SCT||||||F
 OBX|19|CWE|11376-1^Injury location^LN||4^Street/Highway^I10||||||F

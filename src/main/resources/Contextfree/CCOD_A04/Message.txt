@@ -4,18 +4,18 @@ PID|1||9000213^^^&2.16.840.1.113883.883.101&ISO^DC~2015000213^^^&2.16.840.1.1138
 PV1||N
 OBX|1|XAD|69435-6^Address of location where death occurred^LN||2121 Main St^^Ashville^NC^12345^US||||||F
 OBX|2|CWE|80356-9^Cause of death entity axis code [Automated]^LN|1|S099^Unspecified injury of head^I10C||||||F
-OBX|3|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
-OBX|4|ST|PHC1427^Sequence within Line^CDCPHINVS|1|1||||||F
+OBX|3|NM|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|4|NM|PHC1427^Sequence within Line^CDCPHINVS|1|1||||||F
 OBX|5|CWE|80356-9^Cause of death entity axis code [Automated]^LN|2|V890^Person injured in unspecified motor-vehicle accident, nontraffic Motor-vehicle accident NOS, nontraffic^I10C||||||F
-OBX|6|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
-OBX|7|ST|PHC1427^Sequence within Line^CDCPHINVS|2|1||||||F
+OBX|6|NM|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|7|NM|PHC1427^Sequence within Line^CDCPHINVS|2|1||||||F
 OBX|8|CWE|PHC1423^E-code indicator^CDCPHINVS|3|Y^Yes^HL70532||||||F
 OBX|9|CWE|80356-9^Cause of death entity axis code [Automated]^LN|3|G409^Epilepsy, unspecified^I10C||||||F
-OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
-OBX|11|ST|PHC1427^Sequence within Line^CDCPHINVS|3|1||||||F
+OBX|10|NM|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
+OBX|11|NM|PHC1427^Sequence within Line^CDCPHINVS|3|1||||||F
 OBX|12|CWE|80356-9^ Cause of death entity axis code [Automated]^LN|4|I64^Stroke, not specified as haemorrhage or infarction^I10C||||||F
-OBX|13|ST|PHC1428^Part\Line Number^CDCPHINVS|4|6||||||F
-OBX|14|ST|PHC1427^Sequence within Line^CDCPHINVS|4|1||||||F
+OBX|13|NM|PHC1428^Part\Line Number^CDCPHINVS|4|6||||||F
+OBX|14|NM|PHC1427^Sequence within Line^CDCPHINVS|4|1||||||F
 OBX|15|CWE|80357-7^Cause of death record axis code [Automated]^LN|1|S099^Unspecified injury of head^I10C||||||F
 OBX|16|CWE|80357-7^Cause of death record axis code [Automated]^LN|2|G409^Epilepsy, unspecified^I10C||||||F
 OBX|17|CWE|80357-7^Cause of death record axis code [Automated]^LN|3|I64^Stroke, not specified as haemorrhage or infarction^I10C||||||F
