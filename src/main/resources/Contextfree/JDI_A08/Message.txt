@@ -33,7 +33,7 @@ OBX|28|DTM|80904-6^Birth certificate data year^LN||1951||||||F
 OBX|29|CWE|69436-4^Autopsy results available^LN||N^No^HL70532||||||F
 OBX|30|CWE|PHC1429^Pregnancy edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|31|CWE|PHC1433^Source Flag^CDCPHINVS||PHC1359^Electronic mode^CDCPHINVS||||||F
-OBX|32|XPN|80909-5^Father's surname^LN||Perez||||||F
+OBX|32|ST|80909-5^Father's surname^LN||Perez||||||F
 OBX|33|CWE|PHC1432^Sex edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|34|NM|39016-1^Age at death^LN||64|a^year^UCUM|||||F
 OBX|35|CWE|PHC1421^Age edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
