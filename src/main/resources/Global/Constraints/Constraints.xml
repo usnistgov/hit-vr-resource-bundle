@@ -3,20 +3,6 @@
     <MetaData Name="Vital Records Death Reporting" OrgName="NIST" Version="No Version Info" Date="2016/08/25 09:30:44" Status="Draft"/>
     <Predicates>
         <Datatype>
-            <ByID ID="XCN_PS">
-                <Predicate ID="CP_9[1]_-20" Target="9[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
-                    <Condition>
-                        <Presence Path="1[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_13[1]_-22" Target="13[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
-                    <Condition>
-                        <Presence Path="1[1]"/>
-                    </Condition>
-                </Predicate>
-            </ByID>
             <ByID ID="EI_VR">
                 <Predicate ID="CP_2[1]_-9" Target="2[1]" TrueUsage="O" FalseUsage="R">
                     <Description>If EI.3(Universal ID) is valued</Description>
@@ -37,6 +23,58 @@
                     </Condition>
                 </Predicate>
             </ByID>
+            <ByID ID="HD_VR">
+                <Predicate ID="CP_1[1]_-14" Target="1[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If HD.2(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_2[1]_-15" Target="2[1]" TrueUsage="O" FalseUsage="R">
+                    <Description>If HD.1(Namespace ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_3[1]_-16" Target="3[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If HD.2(Universal ID) is valued</Description>
+                    <Condition>
+                        <Presence Path="2[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XPN_VR">
+                <Predicate ID="CP_1[1]_-1" Target="1[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description>
+                    <Condition>
+                        <NOT>
+                            <StringList Path="7[1]" CSV="S,U"/>
+                        </NOT>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_2[1]_-2" Target="2[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description>
+                    <Condition>
+                        <NOT>
+                            <StringList Path="7[1]" CSV="S,U"/>
+                        </NOT>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XCN_PS">
+                <Predicate ID="CP_9[1]_-20" Target="9[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_13[1]_-22" Target="13[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
             <ByID ID="CWE_VR">
                 <Predicate ID="CP_2[1]_-6" Target="2[1]" TrueUsage="R" FalseUsage="X">
                     <Description>If CWE.1(Identifier) is valued</Description>
@@ -52,6 +90,20 @@
                 </Predicate>
                 <Predicate ID="CP_9[1]_-8" Target="9[1]" TrueUsage="O" FalseUsage="R">
                     <Description>If CWE.1(Identifier) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+            </ByID>
+            <ByID ID="XCN_VR">
+                <Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
+                    <Condition>
+                        <Presence Path="1[1]"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X">
+                    <Description>If XCN.1(ID Number) is valued</Description>
                     <Condition>
                         <Presence Path="1[1]"/>
                     </Condition>
@@ -77,26 +129,6 @@
                     </Condition>
                 </Predicate>
             </ByID>
-            <ByID ID="HD_VR">
-                <Predicate ID="CP_1[1]_-14" Target="1[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If HD.2(Universal ID) is valued</Description>
-                    <Condition>
-                        <Presence Path="2[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_2[1]_-15" Target="2[1]" TrueUsage="O" FalseUsage="R">
-                    <Description>If HD.1(Namespace ID) is valued</Description>
-                    <Condition>
-                        <Presence Path="1[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_3[1]_-16" Target="3[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If HD.2(Universal ID) is valued</Description>
-                    <Condition>
-                        <Presence Path="2[1]"/>
-                    </Condition>
-                </Predicate>
-            </ByID>
             <ByID ID="HD_AA">
                 <Predicate ID="CP_2[1]_-12" Target="2[1]" TrueUsage="O" FalseUsage="R">
                     <Description>If HD.1(Namespace ID) is valued</Description>
@@ -111,51 +143,25 @@
                     </Condition>
                 </Predicate>
             </ByID>
-            <ByID ID="XPN_VR">
-                <Predicate ID="CP_1[1]_-1" Target="1[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description>
-                    <Condition>
-                        <NOT>
-                            <StringList Path="7[1]" CSV="S,U"/>
-                        </NOT>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_2[1]_-2" Target="2[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of XPN.7(Name Type Code) is not one of list values: S,U.</Description>
-                    <Condition>
-                        <NOT>
-                            <StringList Path="7[1]" CSV="S,U"/>
-                        </NOT>
-                    </Condition>
-                </Predicate>
-            </ByID>
-            <ByID ID="XCN_VR">
-                <Predicate ID="CP_9[1]_-23" Target="9[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
-                    <Condition>
-                        <Presence Path="1[1]"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_13[1]_-24" Target="13[1]" TrueUsage="R" FalseUsage="X">
-                    <Description>If XCN.1(ID Number) is valued</Description>
-                    <Condition>
-                        <Presence Path="1[1]"/>
-                    </Condition>
-                </Predicate>
-            </ByID>
         </Datatype>
         <Segment>
-            <ByID ID="OBX_VR">
-                <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
+            <ByID ID="PDA_VR_PSDI">
+                <Predicate ID="CP_4[1]_-3" Target="4[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
                     <Condition>
-                        <StringList Path="3[1].1[1]" CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427"/>
+                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
                     </Condition>
                 </Predicate>
-                <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
-                    <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
+                <Predicate ID="CP_5[1]_-4" Target="5[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
                     <Condition>
-                        <PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false"/>
+                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
+                    </Condition>
+                </Predicate>
+                <Predicate ID="CP_8[1]_-5" Target="8[1]" TrueUsage="RE" FalseUsage="O">
+                    <Description>If the value of PDA-6(Autopsy Indicator) is equal to Y.</Description>
+                    <Condition>
+                        <SimpleValue Path="6[1]" Operator="EQ" Value="Y"/>
                     </Condition>
                 </Predicate>
             </ByID>
@@ -187,27 +193,21 @@
                     </Condition>
                 </Predicate>
             </ByID>
-            <ByID ID="PDA_VR_PSDI">
-                <Predicate ID="CP_4[1]_-3" Target="4[1]" TrueUsage="RE" FalseUsage="O">
-                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
+            <ByID ID="OBX_VR_CREI">
+                <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
                     <Condition>
-                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_5[1]_-4" Target="5[1]" TrueUsage="RE" FalseUsage="O">
-                    <Description>If the value of PDA-9(Coroner Indicator) is not equal to Y.</Description>
-                    <Condition>
-                        <SimpleValue Path="9[1]" Operator="EQ" Value="Y"/>
-                    </Condition>
-                </Predicate>
-                <Predicate ID="CP_8[1]_-5" Target="8[1]" TrueUsage="RE" FalseUsage="O">
-                    <Description>If the value of PDA-6(Autopsy Indicator) is equal to Y.</Description>
-                    <Condition>
-                        <SimpleValue Path="6[1]" Operator="EQ" Value="Y"/>
+                        <PlainText Path="3[1].1[1]" Text="39016-1" IgnoreCase="false"/>
                     </Condition>
                 </Predicate>
             </ByID>
-            <ByID ID="OBX_VR_CREI">
+            <ByID ID="OBX_VR">
+                <Predicate ID="CP_4[1]_-1" Target="4[1]" TrueUsage="R" FalseUsage="O">
+                    <Description>If the value of OBX-3.1(Identifier) is one of list values: 69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427.</Description>
+                    <Condition>
+                        <StringList Path="3[1].1[1]" CSV="69453-9,80358-5,80357-7,69440-6,PHC1423,PHC1428,PHC1431,PHC1427"/>
+                    </Condition>
+                </Predicate>
                 <Predicate ID="CP_6[1]_-1" Target="6[1]" TrueUsage="R" FalseUsage="O">
                     <Description>If the value of OBX-3.1(Identifier) is '39016-1'.</Description>
                     <Condition>
@@ -252,14 +252,6 @@
                     </Assertion>
                 </Constraint>
             </ByID>
-            <ByID ID="VID_VR">
-                <Constraint ID="VR-17" Target="1[1]">
-                    <Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description>
-                    <Assertion>
-                        <SimpleValue Path="1[1]" Operator="EQ" Value="2.6"/>
-                    </Assertion>
-                </Constraint>
-            </ByID>
             <ByID ID="HD_VR">
                 <Constraint ID="VR-23" Target="3[1]">
                     <Description>The value of HD.3(Universal ID Type) SHALL be 'ISO'.</Description>
@@ -288,6 +280,14 @@
                     </Assertion>
                 </Constraint>
             </ByID>
+            <ByID ID="VID_VR">
+                <Constraint ID="VR-17" Target="1[1]">
+                    <Description>The value of VID.1(Version ID) SHALL be equal to 2.6.</Description>
+                    <Assertion>
+                        <SimpleValue Path="1[1]" Operator="EQ" Value="2.6"/>
+                    </Assertion>
+                </Constraint>
+            </ByID>
         </Datatype>
         <Segment>
             <ByID ID="MSH_VR_CCODA04">
@@ -301,12 +301,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-43" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA04_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA04_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-73" Target="9[1]">
@@ -327,6 +321,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_43" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CCODA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_CCODA08">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -339,12 +339,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-41" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA08_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA08_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-79" Target="9[1]">
@@ -365,6 +359,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_41" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CCODA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_CCODA11">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -377,12 +377,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-42" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CCODA11_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA11_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-82" Target="9[1]">
@@ -403,6 +397,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_42" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CCODA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CCODA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_CREIA04">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -415,12 +415,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-44" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CREIA04_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA04_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-69" Target="9[1]">
@@ -441,6 +435,12 @@
                         <SimpleValue Path="9[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_44" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CREIA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_CREIA08">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -453,12 +453,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-42" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CREIA08_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA08_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-76" Target="9[1]">
@@ -479,6 +473,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_42" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CREIA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_CREIA11">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -491,12 +491,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-41" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to CREIA11_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA11_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-85" Target="9[1]">
@@ -517,6 +511,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_41" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to CREIA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="CREIA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_JDIA04">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -529,12 +529,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-33" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA04_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-90" Target="9[1]">
@@ -555,6 +549,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_33" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to JDIA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="JDIA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_JDIA08">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -567,12 +567,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-34" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA08_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="JDIA08_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-57" Target="9[1]">
@@ -593,6 +587,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_34" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to JDIA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="JDIA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_JDIA11">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -605,12 +605,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-31" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'JDIA11_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-60" Target="9[1]">
@@ -631,6 +625,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_31" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to JDIA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="JDIA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_PSDIA04">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -643,12 +643,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-39" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to PSDIA04_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="PSDIA04_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-45" Target="9[1]">
@@ -669,6 +663,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_39" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to PSDIA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="PSDIA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_PSDIA08">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -681,12 +681,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-32" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA08_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="PSDIA08_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-48" Target="9[1]">
@@ -707,6 +701,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_32" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to PSDIA08_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="PSDIA08_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_PSDIA11">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -719,12 +719,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-31" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'PSDIA11_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="PSDIA11_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-51" Target="9[1]">
@@ -745,6 +739,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_31" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to PSDIA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="PSDIA11_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_RVCA04">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -757,12 +757,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-33" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be 'RVCA04_V1.0'.</Description>
-                    <Assertion>
-                        <PlainText Path="21[1].1[1]" Text="PSDIA04_V1.0" IgnoreCase="false"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-63" Target="9[1]">
@@ -783,6 +777,12 @@
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A01"/>
                     </Assertion>
                 </Constraint>
+                <Constraint ID="VR_33" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to RVCA04_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="RVCA04_V1.0"/>
+                    </Assertion>
+                </Constraint>
             </ByID>
             <ByID ID="MSH_VR_RVCA11">
                 <Constraint ID="VR-1" Target="1[1]">
@@ -795,12 +795,6 @@
                     <Description>The value of MSH-2(Encoding Characters) SHALL be '^~\&amp;'.</Description>
                     <Assertion>
                         <PlainText Path="2[1]" Text="^~\&amp;" IgnoreCase="false"/>
-                    </Assertion>
-                </Constraint>
-                <Constraint ID="VR-40" Target="21[1].1[1]">
-                    <Description>The value of MSH-21(Message Profile Identifier) SHALL be equal to RVCA11_V1.0.</Description>
-                    <Assertion>
-                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="RVCA11_V1.0"/>
                     </Assertion>
                 </Constraint>
                 <Constraint ID="VR-66" Target="9[1]">
@@ -819,6 +813,12 @@
                     <Description>The value of MSH-9.3(Message Structure) SHALL be equal to ADT_A09.</Description>
                     <Assertion>
                         <SimpleValue Path="9[1].3[1]" Operator="EQ" Value="ADT_A09"/>
+                    </Assertion>
+                </Constraint>
+                <Constraint ID="VR_40" Target="21[1]">
+                    <Description>The value of MSH-21.1(Entity Identifier) SHALL be equal to RVCA11_V1.0.</Description>
+                    <Assertion>
+                        <SimpleValue Path="21[1].1[1]" Operator="EQ" Value="RVCA11_V1.0"/>
                     </Assertion>
                 </Constraint>
             </ByID>
@@ -1140,7 +1140,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
-                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <PlainText Path="2[1]" Text="NM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1283,7 +1283,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
-                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <PlainText Path="2[1]" Text="NM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
@@ -1632,7 +1632,7 @@
                     <Comments/>
                     <Assertion>
                         <PlainCoConstraint KeyPath="3[1].1[1]" KeyValue="PHC1428">
-                            <PlainText Path="2[1]" Text="CWE" IgnoreCase="false"/>
+                            <PlainText Path="2[1]" Text="NM" IgnoreCase="false"/>
                         </PlainCoConstraint>
                     </Assertion>
                 </CoConstraint>
