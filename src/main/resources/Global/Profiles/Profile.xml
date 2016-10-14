@@ -2082,7 +2082,7 @@
             <Component Name="Bed" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Facility" Usage="O" Datatype="HD_VR" MinLength="0" MaxLength="227" ConfLength="1"/>
             <Component Name="Location Status" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
-            <Component Name="Person Location Type" Usage="R" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_PlaceOfDeath_NCHS:PHVS_PlaceOfDeath_NCHS"/>
+            <Component Name="Person Location Type" Usage="R" Datatype="IS" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_PlaceOfDeath_NCHS"/>
             <Component Name="Building" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Floor" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Location Description" Usage="RE" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1"/>

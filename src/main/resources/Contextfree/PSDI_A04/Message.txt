@@ -5,13 +5,13 @@ PV1||N
 OBX|1|CWE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
 OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
 OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|2 hours||||||F
-OBX|4|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|4|NM|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
 OBX|5|ST|69453-9^Cause of Death^LN|2|Deep Vein Thrombosis||||||F
 OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|Aproximately 8 days||||||F
-OBX|7|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|7|NM|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
 OBX|8|ST|69453-9^Cause of Death^LN|3|Lupus||||||F
 OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
-OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
+OBX|10|NM|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
 OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
 OBX|12|DTM|31211-6^Date of Death^LN||201011021400-0500||||||F
 OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^Ashville^NC^12345^US||||||F
