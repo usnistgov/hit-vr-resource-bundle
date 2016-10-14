@@ -177,11 +177,11 @@ Available", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "Y", "categorization"
-: ""},
+: "Value-Test Case Fixed"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Yes", "categorization"
-: ""},
+: "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"HL70136", "categorization" : ""},
+"HL70136", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -217,7 +217,7 @@ Available", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Cardiopulmonary
-arrest", "categorization" : ""},
+arrest", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -251,7 +251,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "4 hours",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -270,7 +270,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "4", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "NM", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -285,7 +285,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "1", "categorization"
-: ""},
+: "Value-Test Case Fixed"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -353,7 +353,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
 : "Value-Profile Fixed"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "3 months",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -372,7 +372,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "7", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "NM", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -387,7 +387,7 @@ Death Interval", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
 : "Value-Profile Fixed"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "2", "categorization"
-: ""},
+: "Value-Test Case Fixed"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -421,7 +421,7 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "2344509",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -455,7 +455,7 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "200301222100-0500",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -491,11 +491,11 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "440051000124108",
-"categorization" : ""},
+"categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Medical Examiner",
-"categorization" : ""},
+"categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"SCT", "categorization" : ""},
+"SCT", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -533,11 +533,11 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "N", "categorization"
-: ""},
+: "Value-Test Case Fixed"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "No", "categorization"
-: ""},
+: "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"HL70136", "categorization" : ""},
+"HL70136", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -575,11 +575,11 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "38605008",
-"categorization" : ""},
+"categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Natural Death",
-"categorization" : ""},
+"categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"SCT", "categorization" : ""},
+"SCT", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -604,7 +604,7 @@ this person involve injury of any kind", "categorization" : "Presence-Test Case 
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "LOINCtbd",
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80616-6",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Date/time pronouced
 dead", "categorization" : "Presence-Test Case Proper"},
@@ -615,7 +615,7 @@ dead", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "200301222100-0400",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -634,7 +634,7 @@ dead", "categorization" : "Presence-Test Case Proper"},
 			[
 				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "14", "categorization"
 : "Value-Profile Fixed"},
-				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "FT", "categorization"
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
@@ -649,7 +649,7 @@ dead", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
 : ""},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Autopsy
-requested by pronouncing doctor ", "categorization" : ""},
+requested by pronouncing doctor ", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -684,13 +684,17 @@ death occurred if not facility", "categorization" : "Presence-Test Case Proper"}
 : ""},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Concord", "categorization"
+							{"location" : "OBX.5.1", "dataelement" : "Street Address", "data" : "", "categorization"
 : ""},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NH",
+									{"location" : "OBX.5.1.1", "dataelement" : "Street or Mailing Address", "data"
+: "101 Liberty Lane", "categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.5.6", "dataelement" : "Country", "data" : "US", "categorization"
-: ""},
-							{"location" : "OBX.5.9", "dataelement" : "County/Parish Code", "data" : "",
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Concord", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NH",
+"categorization" : "Indifferent"},
+							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "",
 "categorization" : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
@@ -727,11 +731,11 @@ Pregnancy Related to Death", "categorization" : "Presence-Test Case Proper"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "PHC1261",
-"categorization" : ""},
+"categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Pregnant at the
-time of death", "categorization" : ""},
+time of death", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"CDCPHINVS", "categorization" : ""},
+"CDCPHINVS", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -767,7 +771,7 @@ time of death", "categorization" : ""},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "18", "categorization"
-: ""},
+: "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "a", "categorization"
@@ -787,7 +791,7 @@ time of death", "categorization" : ""},
 			[
 				{"location" : "PDA.2", "dataelement" : "Death Location", "data" : "", "categorization"
 : ""},
-							{"location" : "PDA.2.6", "dataelement" : "Person Location Type", "data" : "H-ER/OP",
+							{"location" : "PDA.2.6", "dataelement" : "Person Location Type", "data" : "16983000",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "PDA.2.9", "dataelement" : "Location Description", "data" : "Concord
 Regional Hospital", "categorization" : "Presence-Test Case Proper"},

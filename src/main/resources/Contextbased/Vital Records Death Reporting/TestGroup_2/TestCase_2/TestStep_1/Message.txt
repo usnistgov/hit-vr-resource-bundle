@@ -1,0 +1,31 @@
+MSH|^~\&|DeathReportProcessing^2.16.840.1.113883.3.20091^ISO|VRDept^2.16.840.1.113883.3.20091^ISO|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20101005183312-0400||ADT^A04^ADT_A01|1223334505|P|2.6|||NE|NE|US||||JDIA04_V1.0^PHIN VS
+EVN||201511121200-0400|0
+PID|1||987-65-4321^^^^SS~900213^^^^DC~2015000213^^^^DCFN||Perez^Javier^Luis^^^^L||19510401|M||2106-3^White^CDCREC~2054-5^Black or African American^CDCREC|143 Taylor Street^^2390562^MD^21401^US^^Yes^003|||||M^Married^HL70002||||||2182-4^Cuban^CDCREC|||||||201010051125-0400|Y|
+PV1||N
+OBX|1|XAD|21842-0^Birthplace^LN||^^Chicago^IL^^US||||||F
+OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^MD^21401^US^^^003||||||F
+OBX|3|ST|69453-9^Cause of Death^LN|1|Blunt Head Trauma||||||F
+OBX|4|ST|69440-6^Disease Onset to Death Interval^LN|1|15 hours||||||F
+OBX|5|ST|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|6|ST|69453-9^Cause of Death^LN|2|Automobile accident||||||F
+OBX|7|ST|69440-6^Disease Onset to Death Interval^LN|2|15 hours||||||F
+OBX|8|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|9|ST|69453-9^Cause of Death^LN|3|Epilepsy||||||F
+OBX|10|ST|69440-6^Disease Onset to Death Interval ^LN|3|30 years||||||F
+OBX|11|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
+OBX|12|ST|69441-4^Death Cause Other Significant Conditions ^LN||Cerebrovascular Accident||||||F
+OBX|13|CWE|69443-0^Tobacco^LN||373067005^No^SCT||||||F
+OBX|14|CWE|69449-7^Manner of death^LN||7878000^Accident^SCT||||||F
+OBX|15|CWE|69444-8^Did death result from injury at work^LN||N^No^HL70532||||||F
+OBX|16|CWE|71481-6^Did the death of this person involve injury of any kind^LN||Y^Yes^HL70532||||||F
+OBX|17|DTM|69445-5^Injury date^LN||201010050800-0400||||||F
+OBX|18|ST|11374-6^Injury incident description^LN||Automobile collision with other vehicles while pulling into traffic on the street||||||F
+OBX|19|CWE|69448-9^Injury leading to death associated with transportation event^LN||Y^Yes^HL70532||||||F
+OBX|20|CWE|69451-3^Transportation role of decedent^LN||236320001^Driver/Operator^SCT||||||F
+OBX|21|CWE|11376-1^Injury location^LN||4^Street/Highway^NCHS place of injury||||||F
+OBX|22|XAD|69447-1^Injury location narrative^LN||921 Automobile Blvd^^Silver Spring^MD||||||F
+OBX|23|CWE|21843-8^Occupation^LN||^^^^^^^^Psychologist||||||F
+OBX|24|CWE|21844-6^Industry^LN||^^^^^^^^Academic||||||F
+OBX|25|CWE|69436-4^Autopsy results available^LN||N^No^HL70532||||||F
+OBX|26|DTM|67782-3^Surgery Date^LN||201010050200||||||F
+PDA||^^^^^16983000^^^ Memorial Hospital||201010050400|78457845^ Spade^Samuel^^^Dr.^^^&2.16.840.1.113883.4.290.24&ISO^^^^LN^^^^^^^^M.D.|N|||

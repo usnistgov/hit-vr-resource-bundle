@@ -1,0 +1,1049 @@
+{
+"version" : "1.8.3",
+"profile" : "MessageContent",
+"tables":
+[
+		{
+			"title":"MSH : Message Header",
+			"elements" : 
+			[
+				{"location" : "MSH.1", "dataelement" : "Field Separator", "data" : "|", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "MSH.2", "dataelement" : "Encoding Characters", "data" : "^~\&amp;",
+"categorization" : "Value-Profile Fixed"},
+				{"location" : "MSH.3", "dataelement" : "Sending Application", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.3.1", "dataelement" : "Namespace ID", "data" : "DeathReportProcessing",
+"categorization" : "Presence-Configuration"},
+							{"location" : "MSH.3.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.3.20091",
+"categorization" : "Indifferent"},
+							{"location" : "MSH.3.3", "dataelement" : "Universal ID Type", "data" : "ISO",
+"categorization" : "Indifferent"},
+				{"location" : "MSH.4", "dataelement" : "Sending Facility", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.4.1", "dataelement" : "Namespace ID", "data" : "VRDept",
+"categorization" : "Presence-Configuration"},
+							{"location" : "MSH.4.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.3.20091",
+"categorization" : "Indifferent"},
+							{"location" : "MSH.4.3", "dataelement" : "Universal ID Type", "data" : "ISO",
+"categorization" : "Indifferent"},
+				{"location" : "MSH.5", "dataelement" : "Receiving Application", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.5.1", "dataelement" : "Namespace ID", "data" : "DRrcv",
+"categorization" : "Presence-Configuration"},
+							{"location" : "MSH.5.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.3.20091",
+"categorization" : "Indifferent"},
+							{"location" : "MSH.5.3", "dataelement" : "Universal ID Type", "data" : "ISO",
+"categorization" : "Indifferent"},
+				{"location" : "MSH.6", "dataelement" : "Receiving Facility", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.6.1", "dataelement" : "Namespace ID", "data" : "NCHS", "categorization"
+: "Presence-Configuration"},
+							{"location" : "MSH.6.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.3.8989",
+"categorization" : "Indifferent"},
+							{"location" : "MSH.6.3", "dataelement" : "Universal ID Type", "data" : "ISO",
+"categorization" : "Indifferent"},
+				{"location" : "MSH.7", "dataelement" : "Date/Time of Message", "data" : "200301221912-0400",
+"categorization" : "Presence-System Generated"},
+				{"location" : "MSH.9", "dataelement" : "Message Type", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.9.1", "dataelement" : "Message Code", "data" : "ADT", "categorization"
+: "Value-Profile Fixed"},
+							{"location" : "MSH.9.2", "dataelement" : "Trigger Event", "data" : "A08", "categorization"
+: "Value-Profile Fixed"},
+							{"location" : "MSH.9.3", "dataelement" : "Message Structure", "data" : "ADT_A01",
+"categorization" : "Value-Profile Fixed"},
+				{"location" : "MSH.10", "dataelement" : "Message Control ID", "data" : "1223334505",
+"categorization" : "Presence Length-Configuration"},
+				{"location" : "MSH.11", "dataelement" : "Processing ID", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.11.1", "dataelement" : "Processing ID", "data" : "P", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "MSH.12", "dataelement" : "Version ID", "data" : "", "categorization"
+: ""},
+							{"location" : "MSH.12.1", "dataelement" : "Version ID", "data" : "2.6", "categorization"
+: "Indifferent"},
+				{"location" : "MSH.15", "dataelement" : "Accept Acknowledgment Type", "data" :
+"NE", "categorization" : "Value-Test Case Fixed"},
+				{"location" : "MSH.16", "dataelement" : "Application Acknowledgment Type", "data"
+: "NE", "categorization" : "Value-Test Case Fixed"},
+				{"location" : "MSH.17", "dataelement" : "Country Code", "data" : "US", "categorization"
+: "Indifferent"},
+				{"location" : "MSH.21", "dataelement" : "Message Profile Identifier", "data" :
+"", "categorization" : ""},
+							{"location" : "MSH.21.1", "dataelement" : "Entity Identifier", "data" : "JDIA08_V1.0",
+"categorization" : "Value-Profile Fixed"},
+							{"location" : "MSH.21.2", "dataelement" : "Namespace ID", "data" : "PHIN VS",
+"categorization" : "Presence-Configuration"},
+							{"location" : "MSH.21.3", "dataelement" : "Universal ID", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "MSH.21.4", "dataelement" : "Universal ID Type", "data" : "",
+"categorization" : "Indifferent"},		]
+		{
+			"title":"EVN : Event Type",
+			"elements" : 
+			[
+				{"location" : "EVN.2", "dataelement" : "Recorded Date/Time", "data" : "200301222191200",
+"categorization" : "Presence-System Generated"},		]
+		{
+			"title":"PID : Patient Identification",
+			"elements" : 
+			[
+				{"location" : "PID.1", "dataelement" : "Set ID - PID", "data" : "1", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "PID.3[1]", "dataelement" : "Patient Identifier List", "data" :
+"", "categorization" : ""},
+							{"location" : "PID.3[1].1", "dataelement" : "ID Number", "data" : "987-57-5661",
+"categorization" : "Presence-Content Indifferent"},
+							{"location" : "PID.3[1].4", "dataelement" : "Assigning Authority", "data" :
+"", "categorization" : ""},
+									{"location" : "PID.3[1].4.2", "dataelement" : "Universal ID", "data" : "",
+"categorization" : "Indifferent"},
+									{"location" : "PID.3[1].4.3", "dataelement" : "Universal ID Type", "data"
+: "", "categorization" : "Indifferent"},
+							{"location" : "PID.3[1].5", "dataelement" : "Identifier Type Code", "data"
+: "SS", "categorization" : "Value-Test Case Fixed"},
+				{"location" : "PID.3[2]", "dataelement" : "Patient Identifier List", "data" :
+"", "categorization" : ""},
+							{"location" : "PID.3[2].1", "dataelement" : "ID Number", "data" : "900213",
+"categorization" : "Presence-Content Indifferent"},
+							{"location" : "PID.3[2].4", "dataelement" : "Assigning Authority", "data" :
+"", "categorization" : ""},
+									{"location" : "PID.3[2].4.2", "dataelement" : "Universal ID", "data" : "",
+"categorization" : "Indifferent"},
+									{"location" : "PID.3[2].4.3", "dataelement" : "Universal ID Type", "data"
+: "", "categorization" : "Indifferent"},
+							{"location" : "PID.3[2].5", "dataelement" : "Identifier Type Code", "data"
+: "DC", "categorization" : "Value-Test Case Fixed"},
+				{"location" : "PID.3[3]", "dataelement" : "Patient Identifier List", "data" :
+"", "categorization" : ""},
+							{"location" : "PID.3[3].1", "dataelement" : "ID Number", "data" : "2003000213",
+"categorization" : ""},
+							{"location" : "PID.3[3].4", "dataelement" : "Assigning Authority", "data" :
+"", "categorization" : ""},
+									{"location" : "PID.3[3].4.2", "dataelement" : "Universal ID", "data" : "",
+"categorization" : ""},
+									{"location" : "PID.3[3].4.3", "dataelement" : "Universal ID Type", "data"
+: "", "categorization" : ""},
+							{"location" : "PID.3[3].5", "dataelement" : "Identifier Type Code", "data"
+: "DCFN", "categorization" : ""},
+				{"location" : "PID.5", "dataelement" : "Patient Name", "data" : "", "categorization"
+: ""},
+							{"location" : "PID.5.1", "dataelement" : "Family Name", "data" : "", "categorization"
+: ""},
+									{"location" : "PID.5.1.1", "dataelement" : "Surname", "data" : "Wright",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "PID.5.2", "dataelement" : "Given Name", "data" : "Vivienne",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "PID.5.3", "dataelement" : "Second and Further Given Names or
+Initials Thereof", "data" : "", "categorization" : "Indifferent"},
+							{"location" : "PID.5.4", "dataelement" : "Suffix (e.g., JR or III)", "data"
+: "", "categorization" : "Indifferent"},
+							{"location" : "PID.5.7", "dataelement" : "Name Type Code", "data" : "L", "categorization"
+: "Indifferent"},
+				{"location" : "PID.7", "dataelement" : "Date/Time of Birth", "data" : "1984",
+"categorization" : "Presence-Content Indifferent"},
+				{"location" : "PID.8", "dataelement" : "Administrative Sex", "data" : "F", "categorization"
+: "Presence-Test Case Proper"},
+				{"location" : "PID.11", "dataelement" : "Patient Address", "data" : "", "categorization"
+: ""},
+							{"location" : "PID.11.1", "dataelement" : "Street Address", "data" : "", "categorization"
+: ""},
+									{"location" : "PID.11.1.1", "dataelement" : "Street or Mailing Address",
+"data" : "101 Liberty Lane", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
+"categorization" : "Indifferent"},
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Concord", "categorization"
+: "Presence-Test Case Proper"},
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "NH",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "",
+"categorization" : "Indifferent"},
+							{"location" : "PID.11.6", "dataelement" : "Country", "data" : "US", "categorization"
+: "Value-Profile Fixed"},
+							{"location" : "PID.11.8", "dataelement" : "Other Geographic Designation", "data"
+: "Yes", "categorization" : "Indifferent"},
+							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "003",
+"categorization" : "Indifferent"},
+				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
+: "200301222100-0500", "categorization" : "Presence-Content Indifferent"},
+				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",
+"categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"PV1 : Patient Visit",
+			"elements" : 
+			[
+				{"location" : "PV1.2", "dataelement" : "Patient Class", "data" : "N", "categorization"
+: "Value-Profile Fixed"},		]
+		{
+			"title":"OBX[*]",
+
+<accordion>		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "1", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69436-4",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Autopsy Results
+Available", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "Y", "categorization"
+: "Value-Test Case Fixed"},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Yes", "categorization"
+: "Presence-Test Case Proper"},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70136", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "2", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69453-9",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Cause of Death",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Cardiopulmonary
+arrest", "categorization" : "Presence-Test Case Proper"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "3", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69440-6",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Disease Onset to
+Death Interval", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "4 hours",
+"categorization" : "Presence-Content Indifferent"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed List"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "4", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "PHC1428",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Part\Line Number",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "1", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "1", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "5", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69453-9",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Cause of Death",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Eclampsia",
+"categorization" : "Presence-Test Case Proper"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "6", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69440-6",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Disease Onset to
+Death Interval", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "3 months",
+"categorization" : "Presence-Content Indifferent"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "7", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "PHC1428",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Part\Line Number",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "2", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "8", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69452-1",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Coroner - Medical
+Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "2344509",
+"categorization" : "Presence-Content Indifferent"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "9", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "DTM", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80907-9",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Date of Death",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "200301222100-0500",
+"categorization" : "Presence-Content Indifferent"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "10", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69437-2",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Certifier Type",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "440051000124108",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Medical Examiner",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "11", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "71481-6",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Did the death of
+this person involve injury of any kind", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "N", "categorization"
+: "Value-Test Case Fixed"},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "No", "categorization"
+: "Presence-Test Case Proper"},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"HL70136", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "12", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69449-7",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Manner of Death",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "38605008",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Natural Death",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"SCT", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "13", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69438-0",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Referral Note",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "2", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Autopsy
+requested by pronouncing doctor ", "categorization" : "Presence-Content Indifferent"},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "14", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "XAD", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69435-6",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Street address where
+death occurred if not facility", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Street Address", "data" : "", "categorization"
+: ""},
+									{"location" : "OBX.5.1.1", "dataelement" : "Street or Mailing Address", "data"
+: "101 Liberty Lane", "categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Concord", "categorization"
+: ""},
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NH",
+"categorization" : ""},
+							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "",
+"categorization" : ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "15", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69441-4",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Timing of Recent
+Pregnancy Related to Death", "categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "PHC1261",
+"categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Pregnant at the
+time of death", "categorization" : ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : "Indifferent"},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "16", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "NM", "categorization"
+: ""},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "39016-1",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Age at death", "categorization"
+: "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"X", "categorization" : ""},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "17", "categorization"
+: "Value-Profile Fixed"},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: "Value-Test Case Fixed"},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "PHC1421",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Age edit flag",
+"categorization" : "Presence-Test Case Proper"},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : "Value-Profile Fixed"},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "PHC1362",
+"categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Edit Passed", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : "Value-Profile Fixed"},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "18", "categorization"
+: ""},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: ""},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "PHC1429",
+"categorization" : ""},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Pregnancy edit flag",
+"categorization" : ""},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : ""},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "PHC1362",
+"categorization" : ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Edit Passed", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"CDCPHINVS", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : ""},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "19", "categorization"
+: ""},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "ST", "categorization"
+: ""},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80910-3",
+"categorization" : ""},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "state/province of
+birth", "categorization" : ""},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : ""},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "IL", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : ""},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "20", "categorization"
+: ""},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "XPN", "categorization"
+: ""},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80909-5",
+"categorization" : ""},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Father&amp;apos;s surname",
+"categorization" : ""},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : ""},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "Wright",
+"categorization" : ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : ""},		]
+		{
+			"title":"OBX : Observation/Result",
+			"elements" : 
+			[
+				{"location" : "OBX.1", "dataelement" : "Set ID - OBX", "data" : "21", "categorization"
+: ""},
+				{"location" : "OBX.2", "dataelement" : "Value Type", "data" : "CWE", "categorization"
+: ""},
+				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
+"categorization" : ""},
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80905-3",
+"categorization" : ""},
+							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Method of disposition",
+"categorization" : ""},
+							{"location" : "OBX.3.3", "dataelement" : "Name of Coding System", "data" :
+"LN", "categorization" : ""},
+							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.5.1", "dataelement" : "Identifier", "data" : "B", "categorization"
+: ""},
+							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Burial", "categorization"
+: ""},
+							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
+"NCHSlocalCS", "categorization" : ""},
+							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.2", "dataelement" : "Text", "data" : "", "categorization"
+: ""},
+							{"location" : "OBX.6.3", "dataelement" : "Name of Coding System", "data" :
+"", "categorization" : ""},
+							{"location" : "OBX.6.9", "dataelement" : "Original Text", "data" : "", "categorization"
+: ""},
+				{"location" : "OBX.11", "dataelement" : "Observation Result Status", "data" :
+"F", "categorization" : ""},		]
+
+</accordion>		{
+			"title":"PDA : Patient Death and Autopsy",
+			"elements" : 
+			[
+				{"location" : "PDA.2", "dataelement" : "Death Location", "data" : "", "categorization"
+: ""},
+							{"location" : "PDA.2.6", "dataelement" : "Person Location Type", "data" : "16983000",
+"categorization" : "Value-Test Case Fixed"},
+							{"location" : "PDA.2.9", "dataelement" : "Location Description", "data" : "Concord
+Regional", "categorization" : "Presence-Test Case Proper"},
+				{"location" : "PDA.4", "dataelement" : "Death Certificate Signed Date/Time", "data"
+: "", "categorization" : "Indifferent"},
+				{"location" : "PDA.5", "dataelement" : "Death Certified By", "data" : "", "categorization"
+: ""},
+							{"location" : "PDA.5.1", "dataelement" : "ID Number", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "PDA.5.2", "dataelement" : "Family Name", "data" : "", "categorization"
+: ""},
+									{"location" : "PDA.5.2.1", "dataelement" : "Surname", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "PDA.5.3", "dataelement" : "Given Name", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "PDA.5.4", "dataelement" : "Second and Further Given Names or
+Initials Thereof", "data" : "", "categorization" : ""},
+							{"location" : "PDA.5.9", "dataelement" : "Assigning Authority", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.5.9.2", "dataelement" : "Universal ID", "data" : "", "categorization"
+: "Indifferent"},
+									{"location" : "PDA.5.9.3", "dataelement" : "Universal ID Type", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "PDA.5.13", "dataelement" : "Identifier Type Code", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "PDA.5.14", "dataelement" : "Assigning Facility", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.5.14.2", "dataelement" : "Universal ID", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.5.14.3", "dataelement" : "Universal ID Type", "data" :
+"", "categorization" : ""},
+							{"location" : "PDA.5.21", "dataelement" : "Professional Suffix", "data" : "",
+"categorization" : "Indifferent"},
+				{"location" : "PDA.6", "dataelement" : "Autopsy Indicator", "data" : "", "categorization"
+: "Indifferent"},
+				{"location" : "PDA.8", "dataelement" : "Autopsy Performed By", "data" : "", "categorization"
+: ""},
+							{"location" : "PDA.8.1", "dataelement" : "ID Number", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "PDA.8.2", "dataelement" : "Family Name", "data" : "", "categorization"
+: ""},
+									{"location" : "PDA.8.2.1", "dataelement" : "Surname", "data" : "", "categorization"
+: ""},
+							{"location" : "PDA.8.3", "dataelement" : "Given Name", "data" : "", "categorization"
+: "Indifferent"},
+							{"location" : "PDA.8.4", "dataelement" : "Second and Further Given Names or
+Initials Thereof", "data" : "", "categorization" : "Indifferent"},
+							{"location" : "PDA.8.5", "dataelement" : "Suffix (e.g., JR or III)", "data"
+: "", "categorization" : "Indifferent"},
+							{"location" : "PDA.8.6", "dataelement" : "Prefix (e.g., DR)", "data" : "",
+"categorization" : "Indifferent"},
+							{"location" : "PDA.8.9", "dataelement" : "Assigning Authority", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.8.9.2", "dataelement" : "Universal ID", "data" : "", "categorization"
+: ""},
+									{"location" : "PDA.8.9.3", "dataelement" : "Universal ID Type", "data" :
+"", "categorization" : ""},
+							{"location" : "PDA.8.13", "dataelement" : "Identifier Type Code", "data" :
+"", "categorization" : "Indifferent"},
+							{"location" : "PDA.8.14", "dataelement" : "Assigning Facility", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.8.14.2", "dataelement" : "Universal ID", "data" : "",
+"categorization" : ""},
+									{"location" : "PDA.8.14.3", "dataelement" : "Universal ID Type", "data" :
+"", "categorization" : ""},
+				{"location" : "PDA.9", "dataelement" : "Coroner Indicator", "data" : "", "categorization"
+: "Indifferent"},		]
+
+		}
+]
+}
