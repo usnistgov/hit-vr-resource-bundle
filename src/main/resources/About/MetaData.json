@@ -8,5 +8,9 @@
   "description": "(VR)",
   "header": "VR Tool @ NIST",
   "homeTitle": "Welcome to the NIST VR Validation Suite",
-  "homeContent": "<p>Vital Records 2016</p><p style='color:red'>The following browsers are supported: Internet Explorer versions 8 and 9, Firefox, and Chrome. Recommended browsers are Internet Explorer 9, Firefox and Chrome.</p>"
+  "homeContent": "<p>Vital Records 2016</p><p style='color:red'>The following browsers are supported: Internet Explorer versions 8 and 9, Firefox, and Chrome. Recommended browsers are Internet Explorer 9, Firefox and Chrome.</p>",
+  "fileUpload":{
+    "contentTypes" : "application/xml,text/xml,text/plain",
+    "maxSize": "10MB"
+  }
 }
