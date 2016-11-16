@@ -8,7 +8,7 @@ OBX|3|ST|69453-9^Cause of Death^LN|1|Blunt Head Trauma||||||F
 OBX|4|ST|69440-6^Disease Onset to Death Interval^LN|1|15 hours||||||F
 OBX|5|ST|69453-9^Cause of Death^LN|2|Automobile accident||||||F
 OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|15 hours||||||F
-OBX|7|ST|69453-9^Cause of Death^LN|2|Epilepsy||||||F
+OBX|7|ST|69453-9^Cause of Death^LN|3|Epilepsy||||||F
 OBX|8|ST|69440-6^Disease Onset to Death Interval ^LN|3|30 years||||||F
 OBX|9|ST|69441-4^Death Cause Other Significant Conditions ^LN||Cerebrovascular Accident||||||F
 OBX|10|CWE|69443-0^Tobacco^LN||373067005^No^SCT||||||F
