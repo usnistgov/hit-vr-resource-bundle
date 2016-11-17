@@ -373,7 +373,7 @@
             <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -383,10 +383,10 @@
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
         </Message>
         <Message ID="c1bd660c-0912-416b-928b-a146f2RVCA11" Identifier="c1bd660c-0912-416b-928b-a146f2RVCA11" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_PSDIA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
@@ -1004,6 +1004,7 @@
         <Segment ID="OBX_VR" Name="OBX" Label="OBX_VR" Description="Observation/Result">
             <DynamicMapping>
                 <Mapping Position="5" Reference="2" SecondReference="3.1">
+                    <Case Value="XAD" SecondValue="21842-0" Datatype="XAD_BP"/>
                     <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_PD"/>
                     <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_BP"/>
                     <Case Value="DTM" SecondValue="69445-5" Datatype="DTM_M"/>
@@ -1868,7 +1869,7 @@
         <Datatype ID="CWE_VR" Name="CWE" Label="CWE_VR" Description="Coded with Exceptions">
             <Component Name="Identifier" Usage="RE" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1"/>
             <Component Name="Text" Usage="C" Datatype="ST" MinLength="1" MaxLength="199" ConfLength="1"/>
-            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="HL70396_VR"/>
+            <Component Name="Name of Coding System" Usage="C" Datatype="ID" MinLength="1" MaxLength="20" ConfLength="1" Binding="PHVS_CodingSystem_HL7_2x_Table0396"/>
             <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MinLength="0" MaxLength="20" ConfLength="1"/>
             <Component Name="Alternate Text" Usage="O" Datatype="ST" MinLength="0" MaxLength="199" ConfLength="1"/>
             <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" MinLength="0" MaxLength="20" ConfLength="1"/>
