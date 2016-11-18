@@ -12,7 +12,7 @@ OBX|7|ST|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
 OBX|8|ST|69453-9^Cause of Death^LN|3|Lupus||||||F
 OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
 OBX|10|ST|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
-OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
+OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN||2344509||||||F
 OBX|12|DTM|80907-9^Date of Death Registration^LN||201011021400-0500||||||F
 OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^Ashville^NC^12345^US||||||F
 OBX|14|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F

@@ -129,9 +129,9 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 "data" : "143 Taylor Street", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Annapolis", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "2390562", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "MD",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "24",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "21401",
 "categorization" : "Presence-Test Case Proper"},
@@ -139,8 +139,8 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 : "Value-Profile Fixed"},
 							{"location" : "PID.11.8", "dataelement" : "Other Geographic Designation", "data"
 : "Y", "categorization" : "Value-Test Case Fixed"},
-							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "Anne
-Arundel", "categorization" : "Value-Profile Fixed"},
+							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "23003",
+"categorization" : "Value-Profile Fixed"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
 : "20151005112500-0400", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",

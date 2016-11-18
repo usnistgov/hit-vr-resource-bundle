@@ -129,9 +129,9 @@ Initials Thereof", "data" : "", "categorization" : "Indifferent"},
 "data" : "101 Liberty Lane", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Concord", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "873569", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "NH",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "33",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "",
 "categorization" : "Indifferent"},
@@ -687,15 +687,15 @@ death occurred if not facility", "categorization" : "Presence-Test Case Proper"}
 							{"location" : "OBX.5.1", "dataelement" : "Street Address", "data" : "", "categorization"
 : ""},
 									{"location" : "OBX.5.1.1", "dataelement" : "Street or Mailing Address", "data"
-: "101 Liberty Lane", "categorization" : ""},
+: "101 Liberty Lane", "categorization" : "Indifferent"},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
-"categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Concord", "categorization"
-: "Indifferent"},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NH",
 "categorization" : "Indifferent"},
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "873569", "categorization"
+: "Presence-Content Indifferent"},
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NH",
+"categorization" : "Presence-Content Indifferent"},
 							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "",
-"categorization" : ""},
+"categorization" : "Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -718,7 +718,7 @@ death occurred if not facility", "categorization" : "Presence-Test Case Proper"}
 : ""},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69441-4",
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69442-2",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Timing of Recent
 Pregnancy Related to Death", "categorization" : "Presence-Test Case Proper"},

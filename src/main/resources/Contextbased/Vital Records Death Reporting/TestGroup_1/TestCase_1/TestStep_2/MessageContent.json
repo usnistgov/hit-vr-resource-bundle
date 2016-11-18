@@ -129,9 +129,9 @@ Initials Thereof", "data" : "NMI", "categorization" : "Presence-Test Case Proper
 "data" : "5590 Lockwood Drive", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Canton", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "2403120", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "NC",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "37",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "20621",
 "categorization" : "Presence-Test Case Proper"},
@@ -555,21 +555,21 @@ Examiner Case Number", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.3.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : "Indifferent"},
 				{"location" : "OBX.4", "dataelement" : "Observation Sub-ID", "data" : "", "categorization"
-: ""},
+: "Indifferent"},
 				{"location" : "OBX.5", "dataelement" : "Observation Value", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.5.1", "dataelement" : "Street Address", "data" : "", "categorization"
 : ""},
 									{"location" : "OBX.5.1.1", "dataelement" : "Street or Mailing Address", "data"
-: "2121 Main St", "categorization" : ""},
+: "2121 Main St", "categorization" : "Indifferent"},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
-"categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Ashville", "categorization"
-: ""},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NC",
-"categorization" : ""},
+"categorization" : "Indifferent"},
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "2403120", "categorization"
+: "Presence-Content Indifferent"},
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "37",
+"categorization" : "Presence-Content Indifferent"},
 							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "12345",
-"categorization" : ""},
+"categorization" : "Presence-Content Indifferent"},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
 : ""},
 							{"location" : "OBX.6.1", "dataelement" : "Identifier", "data" : "", "categorization"
@@ -848,9 +848,9 @@ death occurred if not facility", "categorization" : "Presence-Test Case Proper"}
 : "5590 Lockwood Drive", "categorization" : ""},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Canton", "categorization"
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "2403120", "categorization"
 : ""},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "NC",
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "37",
 "categorization" : ""},
 							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "20621",
 "categorization" : ""},

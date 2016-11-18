@@ -1,6 +1,6 @@
 MSH|^~\&|DeathReportProcessing^2.16.840.1.113883.3.20091^ISO|VRDept^2.16.840.1.113883.3.20091^ISO|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20101102133312-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||AL|NE|US||||JDIA08_V1.0^PHIN VS
-EVN||20101102133312|0
-PID|1||111111111^^^^SS~900213^^^^DC~2015000213^^^^DCFN||Smith^Josephine^Madeline^^^^L||19350312|F||2106-3^White^CDCREC~2131-1^Other^CDCREC|5590 Lockwood Drive^^Canton^NC^20621^US^^Yes^003|||||M^Married^HL70002||||||2180-8^ Puerto Rican^CDCREC|||||||201011021400-0500|Y|
+EVN||20101102133312||0
+PID|1||111111111^^^^SS~900213^^^^DC~2015000213^^^^DCFN||Smith^Josephine^Madeline^^^^L||19350312|F||2106-3^White^CDCREC~2131-1^Other^CDCREC|5590 Lockwood Drive^^Canton^NC^20621^US^^Yes^003|||||M^Married^HL70002||||||2180-8^ Puerto Rican^CDCREC|||||||201011021400-0500|Y
 PV1||N
 OBX|1|CWE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
 OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
@@ -21,7 +21,7 @@ OBX|16|CWE|71481-6^Did the death of this person involve injury of any kind^LN||N
 OBX|17|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
 OBX|18|ST|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
 OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^Canton^NC^20621^US||||||F
-OBX|20|ST|LOINCtbd^birth certificate ID^LN||""||||||F
+OBX|20|ST|80903-8^birth certificate ID^LN||""||||||F
 OBX|21|DTM|LOINCtbd^year of birth for matching^LN||1951||||||F
 OBX|22|XAD|21842-0^Birthplace^LN||^^Raleigh^NC^^US||||||F
 OBX|23|CWE|LOINCtbd^Education level^LN||6^Bachelor's Degree^NCHSlocalCS||||||F

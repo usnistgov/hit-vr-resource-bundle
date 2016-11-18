@@ -129,9 +129,9 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 "data" : "14355 Taylor Street", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Annapolis", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "2390562", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "MD",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "24",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "21401",
 "categorization" : "Presence-Test Case Proper"},
@@ -139,8 +139,8 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 : "Value-Profile Fixed"},
 							{"location" : "PID.11.8", "dataelement" : "Other Geographic Designation", "data"
 : "Y", "categorization" : "Value-Test Case Fixed"},
-							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "Anne
-Arundel", "categorization" : "Value-Profile Fixed"},
+							{"location" : "PID.11.9", "dataelement" : "County/Parish Code", "data" : "24003",
+"categorization" : "Value-Profile Fixed"},
 				{"location" : "PID.29", "dataelement" : "Patient Death Date and Time", "data"
 : "20101005112500-0400", "categorization" : "Presence-Content Indifferent"},
 				{"location" : "PID.30", "dataelement" : "Patient Death Indicator", "data" : "Y",
@@ -228,7 +228,7 @@ where death occurred", "categorization" : "Presence-Test Case Proper"},
 : "", "categorization" : ""},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Annapolis", "categorization"
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "2390562", "categorization"
 : "Indifferent"},
 							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "MD",
 "categorization" : "Indifferent"},
@@ -256,7 +256,7 @@ where death occurred", "categorization" : "Presence-Test Case Proper"},
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "74499-5",
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "80911-1",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Death pronouncer
 details", "categorization" : "Presence-Test Case Proper"},
@@ -289,7 +289,7 @@ Initials Thereof", "data" : "", "categorization" : ""},
 									{"location" : "OBX.5.9.3", "dataelement" : "Universal ID Type", "data" :
 "", "categorization" : ""},
 							{"location" : "OBX.5.13", "dataelement" : "Identifier Type Code", "data" :
-"SL", "categorization" : "Indifferent"},
+"LN", "categorization" : "Indifferent"},
 							{"location" : "OBX.5.14", "dataelement" : "Assigning Facility", "data" : "",
 "categorization" : ""},
 									{"location" : "OBX.5.14.2", "dataelement" : "Universal ID", "data" : "",
@@ -590,7 +590,7 @@ Accident", "categorization" : "Presence-Test Case Proper"},
 : "Value-Test Case Fixed"},
 				{"location" : "OBX.3", "dataelement" : "Observation Identifier", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69437-2 ",
+							{"location" : "OBX.3.1", "dataelement" : "Identifier", "data" : "69437-2",
 "categorization" : "Value-Test Case Fixed"},
 							{"location" : "OBX.3.2", "dataelement" : "Text", "data" : "Certifier Type",
 "categorization" : "Presence-Test Case Proper"},
@@ -1012,13 +1012,13 @@ narrative", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.1", "dataelement" : "Street Address", "data" : "", "categorization"
 : ""},
 									{"location" : "OBX.5.1.1", "dataelement" : "Street or Mailing Address", "data"
-: "921 Automobile Blvd", "categorization" : ""},
+: "921 Automobile Blvd", "categorization" : "Indifferent"},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
-"categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Silver Spring",
 "categorization" : "Indifferent"},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "MD",
-"categorization" : "Indifferent"},
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "1216345", "categorization"
+: "Presence-Content Indifferent"},
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "24",
+"categorization" : "Presence-Content Indifferent"},
 							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "",
 "categorization" : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
@@ -1107,14 +1107,14 @@ Initials Thereof", "data" : "", "categorization" : ""},
 									{"location" : "PDA.5.9.3", "dataelement" : "Universal ID Type", "data" :
 "ISO", "categorization" : "Indifferent"},
 							{"location" : "PDA.5.13", "dataelement" : "Identifier Type Code", "data" :
-"SL", "categorization" : "Value-Test Case Fixed"},
+"LN", "categorization" : "Value-Test Case Fixed"},
 							{"location" : "PDA.5.14", "dataelement" : "Assigning Facility", "data" : "",
 "categorization" : ""},
 									{"location" : "PDA.5.14.2", "dataelement" : "Universal ID", "data" : "",
 "categorization" : ""},
 									{"location" : "PDA.5.14.3", "dataelement" : "Universal ID Type", "data" :
 "", "categorization" : ""},
-							{"location" : "PDA.5.21", "dataelement" : "Professional Suffix", "data" : "M.D.",
+							{"location" : "PDA.5.21", "dataelement" : "Professional Suffix", "data" : "309343006",
 "categorization" : "Value-Test Case Fixed"},
 				{"location" : "PDA.6", "dataelement" : "Autopsy Indicator", "data" : "N", "categorization"
 : "Value-Test Case Fixed"},

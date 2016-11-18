@@ -129,9 +129,9 @@ Initials Thereof", "data" : "", "categorization" : "Indifferent"},
 "data" : "101 Liberty Lane", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Concord", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "873569", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "NH",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "33",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "",
 "categorization" : "Indifferent"},

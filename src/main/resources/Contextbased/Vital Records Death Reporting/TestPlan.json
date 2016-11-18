@@ -4,5 +4,5 @@
   "type" : "DataInstance",
   "transport" : false,
   "position" : 1,
-  "domain" : ""
+  "domain" : "VR"
 }

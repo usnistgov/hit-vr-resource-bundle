@@ -129,9 +129,9 @@ Initials Thereof", "data" : "NMI", "categorization" : "Presence-Test Case Proper
 "data" : "5590 Lockwood Drive", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : "Indifferent"},
-							{"location" : "PID.11.3", "dataelement" : "City", "data" : "Canton", "categorization"
+							{"location" : "PID.11.3", "dataelement" : "City", "data" : "2403120", "categorization"
 : "Presence-Test Case Proper"},
-							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "NC",
+							{"location" : "PID.11.4", "dataelement" : "State or Province", "data" : "37",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "PID.11.5", "dataelement" : "Zip or Postal Code", "data" : "20621",
 "categorization" : "Presence-Test Case Proper"},
