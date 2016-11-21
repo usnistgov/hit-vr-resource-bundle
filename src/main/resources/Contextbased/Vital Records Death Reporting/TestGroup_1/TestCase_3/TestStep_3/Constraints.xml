@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ConformanceContext UUID="b0e3ee25-76ea-48bd-aacb-045cfe9fca95">
+<ConformanceContext UUID="37ccd788-403f-49c1-8b63-6222124bc1c6">
   <Constraints>
     <Message>
       <ByID ID="c1bd660c-0912-416b-928b-a146f2e1eA09">
-        <Constraint ID="Content" Target="1[1].17[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].17[1]" Source="TestCase" TestDataCategorization="Value-Profile Fixed"/>
-          <Description>Expected content is missing. The empty value at MSH-17 (Country Code) is expected to be present.</Description>
+        <Constraint ID="Content" Target="1[1].21[1].2[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].21[1].2[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
+          <Description>Expected content is missing. The empty value at MSH-21.2 (Namespace ID) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="1[1].17[1]"/>
+            <Presence Path="1[1].21[1].2[1]"/>
           </Assertion>
         </Constraint>
-        <Constraint ID="Content" Target="1[1].5[1].1[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].5[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
-          <Description>Expected content is missing. The empty value at MSH-5.1 (Namespace ID) is expected to be present.</Description>
+        <Constraint ID="Content" Target="5[1].11[1].3[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].11[1].3[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
+          <Description>Expected content is missing. The empty value at PID-11.3 (City) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="1[1].5[1].1[1]"/>
-          </Assertion>
-        </Constraint>
-        <Constraint ID="Content" Target="1[1].6[1].1[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].6[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
-          <Description>Expected content is missing. The empty value at MSH-6.1 (Namespace ID) is expected to be present.</Description>
-          <Assertion>
-            <Presence Path="1[1].6[1].1[1]"/>
-          </Assertion>
-        </Constraint>
-        <Constraint ID="Content" Target="5[1].5[1].1[1].1[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].5[1].1[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
-          <Description>Expected content is missing. The empty value at PID-5.1.1 (Surname) is expected to be present.</Description>
-          <Assertion>
-            <Presence Path="5[1].5[1].1[1].1[1]"/>
+            <Presence Path="5[1].11[1].3[1]"/>
           </Assertion>
         </Constraint>
         <Constraint ID="Content" Target="1[1].3[1].1[1]">
@@ -39,25 +25,11 @@
             <Presence Path="1[1].3[1].1[1]"/>
           </Assertion>
         </Constraint>
-        <Constraint ID="Content" Target="1[1].4[1].1[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].4[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
-          <Description>Expected content is missing. The empty value at MSH-4.1 (Namespace ID) is expected to be present.</Description>
+        <Constraint ID="Content" Target="1[1].6[1].1[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].6[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
+          <Description>Expected content is missing. The empty value at MSH-6.1 (Namespace ID) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="1[1].4[1].1[1]"/>
-          </Assertion>
-        </Constraint>
-        <Constraint ID="Content" Target="5[1].11[1].4[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].11[1].4[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
-          <Description>Expected content is missing. The empty value at PID-11.4 (State or Province) is expected to be present.</Description>
-          <Assertion>
-            <Presence Path="5[1].11[1].4[1]"/>
-          </Assertion>
-        </Constraint>
-        <Constraint ID="Content" Target="5[1].7[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].7[1]" Source="TestCase" TestDataCategorization="Presence-Content Indifferent"/>
-          <Description>Expected content is missing. The empty value at PID-7 (Date/Time of Birth) is expected to be present.</Description>
-          <Assertion>
-            <Presence Path="5[1].7[1]"/>
+            <Presence Path="1[1].6[1].1[1]"/>
           </Assertion>
         </Constraint>
         <Constraint ID="Content" Target="5[1].11[1].1[1].1[1]">
@@ -74,18 +46,32 @@
             <PlainText IgnoreCase="true" Path="5[1].3[1].5[1]" Text="SS"/>
           </Assertion>
         </Constraint>
-        <Constraint ID="Content" Target="5[1].11[1].3[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].11[1].3[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
-          <Description>Expected content is missing. The empty value at PID-11.3 (City) is expected to be present.</Description>
+        <Constraint ID="Content" Target="1[1].5[1].1[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].5[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
+          <Description>Expected content is missing. The empty value at MSH-5.1 (Namespace ID) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="5[1].11[1].3[1]"/>
+            <Presence Path="1[1].5[1].1[1]"/>
           </Assertion>
         </Constraint>
-        <Constraint ID="Content" Target="1[1].21[1].2[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].21[1].2[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
-          <Description>Expected content is missing. The empty value at MSH-21.2 (Namespace ID) is expected to be present.</Description>
+        <Constraint ID="Content" Target="5[1].5[1].1[1].1[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].5[1].1[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
+          <Description>Expected content is missing. The empty value at PID-5.1.1 (Surname) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="1[1].21[1].2[1]"/>
+            <Presence Path="5[1].5[1].1[1].1[1]"/>
+          </Assertion>
+        </Constraint>
+        <Constraint ID="Content" Target="5[1].5[1].2[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].5[1].2[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
+          <Description>Expected content is missing. The empty value at PID-5.2 (Given Name) is expected to be present.</Description>
+          <Assertion>
+            <Presence Path="5[1].5[1].2[1]"/>
+          </Assertion>
+        </Constraint>
+        <Constraint ID="Content" Target="5[1].7[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].7[1]" Source="TestCase" TestDataCategorization="Presence-Content Indifferent"/>
+          <Description>Expected content is missing. The empty value at PID-7 (Date/Time of Birth) is expected to be present.</Description>
+          <Assertion>
+            <Presence Path="5[1].7[1]"/>
           </Assertion>
         </Constraint>
         <Constraint ID="Content" Target="1[1].10[1]">
@@ -95,11 +81,25 @@
             <Format Path="1[1].10[1]" Regex="^.{10,}$"/>
           </Assertion>
         </Constraint>
-        <Constraint ID="Content" Target="5[1].5[1].2[1]">
-          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].5[1].2[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
-          <Description>Expected content is missing. The empty value at PID-5.2 (Given Name) is expected to be present.</Description>
+        <Constraint ID="Content" Target="1[1].4[1].1[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].4[1].1[1]" Source="TestCase" TestDataCategorization="Presence-Configuration"/>
+          <Description>Expected content is missing. The empty value at MSH-4.1 (Namespace ID) is expected to be present.</Description>
           <Assertion>
-            <Presence Path="5[1].5[1].2[1]"/>
+            <Presence Path="1[1].4[1].1[1]"/>
+          </Assertion>
+        </Constraint>
+        <Constraint ID="Content" Target="1[1].17[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="MSH[1].17[1]" Source="TestCase" TestDataCategorization="Value-Profile Fixed"/>
+          <Description>Expected content is missing. The empty value at MSH-17 (Country Code) is expected to be present.</Description>
+          <Assertion>
+            <Presence Path="1[1].17[1]"/>
+          </Assertion>
+        </Constraint>
+        <Constraint ID="Content" Target="5[1].11[1].4[1]">
+          <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].11[1].4[1]" Source="TestCase" TestDataCategorization="Presence-Test Case Proper"/>
+          <Description>Expected content is missing. The empty value at PID-11.4 (State or Province) is expected to be present.</Description>
+          <Assertion>
+            <Presence Path="5[1].11[1].4[1]"/>
           </Assertion>
         </Constraint>
       </ByID>

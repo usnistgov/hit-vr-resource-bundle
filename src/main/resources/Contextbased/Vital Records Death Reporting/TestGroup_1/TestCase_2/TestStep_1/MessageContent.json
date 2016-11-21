@@ -182,9 +182,9 @@ Initials Thereof", "data" : "Luis", "categorization" : "Presence-Test Case Prope
 : "", "categorization" : ""},
 							{"location" : "OBX.5.2", "dataelement" : "Other Designation", "data" : "",
 "categorization" : ""},
-							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "Chicago", "categorization"
+							{"location" : "OBX.5.3", "dataelement" : "City", "data" : "428803", "categorization"
 : "Indifferent"},
-							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "IL",
+							{"location" : "OBX.5.4", "dataelement" : "State or Province", "data" : "17",
 "categorization" : "Indifferent"},
 							{"location" : "OBX.5.5", "dataelement" : "Zip or Postal Code", "data" : "",
 "categorization" : ""},

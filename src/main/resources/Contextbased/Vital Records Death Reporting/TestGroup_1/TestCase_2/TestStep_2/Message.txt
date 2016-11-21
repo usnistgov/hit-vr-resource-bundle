@@ -2,7 +2,7 @@ MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20101005183312-0400|ADT^A08^AD
 EVN||20101005170500-0400
 PID|1||987-57-4661^^^&2.16.840.1.113883.4.1&ISO^SS||Perez^Javier^Luis^^^^L||19510401|M|||14355 Taylor Street^^2390562^24^21401^US^^Y^24003||||||||||||||||||20101005112500-0400|Y
 PV1||N
-OBX|1|XAD|21842-0^Birthplace^LN||^^Chicago^IL^^US||||||F
+OBX|1|XAD|21842-0^Birthplace^LN||^^428803^17^^US||||||F
 OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^MD^21401^US^^^Anne Arundel||||||F
 OBX|3|XCN|80911-1^Death pronouncer details^LN||9898989898^Spade^Samuel^^^Dr.^^^Maryland^^^^LN||||||F
 OBX|4|DTM|80616-6^Date/time pronouced dead^LN||201010051125-0400||||||F
