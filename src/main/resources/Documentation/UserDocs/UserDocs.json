@@ -4,5 +4,11 @@
  			 "link":"http://hit-2015.nist.gov/erx/Configure/video_transport.mp4", 
  			 "date":"4/1/2016", 
  			 "order":1 
- 			}
+ 			},
+  			{
+			  "title":"Vital Record Death Reporting Clarification Addendum",
+			  "name":"NIST-Clarifications-and-Validation-Guidelines.docx",
+			  "date":"11/28/2016",
+			  "order":2
+			}
 ]
