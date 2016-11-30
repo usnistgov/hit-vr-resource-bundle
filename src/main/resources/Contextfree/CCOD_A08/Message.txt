@@ -22,5 +22,5 @@ OBX|17|CWE|80357-7^Cause of death record axis code [Automated]^LN|3|I64^Stroke, 
 OBX|18|CWE|80357-7^Cause of death record axis code [Automated]^LN|4|V890^Person injured in unspecified motor-vehicle accident, nontraffic Motor-vehicle accident NOS, nontraffic^I10C||||||F
 OBX|19|CWE|80357-7^ Cause of death.underlying [Automated]^LN|1|""||||||F
 OBX|20|CWE|80359-3^ Cause of death.underlying [Manual]^LN||S099^Unspecified injury of head^I10C||||||F
-OBX|21|CWE|11376-1^Injury location^LN||4^Street/Highway^I10||||||F
+OBX|21|CWE|11376-1^Injury location^LN||4^Street/Highway^I10PO||||||F
 OBX|22|CWE|80626-5^Activity at time of death^LN||PHC1352^While engaged in other specified activities^CDCPHINVS||||||F
