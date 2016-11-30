@@ -35,6 +35,9 @@
             <ValueElement Value="PHC1379" DisplayName="Artificial code conversion; no other action" CodeSystem="CDCPHINVS" CodeSystemVersion="9/16/16" Usage="P"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="PHVS_CauseOfDeath_ICD-10_CDC" Name="Cause of Death (ICD-10)" Description="The list provides ICD-10 codes and associated cause-of-death titles for the most detailed listing of causes of death. This list is maintained by CDC NCHS.&#x0D;&#x0A;&#x0D;&#x0A;" Version="1" Oid="2.16.840.1.114222.4.11.3593" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="S099" DisplayName="Unspecified injury of head" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
+            <ValueElement Value="V890" DisplayName="Person injured in unspecified motor-vehicle accident, nontraffic Motor-vehicle accident NOS, nontraffic" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
+            <ValueElement Value="G409" DisplayName="Epilepsy, unspecified" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
             <ValueElement Value="Q99.1" DisplayName="46,XX true hermaphrodite" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
             <ValueElement Value="Y45.5" DisplayName="4-Aminophenol derivatives" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
             <ValueElement Value="Y51.6" DisplayName="a-Adrenoreceptor antagonists, not elsewhere classified" CodeSystem="I10" CodeSystemVersion="20050217" Usage="P"/>
@@ -14197,6 +14200,7 @@
             <ValueElement Value="1516-4" DisplayName="Zuni" CodeSystem="CDCREC" CodeSystemVersion="1.1" Usage="P"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="PHVS_DeathReportObservationIdentifier_NCHS" Name="Death Report Observation Identifier (NCHS)" Description="The value sets contains the list of values used to report observations on the Death Certificate&#x0D;&#x0A;" Version="4" Oid="2.16.840.1.114222.4.11.7267" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="74499-5" DisplayName="Death pronouncer details" CodeSystem="LN" CodeSystemVersion="2.56" Usage="P"/>
             <ValueElement Value="80626-5" DisplayName="Activity at time of death" CodeSystem="LN" CodeSystemVersion="2.56" Usage="P"/>
             <ValueElement Value="39016-1" DisplayName="Age at death" CodeSystem="LN" CodeSystemVersion="2.56" Usage="P"/>
             <ValueElement Value="PHC1421" DisplayName="Age edit flag" CodeSystem="CDCPHINVS" CodeSystemVersion="9/16/16" Usage="P"/>
@@ -14272,6 +14276,8 @@
             <ValueElement Value="W" DisplayName="Warning" CodeSystem="HL70516" CodeSystemVersion="HL7 v2.5" Usage="P"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="HL70396_VR" Name="Coding System HL7 2x Table 0396" Description="List of all the code systems identifier from HL7 Table 0396." Version="3" Oid="2.16.840.1.114222.4.11.3338" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="I10PO" DisplayName="ICD-10 Codes" CodeSystem="HL70396" Usage="P" Comments="Manually Added"/>
+            
             <ValueElement Value="ACR" DisplayName="American College of Radiology finding codes" CodeSystem="HL70396" CodeSystemVersion="20151215" Usage="P" Comments="Index for Radiological Diagnosis Revised, 3rd Edition 1986, American College of Radiology, Reston, VA."/>
             <ValueElement Value="ATC" DisplayName="American Type Culture Collection" CodeSystem="HL70396" CodeSystemVersion="20151215" Usage="P" Comments="Reference cultures (microorganisms, tissue cultures, etc.), related biological materials and associated data. American Type Culture Collection, 12301 Parklawn Dr, Rockville MD, 20852. (301) 881-2600."/>
             <ValueElement Value="AS4E" DisplayName="AS4 Neurophysiology Codes" CodeSystem="HL70396" CodeSystemVersion="20151215" Usage="P" Comments="ASTM?s diagnostic codes and test result coding/grading systems for clinical neurophysiology. See ASTM Specification E1467, Appendix 2."/>
@@ -14774,6 +14780,8 @@
             <ValueElement Value="ZZ" DisplayName="NOT CLASSIFIABLE" CodeSystem="gec-country" CodeSystemVersion="20140506" Usage="P"/>
         </ValueSetDefinition>
         <ValueSetDefinition BindingIdentifier="PHVS_DeathReportingValueType_NCHS" Name="Death Reporting Value Type (NCHS)" Description="To reflect the list of possible data types that can appear as the data type for observations used within the Death Reporting Implementation Guide." Version="2" Oid="2.16.840.1.114222.4.11.7497" Stability="Static" Extensibility="Closed" ContentDefinition="Extensional">
+            <ValueElement Value="XCN" DisplayName="Extended Composite ID Number and Name" CodeSystem="HL70125" CodeSystemVersion="HL7 v2.8.2" Usage="P"/>
+            
             <ValueElement Value="CWE" DisplayName="Coded With Exceptions" CodeSystem="HL70125" CodeSystemVersion="HL7 v2.8.2" Usage="P"/>
             <ValueElement Value="FT" DisplayName="Formatted Text (Display)" CodeSystem="HL70125" CodeSystemVersion="HL7 v2.8.2" Usage="P"/>
             <ValueElement Value="NM" DisplayName="Numeric" CodeSystem="HL70125" CodeSystemVersion="HL7 v2.8.2" Usage="P"/>
@@ -20695,6 +20703,7 @@
             <ValueElement Value="I10G2004" DisplayName="ICD 10 Germany v2004" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="I10G2005" DisplayName="ICD 10 Germany v2005" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="I10G2006" DisplayName="ICD 10 Germany v2006" CodeSystem="HL70396" Usage="P"/>
+            <ValueElement Value="I10PO" DisplayName="ICD-10 Codes" CodeSystem="HL70396" Usage="P" Comments="Manually Added"/>
             <ValueElement Value="I10P" DisplayName="ICD-10  Procedure Codes" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="I9" DisplayName="ICD9" CodeSystem="HL70396" Usage="P"/>
             <ValueElement Value="I9C" DisplayName="ICD-9CM" CodeSystem="HL70396" Usage="P"/>

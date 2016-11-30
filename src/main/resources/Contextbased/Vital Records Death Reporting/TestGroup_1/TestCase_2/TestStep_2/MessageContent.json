@@ -972,7 +972,7 @@ of decedent", "categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.2", "dataelement" : "Text", "data" : "Street/Highway",
 "categorization" : "Presence-Test Case Proper"},
 							{"location" : "OBX.5.3", "dataelement" : "Name of Coding System", "data" :
-"NCHS place of injury", "categorization" : "Value-Profile Fixed"},
+"I10PO", "categorization" : "Value-Profile Fixed"},
 							{"location" : "OBX.5.9", "dataelement" : "Original Text", "data" : "", "categorization"
 : ""},
 				{"location" : "OBX.6", "dataelement" : "Units", "data" : "", "categorization"
