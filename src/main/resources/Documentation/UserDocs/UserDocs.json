@@ -3,12 +3,19 @@
  			 "title":"How to configure Transport for testing - Training Video", 
  			 "link":"http://hit-2015.nist.gov/erx/Configure/video_transport.mp4", 
  			 "date":"4/1/2016", 
- 			 "order":1 
+ 			 "order":3 
  			},
   			{
 			  "title":"Vital Record Death Reporting Clarification Addendum",
 			  "name":"NIST-Clarifications-and-Validation-Guidelines.docx",
 			  "date":"11/28/2016",
 			  "order":2
+			},
+			{
+			  "title":"Implementation Guide For Vital Record Death Reporting",
+			  "name":"V26_IG_VRDRPT_R1_STU_2016AUG.pdf",
+			  "date":"12/5/2016",
+			  "order":1
 			}
+	
 ]
