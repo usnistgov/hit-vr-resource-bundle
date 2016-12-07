@@ -1,9 +1,9 @@
-MSH|^~\&|StateAppID|VRDept|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20151112234947-0400||ADT^A04^ADT_A01|1223334505|P|2.6|||AL|NE|US||EN^English^ISO639||JDIA04_V1.0^PHIN VS
+MSH|^~\&|StateAppID|VRDept|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20151112234947-0400||ADT^A04^ADT_A01|1223334505|P|2.6|||AL|NE|US||||JDIA04_V1.0^PHIN VS
 EVN||20101102133312||PHC1419
-PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS~9000213^^^&2.16.840.1.113886.4.1&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||Perez^Javier^Luis^^^^L||19510401|M||2106-3^White^CDCREC~2054-5^Black or African American^CDCREC|143 Taylor Street^^1216345^24^21401^US^^Y^003|||||M^Married^HL70002||||||2182-4^Cuban^CDCREC|||||||201510051125-0400|Y|
+PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS~9000213^^^&2.16.840.1.113886.4.1&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||Perez^Javier^Luis^^^^L||19510401|M||2106-3^White^CDCREC~2054-5^Black or African American^CDCREC|143 Taylor Street^^1216345^24^21401^US^^Y^01071|||||M^Married^HL70002||||||2182-4^Cuban^CDCREC|||||||201510051125-0400|Y
 PV1||N
 OBX|1|XAD|21842-0^Birthplace^LN||^^428803^17^^US||||||F
-OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^24^21401^US^^^003||||||F
+OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^24^21401^US^^^01073||||||F
 OBX|3|ST|69453-9^Cause of Death^LN|1|Blunt Head Trauma||||||F
 OBX|4|ST|69440-6^Disease Onset to Death Interval^LN|1|15 hours||||||F
 OBX|5|ST|69453-9^Cause of Death^LN|2|Automobile accident||||||F
@@ -20,22 +20,23 @@ OBX|15|DTM|69445-5^Injury date^LN||201510040830-0400||||||F
 OBX|16|TX|11374-6^Injury incident description^LN||Automobile collision with other vehicles while pulling into traffic on the street||||||F
 OBX|17|CWE|69448-9^Injury leading to death associated with transportation event^LN||Y^Yes^HL70532||||||F
 OBX|18|CWE|69451-3^Transportation role of decedent^LN||236320001^Driver/Operator^SCT||||||F
-OBX|19|CWE|11376-1^Injury location^LN||4^Street/Highway^NCHS place of injury||||||F
-OBX|20|XAD|69447-1^Injury location narrative^LN||921 Automobile Blvd^^1216345^24||||||F
-OBX|21|CWE|80913-7^Decedent Education level^LN||8^Doctorate Degree or Professional Degree^NCHSlocalCS||||||F
+OBX|19|CWE|11376-1^Injury location^LN||4^Street/Highway^I10PO||||||F
+OBX|20|XAD|69447-1^Injury location narrative^LN||^^1216345^24||||||F
+OBX|21|CWE|80913-7^Decedent Education level^LN||PHC1455^Doctorate Degree or Professional Degree^CDCPHINVS||||||F
 OBX|22|CWE|PHC1424^Education Edit Flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|23|CWE|PHC1426^Marital Status Edit Flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
-OBX|24|CWE|80905-3^Method of disposition^LN||B^Burial^NCHSlocalCS||||||F
+OBX|24|CWE|80905-3^Method of disposition^LN||449971000124106^Burial^SCT||||||F
 OBX|25|CWE|21843-8^Occupation^LN||^^^^^^^^Psychologist||||||F
 OBX|26|CWE|21844-6^Industry^LN||^^^^^^^^Academic||||||F
 OBX|27|ST|80903-8^birth certificate ID^LN||""||||||F
 OBX|28|DTM|80904-6^Birth certificate data year^LN||1951||||||F
 OBX|29|CWE|69436-4^Autopsy results available^LN||N^No^HL70532||||||F
-OBX|30|CWE|PHC1429^Pregnancy edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
+OBX|30|CWE|PHC1429^Pregnancy edit flag^CDCPHINVS||PHC1381^Edit Passed^CDCPHINVS||||||F
 OBX|31|CWE|PHC1433^Source Flag^CDCPHINVS||PHC1359^Electronic mode^CDCPHINVS||||||F
 OBX|32|XPN|80909-5^Father's surname^LN||Perez||||||F
 OBX|33|CWE|PHC1432^Sex edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|34|NM|39016-1^Age at death^LN||64|a^year^UCUM|||||F
 OBX|35|CWE|PHC1421^Age edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|36|ST|80910-3^state/province of birth^LN||IL||||||F
-PDA||^^^^^16983000^^^Best Care Hospice Center||20140201|78457845^Certifier^Charles^^^Dr.^^^Maryland^^^^LN^^^^^^^^M.D.|N|||N
+OBX|37|DTM|67782-3^Surgery Date^LN||200510040830-500||||||F
+PDA||^^^^^16983000^^^Memorial Hospital||201510050400||N

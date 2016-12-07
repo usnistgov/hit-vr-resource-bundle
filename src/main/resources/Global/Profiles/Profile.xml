@@ -373,21 +373,8 @@
             <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
             <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
             <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="EVN_VR_PSDI_CCOD_CREI" Usage="R" Min="1" Max="1"/>
-            <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
-            <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
-            <Segment Ref="PV2" Usage="O" Min="0" Max="1"/>
-            <Segment Ref="DB1" Usage="O" Min="0" Max="*"/>
-            <Segment Ref="OBX_VR" Usage="O" Min="0" Max="*"/>
-            <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
-        </Message>
-        <Message ID="c1bd660c-0912-416b-928b-a146f2RVCA11" Identifier="c1bd660c-0912-416b-928b-a146f2RVCA11" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
-            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
-            <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
-            <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
             <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
-            <Segment Ref="PID_VR_PSDI" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="PID_VR_RVC" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
             <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
             <Segment Ref="PV2" Usage="O" Min="0" Max="1"/>
@@ -516,7 +503,7 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS_VR" Min="1" Max="1" ItemNo="00570"/>
             <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="O" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
@@ -1003,7 +990,7 @@
         </Segment>
         <Segment ID="OBX_VR" Name="OBX" Label="OBX_VR" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                <Mapping Position="5" Reference="2" SecondReference="3">
                     <Case Value="XAD" SecondValue="21842-0" Datatype="XAD_BP"/>
                     <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_PD"/>
                     <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_BP"/>
@@ -1021,7 +1008,7 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS_VR" Min="1" Max="1" ItemNo="00570"/>
             <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
@@ -1219,7 +1206,7 @@
         </Segment>
         <Segment ID="OBX_VR_CCOD" Name="OBX" Label="OBX_VR_CCOD" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                <Mapping Position="5" Reference="2" SecondReference="3">
                     <Case Value="DTM" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" Datatype="DTM_D"/>
@@ -1233,7 +1220,7 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS_VR" Min="1" Max="1" ItemNo="00570"/>
             <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
@@ -1547,7 +1534,7 @@
         </Segment>
         <Segment ID="OBX_VR_JDI" Name="OBX" Label="OBX_VR_JDI" Description="Observation/Result">
             <DynamicMapping>
-                <Mapping Position="5" Reference="2" SecondReference="3.1">
+                <Mapping Position="5" Reference="2" SecondReference="3">
                     <Case Value="DTM" SecondValue="80904-6" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" SecondValue="80907-9" Datatype="DTM_D"/>
@@ -1561,7 +1548,7 @@
                 </Mapping>
             </DynamicMapping>
             <Field Name="Set ID - OBX" Usage="R" Datatype="SI" MinLength="1" MaxLength="4" ConfLength="1" Min="1" Max="1" ItemNo="00569"/>
-            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS" Min="1" Max="1" ItemNo="00570"/>
+            <Field Name="Value Type" Usage="R" Datatype="ID" MinLength="1" MaxLength="3" ConfLength="1" Binding="PHVS_DeathReportingValueType_NCHS_VR" Min="1" Max="1" ItemNo="00570"/>
             <Field Name="Observation Identifier" Usage="R" Datatype="CWE_VR" MinLength="1" MaxLength="705" ConfLength="1" Binding="PHVS_DeathReportObservationIdentifier_NCHS" BindingLocation="1" Min="1" Max="1" ItemNo="00571"/>
             <Field Name="Observation Sub-ID" Usage="C" Datatype="ST" MinLength="1" MaxLength="20" ConfLength="1" Min="0" Max="1" ItemNo="00572"/>
             <Field Name="Observation Value" Usage="RE" Datatype="varies" MinLength="1" MaxLength="99999" ConfLength="1" Min="0" Max="1"/>
