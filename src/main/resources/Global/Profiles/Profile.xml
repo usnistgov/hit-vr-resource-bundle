@@ -382,6 +382,19 @@
             <Segment Ref="OBX_VR" Usage="O" Min="0" Max="*"/>
             <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
         </Message>
+        <Message ID="c1bd660c-0912-416b-928b-a146f2RVCA11" Identifier="c1bd660c-0912-416b-928b-a146f2RVCA11" Name="ADT^ A11^ADT_A09" Type="ADT" Event=" A11" StructID="ADT_A09" Description="RVC">
+            <Segment Ref="MSH_VR_RVCA11" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="SFT" Usage="O" Min="0" Max="*"/>
+            <Segment Ref="UAC" Usage="O" Min="0" Max="1"/>
+            <Segment Ref="EVN_VR_JDI_RVC" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="PID_VR_RVC" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="PD1" Usage="O" Min="0" Max="1"/>
+            <Segment Ref="PV1_VR" Usage="R" Min="1" Max="1"/>
+            <Segment Ref="PV2" Usage="O" Min="0" Max="1"/>
+            <Segment Ref="DB1" Usage="O" Min="0" Max="*"/>
+            <Segment Ref="OBX_VR" Usage="O" Min="0" Max="*"/>
+            <Segment Ref="DG1" Usage="O" Min="0" Max="*"/>
+        </Message>
     </Messages>
     <Segments>
         <Segment ID="ROL" Name="ROL" Label="ROL" Description="Role">
