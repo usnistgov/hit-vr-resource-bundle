@@ -37,4 +37,4 @@ OBX|32|CWE|PHC1432^Sex edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|33|NM|39016-1^Age at death^LN||64|a^year^UCUM|||||F
 OBX|34|CWE|PHC1421^Age edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|35|ST|80910-3^state/province of birth^LN||IL||||||F
-PDA||^^^^^16983000^^^Best Care Hospice Center||20140201|78457845^Certifier^Charles^^^^^^Maryland^^^^SS^^^^^^^^309343006|N|||N
+PDA||^^^^^16983000^^^Best Care Hospice Center||20140201|78457845^Certifier^Charles^^^^^^&2.16.840.1.113883.4.1&ISO^^^^SS^^^^^^^^309343006|N|||N
