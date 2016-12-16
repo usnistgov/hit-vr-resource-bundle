@@ -2,7 +2,7 @@ MSH|^~\&|StateAppID|VRDept|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.1
 EVN||20151112120000-0400||PHC1419
 PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS~9000213^^^&2.16.840.1.114886.4.1&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||Perez^Javier^Luis^^^^L||19510401|M||2106-3^White^CDCREC~2054-5^Black or African American^CDCREC|143 Taylor Street^^2390562^42^21401^US^^Y^24003|||||M^Married^HL70002||||||2182-4^Cuban^CDCREC|||||||20151005112500-0400|Y|
 PV1||N
-OBX|1|XAD|21842-0^Birthplace^LN||^^428803^17^^||||||F
+OBX|1|XAD|21842-0^Birthplace^LN||^^428803^17^^US||||||F
 OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^24^21401^^^^||||||F
 OBX|3|ST|69453-9^Cause of Death^LN|1|Blunt Head Trauma||||||F
 OBX|4|ST|69440-6^Disease Onset to Death Interval^LN|1|15 hours||||||F
