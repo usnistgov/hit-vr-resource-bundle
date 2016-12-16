@@ -284,10 +284,10 @@ Initials Thereof", "data" : "", "categorization" : ""},
 "categorization" : "Presence-Content Indifferent"},
 							{"location" : "OBX.5.9", "dataelement" : "Assigning Authority", "data" : "",
 "categorization" : ""},
-									{"location" : "OBX.5.9.2", "dataelement" : "Universal ID", "data" : "", "categorization"
-: ""},
+									{"location" : "OBX.5.9.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+"categorization" : ""},
 									{"location" : "OBX.5.9.3", "dataelement" : "Universal ID Type", "data" :
-"", "categorization" : ""},
+"ISO", "categorization" : ""},
 							{"location" : "OBX.5.13", "dataelement" : "Identifier Type Code", "data" :
 "LN", "categorization" : "Indifferent"},
 							{"location" : "OBX.5.14", "dataelement" : "Assigning Facility", "data" : "",

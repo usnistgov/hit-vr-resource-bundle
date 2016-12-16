@@ -14,18 +14,18 @@ OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
 OBX|10|NM|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
 OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
 OBX|12|DTM|80907-9^Date of Death^LN||201011021400-0500||||||F
-OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^2403120^37^12345^US||||||F
+OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^2403120^37^12345||||||F
 OBX|14|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
 OBX|15|CWE|69443-0^ Did Tobacco Use Contribute to Death^LN||373067005^No^SCT||||||F
 OBX|16|CWE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
 OBX|17|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
 OBX|18|ST|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
-OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^2403120^37^20621^US||||||F
+OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^2403120^37^20621||||||F
 OBX|20|ST|80903-8^birth certificate ID^LN||""||||||F
 OBX|21|DTM|80904-6^year of birth for matching^LN||1951||||||F
-OBX|22|XAD|21842-0^Birthplace^LN||^^2404590^37^^US||||||F
+OBX|22|XAD|21842-0^Birthplace^LN||^^2404590^37^^||||||F
 OBX|23|CWE|80913-7^Education level^LN||PHC1453^Bachelor's Degree^CDCPHINVS||||||F
 OBX|24|CWE|PHC1424^Education Edit Flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|25|CWE|PHC1432^Sex edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
 OBX|26|CWE|PHC1433^Source Flag^CDCPHINVS||PHC1359^Electronic mode^CDCPHINVS||||||F
-PDA||^^^^^16983000^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^DHHS&&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y
+PDA||^^^^^16983000^^^Llewllyn Hospital||||Y|||

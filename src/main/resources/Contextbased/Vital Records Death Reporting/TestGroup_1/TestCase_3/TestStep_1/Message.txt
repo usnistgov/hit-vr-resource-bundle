@@ -1,4 +1,4 @@
-MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20030122191200-0400||ADT^A04^ADT_A01|1223334499|P|2.6||NE|NE|NE|US|||PSDIA04_V1.0^PHIN VS SFT|PSDIA04_V1.0^PHIN VS
+MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20030122191200-0400||ADT^A04^ADT_A01|1223334499|P|2.6|||NE|NE|US||||PSDIA04_V1.0^PHIN VS
 EVN||20030122215920|
 PID|1||987-57-5661^^^&2.16.840.1.113883.4.1&ISO^SS||Wright^Vivienne||19840401|F|||101 Liberty Lane^^873569^33^^US||||||||||||||||||20030122210000-0500|Y
 PV1||N
@@ -19,4 +19,4 @@ OBX|14|ST|69438-0^Referral Note^LN|2|Autopsy requested by pronouncing doctor |||
 OBX|15|XAD|69435-6^Street address where death occurred if not facility^LN||101 Liberty Lane^^873569^NH^^US||||||F
 OBX|16|CWE|69442-2^Timing of Recent Pregnancy Related to Death^LN||PHC1261^Pregnant at the time of death^CDCPHINVS||||||F
 OBX|17|NM|39016-1^Age at death^LN||18|a^year^UCUM|||||X
-PDA||^^^^^16983000^^^Concord Regional Hospital||200301231200|12124343^Freeman^Robert^^^DR^^^DHHS^^^^NPI^DHHS|Y|200301230800^200301231000|12124343^Freeman^Robert^^^DR^^^DHHS^^^^NPI^DHHS|Y
+PDA||^^^^^16983000^^^Concord Regional Hospital||200301231200|12124343^Freeman^Robert^^^^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^|Y||12124343^Freeman^Robert^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^&2.16.840.1.113883.4.1&ISO|Y

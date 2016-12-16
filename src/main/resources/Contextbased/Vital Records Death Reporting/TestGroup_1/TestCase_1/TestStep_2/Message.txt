@@ -21,4 +21,4 @@ OBX|16|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
 OBX|17|DTM|80616-6^Date/time pronouced dead^LN||201011021400-0400||||||F
 OBX|18|ST|69438-0^Referral Note^LN||An autopsy is indicated.Mrs. Smith had 40 yr hx of lupus. Recent overseas travel.Good health prior to her husband finding her on the couch. ||||||F
 OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^2403120^37^20621^US||||||F
-PDA||^^^^^16983000^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y
+PDA||^^^^^16983000^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^&2.16.840.1.113883.4.1&ISO|Y||56749898^Revel^Adam^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^&2.16.840.1.113883.4.1&ISO|Y
