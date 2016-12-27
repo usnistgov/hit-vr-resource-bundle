@@ -901,10 +901,10 @@ Initials Thereof", "data" : "", "categorization" : "Indifferent"},
 "NPI", "categorization" : "Value-Test Case Fixed"},
 							{"location" : "PDA.5.14", "dataelement" : "Assigning Facility", "data" : "",
 "categorization" : ""},
-									{"location" : "PDA.5.14.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+									{"location" : "PDA.5.14.2", "dataelement" : "Universal ID", "data" : "",
 "categorization" : "Indifferent"},
 									{"location" : "PDA.5.14.3", "dataelement" : "Universal ID Type", "data" :
-"ISO", "categorization" : "Indifferent"},
+"", "categorization" : "Indifferent"},
 							{"location" : "PDA.5.21", "dataelement" : "Professional Suffix", "data" : "",
 "categorization" : "Indifferent"},
 				{"location" : "PDA.6", "dataelement" : "Autopsy Indicator", "data" : "Y", "categorization"
@@ -927,18 +927,18 @@ Initials Thereof", "data" : "", "categorization" : "Indifferent"},
 "categorization" : "Presence-Content Indifferent"},
 							{"location" : "PDA.8.9", "dataelement" : "Assigning Authority", "data" : "",
 "categorization" : ""},
-									{"location" : "PDA.8.9.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
-"categorization" : "Indifferent"},
+									{"location" : "PDA.8.9.2", "dataelement" : "Universal ID", "data" : "", "categorization"
+: "Indifferent"},
 									{"location" : "PDA.8.9.3", "dataelement" : "Universal ID Type", "data" :
-"ISO", "categorization" : "Indifferent"},
+"", "categorization" : "Indifferent"},
 							{"location" : "PDA.8.13", "dataelement" : "Identifier Type Code", "data" :
 "NPI", "categorization" : "Value-Profile Fixed"},
 							{"location" : "PDA.8.14", "dataelement" : "Assigning Facility", "data" : "",
 "categorization" : ""},
-									{"location" : "PDA.8.14.2", "dataelement" : "Universal ID", "data" : "2.16.840.1.113883.4.1",
+									{"location" : "PDA.8.14.2", "dataelement" : "Universal ID", "data" : "",
 "categorization" : "Indifferent"},
 									{"location" : "PDA.8.14.3", "dataelement" : "Universal ID Type", "data" :
-"ISO", "categorization" : "Indifferent"},
+"", "categorization" : "Indifferent"},
 				{"location" : "PDA.9", "dataelement" : "Coroner Indicator", "data" : "Y", "categorization"
 : "Value-Test Case Fixed"},		]
 

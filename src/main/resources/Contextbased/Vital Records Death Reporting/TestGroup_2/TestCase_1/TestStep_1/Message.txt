@@ -23,7 +23,7 @@ OBX|18|ST|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 4
 OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^2403120^17^20621||||||F
 OBX|20|ST|80903-8^birth certificate ID^LN||""||||||F
 OBX|21|DTM|80904-6^year of birth for matching^LN||1951||||||F
-OBX|22|XAD|21842-0^Birthplace^LN||^^2404590^17^^||||||F
+OBX|22|XAD|21842-0^Birthplace^LN||^^2404590^17^^US||||||F
 OBX|23|CWE|80913-7^Education level^LN||PHC1452^Associate Degree^CDCPHINVS||||||F
 OBX|24|CWE|PHC1433^Source Flag^CDCPHINVS||PHC1359^Electronic mode^CDCPHINVS||||||F
-PDA||^^^^^16983000^^^Llewllyn Hospital||||Y|||
+PDA||^^^^^16983000^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^DHHS&&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y
