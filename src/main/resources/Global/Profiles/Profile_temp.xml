@@ -2187,7 +2187,7 @@
             <Component Name="City" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_CityPlaces_NCHS"/>
             <Component Name="State or Province" Usage="RE" Datatype="ST" MinLength="1" MaxLength="50" ConfLength="1" Binding="PHVS_StatesTerritoriesProvinces_NCHS"/>
             <Component Name="Zip or Postal Code" Usage="RE" Datatype="ST" MinLength="1" MaxLength="12" ConfLength="1"/>
-            <Component Name="Country" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1" Binding="0399"/>
+            <Component Name="Country" Usage="RE" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1" Binding="0399"/>
             <Component Name="Address Type" Usage="O" Datatype="ID" MinLength="0" MaxLength="3" ConfLength="1"/>
             <Component Name="Other Geographic Designation" Usage="O" Datatype="ST" MinLength="0" MaxLength="50" ConfLength="1"/>
             <Component Name="County/Parish Code" Usage="O" Datatype="IS" MinLength="0" MaxLength="20" ConfLength="1" Binding="0289"/>
