@@ -2780,6 +2780,7 @@
                     <Case Value="DTM" SecondValue="80904-6" Datatype="DTM_Y"/>
                     <Case Value="XCN" Datatype="XCN_VR"/>
                     <Case Value="DTM" SecondValue="80907-9" Datatype="DTM_D"/>
+                    <Case Value="XAD" SecondValue="69439-8" Datatype="XAD"/>
                     <Case Value="XAD" SecondValue="69435-6" Datatype="XAD_OL"/>
                     <Case Value="XAD" SecondValue="21842-0" Datatype="XAD_BP"/>
                     <Case Value="XAD" SecondValue="69447-1" Datatype="XAD_OL"/>
