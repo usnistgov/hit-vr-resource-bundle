@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-<ConformanceProfile ID="c842f6c4-8a28-459a-80ea-597e25591fVR" HL7Version="2.6"
-    xsi:noNamespaceSchemaLocation="../Schema/Profile.xsd"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ConformanceProfile ID="c842f6c4-8a28-459a-80ea-597e25591fVR" HL7Version="2.6" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/Profile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <MetaData Name="Vital Records Death Reporting" OrgName="NIST" Version="No Version Info"
         Date="2016/08/25 09:30:44" Status="Draft"/>
     <Messages>
