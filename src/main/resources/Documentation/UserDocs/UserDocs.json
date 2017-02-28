@@ -1,22 +1,32 @@
 [
-			
+			{
+			  "title":"NIST Viral Records Death Reporting Test Procedure",
+			  "name":"NIST_VR_Normative_Test_Process_Document_NA-V1.0.docx",
+			  "date":"1/06/2017",
+			  "order":1
+			},
   			{
 			  "title":"NIST Clarifications and Validation Guidelines",
 			  "name":"NIST-Clarifications-and-Validation-Guidelines.docx",
 			  "date":"11/28/2016",
-			  "order":2
+			  "order":3
 			},
 			{
 			  "title":"Implementation Guide For Vital Record Death Reporting",
 			  "name":"V26_IG_VRDRPT_R1_STU_2016AUG.pdf",
 			  "date":"12/5/2016",
-			  "order":1
+			  "order":2
 			},
 			{
 			  "title":"Vital Record Death Reporting Tutorial",
 			  "name":"NIST-VR_Tool_Tutorial-Guide.ppt",
 			  "date":"12/16/2016",
-			  "order":3
+			  "order":4
+			},
+			{
+			  "title":"Understanding Viral Records Conformance Testing",
+			  "name":"UnderstandingVital Records_ConformanceTesting V1.0.pptx",
+			  "date":"1/11/2016",
+			  "order":5
 			}
-	
 ]
