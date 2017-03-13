@@ -1,8 +1,8 @@
 {
-  "version": " Version 1.0.0",
+  "version": " Version 1.0.1",
   "igVersion": "10.6",
   "name": "Vital Records 2016",
-  "rsbVersion": "1.0.0",
+  "rsbVersion": "1.0.1",
   "domain": "NIST VR Validation tool",
   "adminEmail": "sandra.martinez@nist.gov",
   "description": "(VR)",
