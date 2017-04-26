@@ -1,4 +1,26 @@
-MSH|^~\&|StateAppID|VRDept|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20151112234947-0400||ADT^A11^ADT_A09|1223334505|P|2.6|||NE|NE|US||||JDIA11_V1.0^PHIN VS
-EVN||20151112120000||PHC1419
-PID|1||987-65-4321^^^&2.16.840.1.113883.4.1&ISO^SS~9000213^^^&2.16.840.1.113886.4.1&ISO^DC~2015000213^^^&2.16.840.1.113883.888.12&ISO^DCFN||Perez^Javier^Luis^^^^L||19510401|M||2106-3^White^CDCREC~2054-5^Black or African American^CDCREC|143 Taylor Street^^1216345^24^21401^US^^Y^01071|||||M^Married^HL70002||||||2182-4^Cuban^CDCREC|||||||201510051125-0400|Y
+MSH|^~\&|DeathRptProcessing^2.16.840.1.113883.3.20091^ISO|VRDept^2.16.840.1.113883.3.20091^ISO|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20030122191200||ADT^A04^ADT_A01|1223334505|P|2.6|||NE|NE|US||||JDIA04_V1.0^PHIN VS
+EVN||20101102133312||PHC1419
+PID|1||987-57-5661^^^&2.16.840.1.113883.4.1&ISO^SS~900213^^^&2.16.840.1.113883.4.1&ISO^DC~2003000213^^^&2.16.840.1.113883.4.1&ISO^DCFN||Wright^Vivienne^^^^^L||19841104|F||2106-3^White^CDCREC~1002-5^American Indian and Alaskan Native^CDCREC|101 Liberty Lane^^873569^33^^US^^Y^01073|||||M^Married^HL70002||||||2135-2^Hispanic or Latino^CDCREC|||||||200301222100-0500|Y|
 PV1||N
+OBX|1|CWE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
+OBX|2|ST|69453-9^Cause of Death^LN|1|Cardiopulmonary arrest||||||F
+OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|4 hours||||||F
+OBX|4|NM|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|5|ST|69453-9^Cause of Death^LN|2|Eclampsia||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|3 months||||||F
+OBX|7|NM|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|8|ST|69452-1^Coroner - Medical Examiner Case Number^LN||2344509||||||F
+OBX|9|DTM|80907-9^Date of Death^LN||200301222100-0500||||||F
+OBX|10|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
+OBX|11|CWE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
+OBX|12|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
+OBX|13|ST|69438-0^Referral Note^LN|2|Autopsy requested by pronouncing doctor ||||||F
+OBX|14|XAD|69435-6^Street address where death occurred if not facility^LN||101 Liberty Lane^^873569^33^^US||||||F
+OBX|15|CWE|69442-2^Timing of Recent Pregnancy Related to Death^LN||PHC1261^Pregnant at the time of death^CDCPHINVS||||||F
+OBX|16|NM|39016-1^Age at death^LN||18|a^year^UCUM|||||X
+OBX|17|CWE|PHC1421^Age edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
+OBX|18|CWE|PHC1429^Pregnancy edit flag^CDCPHINVS||PHC1381^Edit Passed^CDCPHINVS||||||F
+OBX|19|ST|80910-3^state/province of birth^LN||IL||||||F
+OBX|20|ST|80909-5^Father's surname^LN||Wrighte||||||F
+OBX|21|CWE|80905-3^Method of disposition^LN||449971000124106^Burial^SCT||||||F
+PDA||^^^^^16983000^^^Concord Regional

@@ -1,4 +1,31 @@
-MSH|^~\&|DeathRptProcessing^2.16.840.1.113883.3.20091^ISO|VRDept^2.16.840.1.113883.3.20091^ISO|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20101102133312-0400||ADT^A11^ADT_A09|1223334499|P|2.6|||AL|NE|US||||JDIA11_V1.0^PHIN VS
+MSH|^~\&|DeathRptProcessing^2.16.840.1.113883.3.20091^ISO|VRDept^2.16.840.1.113883.3.20091^ISO|DRrcv^2.16.840.1.113883.3.20091^ISO|NCHS^2.16.840.1.113883.3.8989^ISO|20101102133312-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||AL|NE|US||||JDIA08_V1.0^PHIN VS
 EVN||20101102133312||PHC1419
 PID|1||111111111^^^&2.16.840.1.113883.4.1&ISO^SS~900213^^^&2.16.840.1.113883.4.1&ISO^DC~2003000213^^^&2.16.840.1.113883.4.1&ISO^DCFN||Smith^Josephine^Madeline^^^^L||19350312|F||2106-3^White^CDCREC~2131-1^Other^CDCREC|5590 Lockwood Drive^^2403120^17^20621^US^^Y^01073|||||M^Married^HL70002||||||2180-8^ Puerto Rican^CDCREC|||||||201011021400-0500|Y|
 PV1||N
+OBX|1|CWE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
+OBX|2|ST|69453-9^Cause of Death^LN|1|Pulmonary embolism||||||F
+OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|2 hours||||||F
+OBX|4|NM|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
+OBX|5|ST|69453-9^Cause of Death^LN|2|Deep Vein Thrombosis||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|Aproximately 8 days||||||F
+OBX|7|NM|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
+OBX|8|ST|69453-9^Cause of Death^LN|3|Lupus||||||F
+OBX|9|ST|69440-6^Disease Onset to Death Interval ^LN|3|40 years||||||F
+OBX|10|NM|PHC1428^Part\Line Number^CDCPHINVS|3|3||||||F
+OBX|11|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
+OBX|12|DTM|80907-9^Date of Death^LN||201011021400-0500||||||F
+OBX|13|XAD|69439-8^Death Certifier (Address)^LN||2121 Main St^^2403120^37^12345||||||F
+OBX|14|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
+OBX|15|CWE|69443-0^ Did Tobacco Use Contribute to Death^LN||373067005^No^SCT||||||F
+OBX|16|CWE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
+OBX|17|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
+OBX|18|ST|69438-0^Referral Note^LN||An autopsy is indicated.\F\ Mrs. Smith had 40 yr hx of lupus. Recent overseas travel. \T\ Good health prior to her husband finding her on the couch. ||||||F
+OBX|19|XAD|69435-6^Street address where death occurred if not facility^LN||5590 Lockwood Drive^^2403120^37^20621||||||F
+OBX|20|ST|80903-8^birth certificate ID^LN||""||||||F
+OBX|21|DTM|80904-6^year of birth for matching^LN||1951||||||F
+OBX|22|XAD|21842-0^Birthplace^LN||^^2404590^37^^US||||||F
+OBX|23|CWE|80913-7^Education level^LN||PHC1453^Bachelor's Degree^CDCPHINVS||||||F
+OBX|24|CWE|PHC1424^Education Edit Flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
+OBX|25|CWE|PHC1432^Sex edit flag^CDCPHINVS||PHC1362^Edit Passed^CDCPHINVS||||||F
+OBX|26|CWE|PHC1433^Source Flag^CDCPHINVS||PHC1359^Electronic mode^CDCPHINVS||||||F
+PDA||^^^^^16983000^^^Llewllyn Hospital||201011031130|56749898^Revel^Adam^^^DR^^^DHHS&&ISO^^^^NPI^DHHS|Y|201011030900^201011031100|56749898^Revel^Adam^^^DR^^^DHHS^^^^NPI^DHHS|Y

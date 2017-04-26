@@ -1,5 +1,1 @@
-{
-  "name" : "VR-1 Death at Home",
-  "description" : "<font size=\"2\"><span style=\"font-size:12.0pt;line-height:115%;\r\nfont-family:\">This use case examines the ability of a jurisdictional EDRS to\r\ncreate an ADT message for delivery? of relevant clinical information to the National Center for Health Statistics (NCHS).</span></font>",
-  "position" : 1
-}
+{"protocol":"soap","name":"VR-1 Death at Home","description":"This use case examines the ability of a jurisdictional EDRS to create an ADT message for delivery? of relevant clinical information to the National Center for Health Statistics (NCHS).","id":9077714763381381000,"position":1}

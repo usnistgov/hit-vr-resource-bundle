@@ -1,5 +1,1 @@
-{
-  "name" : "VR-1 Death at Home",
-  "description" : "<font size=\"2\"><span style=\"font-size:12.0pt;line-height:115%;\r\nfont-family:\">This use case examines the ability of an EHR to\r\ncreate an ADT messages for delivery? of relevant clinical information to the\r\nElectronic Death Registration System (EDRS).</span></font>",
-  "position" : 1
-}
+{"protocol":"soap","name":"VR-1 Death at Home","description":"This use case examines the ability of an EHR to create an ADT messages for delivery? of relevant clinical information to the Electronic Death Registration System (EDRS).","id":5710564276880072000,"position":1}

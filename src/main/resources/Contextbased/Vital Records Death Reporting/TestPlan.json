@@ -1,8 +1,1 @@
-{
-  "name" : "Vital Records Death Reporting",
-  "description" : "No Description",
-  "type" : "DataInstance",
-  "transport" : false,
-  "position" : 1,
-  "domain" : ""
-}
+{"domain":"VR","name":"Vital Records Death Reporting","description":"No Description","skip":false,"id":2424006210783584000,"position":1,"transport":true,"type":"Isolated"}

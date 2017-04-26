@@ -1,22 +1,28 @@
-MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20030122191200-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||NE|NE|US||||PSDIA08_V1.0^PHIN VS SFT|
-EVN||20030122215920|
-PID|1||987-57-5661^^^&2.16.840.1.113883.4.1&ISO^SS||Wright^Vivienne||19840606|F|||101 Liberty Lane^^873569^33^^US||||||||||||||||||20030122210000-0500|Y
+MSH|^~\&|89898989|Best Care LLC|StateAppID|VRDept|20101005183312-0400||ADT^A08^ADT_A01|1223334499|P|2.6|||NE|NE|US||||PSDIA08_V1.0^PHIN VS
+EVN||20101005170500-0400
+PID|1||987-57-4661^^^&2.16.840.1.113883.4.1&ISO^SS||Perez^Javier^Luis^^^^L||19510401|M|||14355 Taylor Street^^2390562^24^21401^US^^Y^24003||||||||||||||||||20101005112500-0400|Y
 PV1||N
-OBX|1|CWE|69436-4^Autopsy Results Available^LN||Y^Yes^HL70136||||||F
-OBX|2|ST|69453-9^Cause of Death^LN|1|Cardiopulmonary arrest||||||F
-OBX|3|ST|69440-6^Disease Onset to Death Interval^LN|1|4 hours||||||F
-OBX|4|NM|PHC1428^Part\Line Number^CDCPHINVS|1|1||||||F
-OBX|5|ST|69453-9^Cause of Death^LN|2|Eclampsia||||||F
-OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|2|3 months||||||F
-OBX|7|NM|PHC1428^Part\Line Number^CDCPHINVS|2|2||||||F
-OBX|8|ST|69452-1^Coroner - Medical Examiner Case Number^LN|2|2344509||||||F
-OBX|9|DTM|31211-6^Date of Death^LN|2|200301222100-0500||||||F
-OBX|10|CWE|69437-2^Certifier Type^LN||440051000124108^Medical Examiner^SCT||||||F
-OBX|11|CWE|71481-6^Did the death of this person involve injury of any kind^LN||N^No^HL70136||||||F
-OBX|12|CWE|69449-7^Manner of Death^LN||38605008^Natural Death^SCT||||||F
-OBX|13|DTM|80616-6^Date/time pronouced dead^LN||200301222100-0400||||||F
-OBX|14|ST|69438-0^Referral Note^LN|2|Autopsy requested by pronouncing doctor ||||||F
-OBX|15|XAD|69435-6^Street address where death occurred if not facility^LN||101 Liberty Lane^^873569^NH^^US||||||F
-OBX|16|CWE|69442-2^Timing of Recent Pregnancy Related to Death^LN||PHC1261^Pregnant at the time of death^CDCPHINVS||||||F
-OBX|17|NM|39016-1^Age at death^LN||18|a^year^UCUM|||||F
-PDA||^^^^^16983000^^^Concord Regional Hospital||200301231200|12124343^Freeman^Robert^^^^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^&2.16.840.1.113883.4.1&ISO|Y||12124343^Freeman^Robert^^^DR^^^&2.16.840.1.113883.4.1&ISO^^^^NPI^&2.16.840.1.113883.4.1&ISO|Y
+OBX|1|XAD|21842-0^Birthplace^LN||^^428803^17^^US||||||F
+OBX|2|XAD|69435-6^Address of location where death occurred^LN||^^2390562^MD^21401^US^^^Anne Arundel||||||F
+OBX|3|XCN|80911-1^Death pronouncer details^LN||9898989898^Spade^Samuel^^^Dr.^^^&2.16.840.1.113883.4.1&ISO^^^^LN||||||F
+OBX|4|DTM|80616-6^Date/time pronouced dead^LN||201010051125-0400||||||F
+OBX|5|ST|69453-9^Cause of Death^LN|1|Blunt Head Trauma||||||F
+OBX|6|ST|69440-6^Disease Onset to Death Interval^LN|1|15 hours||||||F
+OBX|7|ST|69453-9^Cause of Death^LN|2|Automobile accident||||||F
+OBX|8|ST|69440-6^Disease Onset to Death Interval^LN|2|15 hours||||||F
+OBX|9|ST|69453-9^Cause of Death^LN|3|Epilepsy||||||F
+OBX|10|ST|69440-6^Disease Onset to Death Interval ^LN|3|30 years||||||F
+OBX|11|ST|69441-4^Death Cause Other Significant Conditions ^LN||Cerebrovascular Accident||||||F
+OBX|12|CWE|69437-2^Certifier Type^LN||434641000124105^Certifying physician-To the best of my knowledge, death occurred due to the cause(s) and manner stated.^SCT||||||F
+OBX|13|CWE|69443-0^Did Tobacco Use Contribute to Death^LN||373067005^No^SCT||||||F
+OBX|14|CWE|69449-7^Manner of death^LN||7878000^Accident^SCT||||||F
+OBX|15|CWE|71481-6^Did the death of this person involve injury of any kind^LN||Y^Yes^HL70532||||||F
+OBX|16|CWE|69444-8^Did death result from injury at work^LN||N^No^HL70532||||||F
+OBX|17|DTM|69445-5^Injury date^LN||201510040830-0400||||||F
+OBX|18|ST|11374-6^Injury incident description^LN||Automobile collision with other vehicles while pulling into traffic on the street||||||F
+OBX|19|CWE|69448-9^Injury leading to death associated with transportation event^LN||Y^Yes^HL70532||||||F
+OBX|20|CWE|69451-3^Transportation role of decedent^LN||236320001^Driver/Operator^SCT||||||F
+OBX|21|CWE|11376-1^Injury location^LN||4^Street/Highway^I10PO||||||F
+OBX|22|XAD|69447-1^Injury location narrative^LN||921 Automobile Blvd^^1216345^24^^US||||||F
+OBX|23|CWE|69436-4^Autopsy results available^LN||N^No^HL70532||||||F
+PDA||^^^^^16983000^^^Memorial Hospital||201010050400|78457845^Spade^Samuel^^^^^^&2.16.840.1.113883.4.1&ISO^^^^LN^^^^^^^^309343006|N|||N
